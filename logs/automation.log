@@ -1,0 +1,153 @@
+00:01:41.677 [TestNG-test-Test-1] INFO  testcases.RegisterTest - Starting test on browser: chrome
+00:01:46.989 [TestNG-test-Test-1] INFO  testcases.RegisterTest - Starting Register test with mandatory fields
+00:01:46.993 [TestNG-test-Test-1] INFO  pages.HomePage - Navigating to Register Page
+00:01:47.938 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated First Name: Chris
+00:01:47.938 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+00:01:47.939 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210000147_953@testmail.com
+00:01:47.939 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1339459010
+00:01:47.947 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+00:01:47.947 [TestNG-test-Test-1] INFO  pages.RegisterPage - Registering account with mandatory fields
+00:01:50.882 [TestNG-test-Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+00:01:51.550 [TestNG-test-Test-1] INFO  pages.AccountPage - Validating Account page
+00:14:00.293 [TestNG-test-Test-1] INFO  testcases.RegisterTest - Starting test on browser: chrome
+00:14:04.102 [TestNG-test-Test-1] INFO  testcases.RegisterTest - Starting Register test with mandatory fields
+00:14:04.102 [TestNG-test-Test-1] INFO  pages.HomePage - Navigating to Register Page
+00:14:05.026 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated First Name: Michael
+00:14:05.026 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+00:14:05.027 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210001405_227@testmail.com
+00:14:05.027 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1273124543
+00:14:05.032 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+00:14:05.036 [TestNG-test-Test-1] INFO  pages.RegisterPage - Registering account with mandatory fields
+00:14:07.019 [TestNG-test-Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+00:14:07.564 [TestNG-test-Test-1] INFO  pages.AccountPage - Validating Account page
+00:15:39.119 [TestNG-test-Test-1] INFO  testcases.RegisterTest - Starting test on browser: chrome
+00:15:41.362 [TestNG-test-Test-1] INFO  testcases.RegisterTest - Starting Register test with mandatory fields
+00:15:41.366 [TestNG-test-Test-1] INFO  pages.HomePage - Navigating to Register Page
+00:15:44.210 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated First Name: David
+00:15:44.210 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+00:15:44.210 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210001544_205@testmail.com
+00:15:44.210 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1597889640
+00:15:44.214 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+00:15:44.214 [TestNG-test-Test-1] INFO  pages.RegisterPage - Registering account with mandatory fields
+00:15:46.341 [TestNG-test-Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+00:15:46.852 [TestNG-test-Test-1] INFO  pages.AccountPage - Validating Account page
+00:17:08.332 [TestNG-test-Test-1] INFO  testcases.RegisterTest - Starting test on browser: chrome
+00:17:12.343 [TestNG-test-Test-1] INFO  testcases.RegisterTest - Starting Register test with mandatory fields
+00:17:12.343 [TestNG-test-Test-1] INFO  pages.HomePage - Navigating to Register Page
+00:17:13.319 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated First Name: David
+00:17:13.320 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Last Name: Brown
+00:17:13.321 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210001713_887@testmail.com
+00:17:13.322 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1352361958
+00:17:13.325 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+00:17:13.325 [TestNG-test-Test-1] INFO  pages.RegisterPage - Registering account with mandatory fields
+00:17:15.525 [TestNG-test-Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+00:18:22.553 [TestNG-test-Test-1] INFO  testcases.RegisterTest - Starting test on browser: chrome
+00:18:28.885 [TestNG-test-Test-1] INFO  testcases.RegisterTest - Starting Register test with mandatory fields
+00:18:28.889 [TestNG-test-Test-1] INFO  pages.HomePage - Navigating to Register Page
+00:18:30.219 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated First Name: Chris
+00:18:30.219 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Last Name: Brown
+00:18:30.220 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210001830_331@testmail.com
+00:18:30.221 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1728690923
+00:18:30.224 [TestNG-test-Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+00:18:30.224 [TestNG-test-Test-1] INFO  pages.RegisterPage - Registering account with mandatory fields
+00:18:32.350 [TestNG-test-Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+00:18:32.954 [TestNG-test-Test-1] INFO  pages.AccountPage - Validating Account page
+19:43:19.236 [TestNG-test-Chrome Test-1] INFO  testcases.RegisterAllFieldsTest - Starting test on browser: chrome
+19:43:23.958 [TestNG-test-Chrome Test-1] INFO  testcases.RegisterAllFieldsTest - Starting Register test with all fields
+19:43:23.965 [TestNG-test-Chrome Test-1] INFO  pages.HomePage - Navigating to Register Page
+19:43:24.945 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated First Name: John
+19:43:24.946 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+19:43:24.947 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210194324_469@testmail.com
+19:43:24.948 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1875497753
+19:43:24.955 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+19:43:24.956 [TestNG-test-Chrome Test-1] INFO  pages.RegisterPage - Registering user with all fields
+19:43:28.534 [TestNG-test-Chrome Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+19:43:29.037 [TestNG-test-Chrome Test-1] INFO  pages.AccountPage - Validating Account page
+19:43:29.803 [TestNG-test-Edge Test-1] INFO  testcases.RegisterAllFieldsTest - Starting test on browser: edge
+19:43:35.752 [TestNG-test-Edge Test-1] INFO  testcases.RegisterAllFieldsTest - Starting Register test with all fields
+19:43:35.752 [TestNG-test-Edge Test-1] INFO  pages.HomePage - Navigating to Register Page
+19:43:37.274 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated First Name: Daniel
+19:43:37.274 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Last Name: Brown
+19:43:37.274 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210194337_587@testmail.com
+19:43:37.275 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1348847086
+19:43:37.275 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+19:43:37.276 [TestNG-test-Edge Test-1] INFO  pages.RegisterPage - Registering user with all fields
+19:43:39.909 [TestNG-test-Edge Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+19:43:40.383 [TestNG-test-Edge Test-1] INFO  pages.AccountPage - Validating Account page
+19:43:41.019 [TestNG-test-Firefox Test-1] INFO  testcases.RegisterAllFieldsTest - Starting test on browser: firefox
+19:43:51.693 [TestNG-test-Firefox Test-1] INFO  testcases.RegisterAllFieldsTest - Starting Register test with all fields
+19:43:51.693 [TestNG-test-Firefox Test-1] INFO  pages.HomePage - Navigating to Register Page
+19:43:52.789 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated First Name: Chris
+19:43:52.789 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Last Name: Brown
+19:43:52.790 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210194352_125@testmail.com
+19:43:52.791 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1211506548
+19:43:52.791 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+19:43:52.791 [TestNG-test-Firefox Test-1] INFO  pages.RegisterPage - Registering user with all fields
+19:43:54.263 [TestNG-test-Firefox Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+19:43:54.804 [TestNG-test-Firefox Test-1] INFO  pages.AccountPage - Validating Account page
+20:24:58.148 [TestNG-test-Chrome Test-1] INFO  testcases.RegisterAllFieldsTest - Starting test on browser: chrome
+20:25:01.949 [TestNG-test-Chrome Test-1] INFO  testcases.RegisterAllFieldsTest - Starting Register test with all fields
+20:25:01.950 [TestNG-test-Chrome Test-1] INFO  pages.HomePage - Navigating to Register Page
+20:25:02.870 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated First Name: Michael
+20:25:02.871 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Last Name: Williams
+20:25:02.871 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210202502_431@testmail.com
+20:25:02.871 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1088805212
+20:25:02.875 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+20:25:02.877 [TestNG-test-Chrome Test-1] INFO  pages.RegisterPage - Registering user with all fields
+20:25:10.191 [TestNG-test-Chrome Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:25:10.750 [TestNG-test-Chrome Test-1] INFO  pages.AccountPage - Validating Account page
+20:25:11.355 [TestNG-test-Edge Test-1] INFO  testcases.RegisterAllFieldsTest - Starting test on browser: edge
+20:25:14.797 [TestNG-test-Edge Test-1] INFO  testcases.RegisterAllFieldsTest - Starting Register test with all fields
+20:25:14.797 [TestNG-test-Edge Test-1] INFO  pages.HomePage - Navigating to Register Page
+20:25:15.892 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated First Name: Daniel
+20:25:15.892 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Last Name: Brown
+20:25:15.892 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210202515_335@testmail.com
+20:25:15.893 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1828862050
+20:25:15.893 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+20:25:15.893 [TestNG-test-Edge Test-1] INFO  pages.RegisterPage - Registering user with all fields
+20:25:18.122 [TestNG-test-Edge Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:25:18.675 [TestNG-test-Edge Test-1] INFO  pages.AccountPage - Validating Account page
+20:25:18.982 [TestNG-test-Firefox Test-1] INFO  testcases.RegisterAllFieldsTest - Starting test on browser: firefox
+20:25:25.262 [TestNG-test-Firefox Test-1] INFO  testcases.RegisterAllFieldsTest - Starting Register test with all fields
+20:25:25.262 [TestNG-test-Firefox Test-1] INFO  pages.HomePage - Navigating to Register Page
+20:25:26.133 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated First Name: David
+20:25:26.134 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Last Name: Smith
+20:25:26.134 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210202526_391@testmail.com
+20:25:26.134 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1828748370
+20:25:26.134 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+20:25:26.135 [TestNG-test-Firefox Test-1] INFO  pages.RegisterPage - Registering user with all fields
+20:25:27.628 [TestNG-test-Firefox Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:25:28.159 [TestNG-test-Firefox Test-1] INFO  pages.AccountPage - Validating Account page
+20:35:01.183 [TestNG-test-Chrome Test-1] INFO  testcases.RegisterAllFieldsTest - Starting test on browser: chrome
+20:35:03.675 [TestNG-test-Chrome Test-1] INFO  testcases.RegisterAllFieldsTest - Starting Register test with all fields
+20:35:03.678 [TestNG-test-Chrome Test-1] INFO  pages.HomePage - Navigating to Register Page
+20:35:06.666 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated First Name: David
+20:35:06.667 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Last Name: Smith
+20:35:06.667 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210203506_44@testmail.com
+20:35:06.668 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1134192514
+20:35:06.675 [TestNG-test-Chrome Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+20:35:06.675 [TestNG-test-Chrome Test-1] INFO  pages.RegisterPage - Registering user with all fields
+20:35:10.295 [TestNG-test-Chrome Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:35:10.849 [TestNG-test-Chrome Test-1] INFO  pages.AccountPage - Validating Account page
+20:35:11.375 [TestNG-test-Edge Test-1] INFO  testcases.RegisterAllFieldsTest - Starting test on browser: edge
+20:35:15.509 [TestNG-test-Edge Test-1] INFO  testcases.RegisterAllFieldsTest - Starting Register test with all fields
+20:35:15.509 [TestNG-test-Edge Test-1] INFO  pages.HomePage - Navigating to Register Page
+20:35:16.459 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated First Name: Michael
+20:35:16.459 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+20:35:16.459 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210203516_253@testmail.com
+20:35:16.460 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1657970213
+20:35:16.460 [TestNG-test-Edge Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+20:35:16.460 [TestNG-test-Edge Test-1] INFO  pages.RegisterPage - Registering user with all fields
+20:35:18.421 [TestNG-test-Edge Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:35:19.013 [TestNG-test-Edge Test-1] INFO  pages.AccountPage - Validating Account page
+20:35:19.356 [TestNG-test-Firefox Test-1] INFO  testcases.RegisterAllFieldsTest - Starting test on browser: firefox
+20:35:25.604 [TestNG-test-Firefox Test-1] INFO  testcases.RegisterAllFieldsTest - Starting Register test with all fields
+20:35:25.606 [TestNG-test-Firefox Test-1] INFO  pages.HomePage - Navigating to Register Page
+20:35:26.476 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated First Name: Chris
+20:35:26.477 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+20:35:26.477 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260210203526_532@testmail.com
+20:35:26.477 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Phone Number: 1438626042
+20:35:26.478 [TestNG-test-Firefox Test-1] INFO  utils.TestDataUtil - Generated Strong Password
+20:35:26.478 [TestNG-test-Firefox Test-1] INFO  pages.RegisterPage - Registering user with all fields
+20:35:27.892 [TestNG-test-Firefox Test-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:35:28.437 [TestNG-test-Firefox Test-1] INFO  pages.AccountPage - Validating Account page
