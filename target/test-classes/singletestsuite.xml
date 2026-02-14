@@ -8,10 +8,10 @@
     </listeners>
 
     <test name="Test">
-        <parameter name="browser" value="chrome"/>
+       <parameter name="browser" value="chrome"/>
         <!--<parameter name="os" value="windows"/>-->
         <classes>
-            <!--<class name="testcases.RegisterMandatoryFieldsTest"/>-->
+           <!--<class name="testcases.RegisterMandatoryFieldsTest"/>-->
             <class name="testcases.RegisterAllFieldsTest"/>
            
         </classes>

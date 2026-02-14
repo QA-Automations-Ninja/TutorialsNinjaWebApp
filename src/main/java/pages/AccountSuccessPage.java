@@ -26,8 +26,7 @@ public class AccountSuccessPage extends BasePage {
     }
 
     // Page Action
-    public AccountPage clickContinue() {
+    public void clickContinue() {
         driver.findElement(continueButton).click();
-        return new AccountPage(driver);
     }
 }

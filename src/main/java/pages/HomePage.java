@@ -30,11 +30,10 @@ public class HomePage extends BasePage
     }
 
     // Business Method
-    public RegisterPage navigateToRegisterPage() 
+    public void navigateToRegisterPage() 
     {
         logger.info("Navigating to Register Page");
         clickMyAccount();
         clickRegister();
-        return new RegisterPage(driver);
     }
 }

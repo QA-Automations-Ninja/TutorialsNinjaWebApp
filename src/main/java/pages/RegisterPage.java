@@ -79,7 +79,7 @@ public class RegisterPage extends BasePage {
 
     
     // Business Methods
-    public AccountSuccessPage registerWithMandatoryFields
+    public void registerWithMandatoryFields
    
     (String fName, String lName, String email,String phone, String pwd) 
     {
@@ -94,11 +94,9 @@ public class RegisterPage extends BasePage {
         enterConfirmPassword(pwd);
         acceptPrivacyPolicy();
         clickContinue();
-
-       return new AccountSuccessPage(driver);
     }
     
-    public AccountSuccessPage registerWithAllFields
+    public void registerWithAllFields
     
     (String fName, String lName, String email,String phone, String pwd) 
     {
@@ -115,6 +113,5 @@ public class RegisterPage extends BasePage {
         acceptPrivacyPolicy();
         clickContinue();
 
-       return new AccountSuccessPage(driver);
     }
 }

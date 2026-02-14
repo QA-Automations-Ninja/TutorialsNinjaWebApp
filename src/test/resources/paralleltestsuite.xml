@@ -9,12 +9,12 @@
 
     <!-- Chrome -->
     <test name="Chrome Test">
-        <parameter name="browser" value="chrome"/>
+       <parameter name="browser" value="chrome"/>
         <!--<parameter name="os" value="windows"/>-->
 
         <classes>
-            <!--<class name="testcases.RegisterMandatoryFieldsTest"/>-->
-            <class name="testcases.RegisterAllFieldsTest"/>
+            <class name="testcases.RegisterMandatoryFieldsTest"/>
+            <!--<class name="testcases.RegisterAllFieldsTest"/>-->
         </classes>
     </test>
 
@@ -24,8 +24,8 @@
        <!--<parameter name="os" value="windows"/>-->
 
         <classes>
-            <!--<class name="testcases.RegisterMandatoryFieldsTest"/>-->
-            <class name="testcases.RegisterAllFieldsTest"/>
+            <class name="testcases.RegisterMandatoryFieldsTest"/>
+            <!--<class name="testcases.RegisterAllFieldsTest"/>-->
         </classes>
     </test>
 
@@ -35,8 +35,8 @@
         <!--<parameter name="os" value="windows"/>-->
 
         <classes>
-            <!--<class name="testcases.RegisterMandatoryFieldsTest"/>-->
-            <class name="testcases.RegisterAllFieldsTest"/>
+            <class name="testcases.RegisterMandatoryFieldsTest"/>
+            <!--<class name="testcases.RegisterAllFieldsTest"/>-->
         </classes>
     </test>
 

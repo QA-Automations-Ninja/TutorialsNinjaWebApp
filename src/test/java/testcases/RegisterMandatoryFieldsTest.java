@@ -19,7 +19,10 @@ public class RegisterMandatoryFieldsTest extends BaseTest {
         logger.info("Starting Register test with mandatory fields");
 
         HomePage homePage = new HomePage(getDriver());
-        RegisterPage registerPage = homePage.navigateToRegisterPage();
+        
+        homePage.navigateToRegisterPage();
+        
+        RegisterPage registerPage= new RegisterPage(getDriver());
         
         String firstName = TestDataUtil.getRandomFirstName();
         String lastName = TestDataUtil.getRandomLastName();
@@ -27,18 +30,22 @@ public class RegisterMandatoryFieldsTest extends BaseTest {
         String phone = TestDataUtil.getRandomPhoneNumber();
         String password = TestDataUtil.getStrongPassword();
 
-        AccountSuccessPage successPage = registerPage.registerWithMandatoryFields(
+        registerPage.registerWithMandatoryFields(
                         firstName,
                         lastName,
                         email,
                         phone,
                         password
                 );
+        
+        AccountSuccessPage successPage = new AccountSuccessPage(getDriver());
 
         Assert.assertTrue(successPage.isAccountCreated(),
                 "Account Success page not displayed");
-
-        AccountPage accountPage = successPage.clickContinue();
+        
+        successPage.clickContinue();
+        
+        AccountPage accountPage = new AccountPage(getDriver());
 
         Assert.assertTrue(accountPage.isUserOnAccountPage(),
                 "User not navigated to Account page");

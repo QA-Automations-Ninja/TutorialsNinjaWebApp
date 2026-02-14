@@ -1,0 +1,9 @@
+base\BasePage.class
+base\BaseTest.class
+config\ConfigReader.class
+utils\TestDataUtil.class
+pages\AccountSuccessPage.class
+pages\LoginPage.class
+pages\HomePage.class
+pages\AccountPage.class
+pages\RegisterPage.class
