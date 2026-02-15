@@ -664,3 +664,42 @@
 03:48:40.336 [TestNG-tests-3] INFO  pages.RegisterPage - Registering user with mandatory fields
 03:48:42.538 [TestNG-tests-3] INFO  pages.AccountSuccessPage - Validating Account Success page
 03:48:44.266 [TestNG-tests-3] INFO  pages.AccountPage - Validating Account page
+21:02:24.742 [TestNG-tests-2] INFO  testcases.RegisterMandatoryFieldsTest - Starting test on browser: edge | Headless: true
+21:02:24.742 [TestNG-tests-1] INFO  testcases.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: false
+21:02:24.742 [TestNG-tests-3] INFO  testcases.RegisterMandatoryFieldsTest - Starting test on browser: firefox | Headless: false
+21:02:29.289 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+21:02:29.289 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 144.0.3719.115 (resolved driver for Edge 144)
+21:02:29.295 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 147)
+21:02:30.105 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\henry\.cache\selenium\msedgedriver\win64\144.0.3719.115\msedgedriver.exe
+21:02:30.106 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\henry\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:02:30.106 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+21:02:39.339 [TestNG-tests-1] INFO  testcases.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+21:02:39.348 [TestNG-tests-2] INFO  testcases.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+21:02:39.356 [TestNG-tests-1] INFO  pages.HomePage - Navigating to Register Page
+21:02:39.356 [TestNG-tests-2] INFO  pages.HomePage - Navigating to Register Page
+21:02:41.218 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated First Name: Daniel
+21:02:41.223 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Last Name: Smith
+21:02:41.227 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260214210241_955@testmail.com
+21:02:41.232 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Phone Number: 1498266817
+21:02:41.232 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Strong Password
+21:02:41.233 [TestNG-tests-1] INFO  pages.RegisterPage - Registering user with mandatory fields
+21:02:41.505 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated First Name: Chris
+21:02:41.508 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+21:02:41.514 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Email: testuser_20260214210241_624@testmail.com
+21:02:41.516 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Phone Number: 1467111925
+21:02:41.526 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Strong Password
+21:02:41.526 [TestNG-tests-2] INFO  pages.RegisterPage - Registering user with mandatory fields
+21:02:46.701 [TestNG-tests-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+21:02:47.771 [TestNG-tests-2] INFO  pages.AccountSuccessPage - Validating Account Success page
+21:02:47.970 [TestNG-tests-1] INFO  pages.AccountPage - Validating Account page
+21:02:49.106 [TestNG-tests-2] INFO  pages.AccountPage - Validating Account page
+21:02:50.312 [TestNG-tests-3] INFO  testcases.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+21:02:50.314 [TestNG-tests-3] INFO  pages.HomePage - Navigating to Register Page
+21:02:51.321 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated First Name: John
+21:02:51.321 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+21:02:51.321 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Email: testuser_20260214210251_555@testmail.com
+21:02:51.321 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Phone Number: 1652324156
+21:02:51.324 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Strong Password
+21:02:51.324 [TestNG-tests-3] INFO  pages.RegisterPage - Registering user with mandatory fields
+21:02:52.906 [TestNG-tests-3] INFO  pages.AccountSuccessPage - Validating Account Success page
+21:02:53.616 [TestNG-tests-3] INFO  pages.AccountPage - Validating Account page
