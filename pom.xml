@@ -32,7 +32,7 @@
                   
                    <!-- TestNG Suite -->
                 <suiteXmlFiles>
-                     <suiteXmlFile>src/test/resources/singletestsuite.xml</suiteXmlFile>
+                     <suiteXmlFile>src/test/resources/paralleltestsuite.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>

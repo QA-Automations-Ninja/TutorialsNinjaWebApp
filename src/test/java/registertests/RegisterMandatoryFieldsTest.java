@@ -1,4 +1,4 @@
-package testcases;
+package registertests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

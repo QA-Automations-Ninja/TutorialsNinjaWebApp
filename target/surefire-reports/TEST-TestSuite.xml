@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="19.403" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="41.308" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\henry\AppData\Local\Temp\surefire3932900354219587560\surefirebooter-20260217023315255_3.jar C:\Users\henry\AppData\Local\Temp\surefire3932900354219587560 2026-02-17T02-33-15_052-jvmRun1 surefire-20260217023315255_1tmp surefire_0-20260217023315255_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\henry\AppData\Local\Temp\surefire389312395158287745\surefirebooter-20260219161556565_3.jar C:\Users\henry\AppData\Local\Temp\surefire389312395158287745 2026-02-19T16-15-56_326-jvmRun1 surefire-20260219161556565_1tmp surefire_0-20260219161556565_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\target\test-classes;C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\target\classes;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-java\4.40.0\selenium-java-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-api\4.40.0\selenium-api-4.40.0.jar;C:\Users\henry\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.40.0\selenium-chrome-driver-4.40.0.jar;C:\Users\henry\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.40.0\selenium-chromium-driver-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-json\4.40.0\selenium-json-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.40.0\selenium-manager-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.40.0\selenium-devtools-v142-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.40.0\selenium-devtools-v143-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.40.0\selenium-devtools-v144-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.40.0\selenium-edge-driver-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.40.0\selenium-firefox-driver-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-http\4.40.0\selenium-http-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.40.0\selenium-ie-driver-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.40.0\selenium-remote-driver-4.40.0.jar;C:\Users\henry\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\henry\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\henry\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\henry\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\henry\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\henry\.m2\repository\io\opentelemetry\opentelemetry-api\1.58.0\opentelemetry-api-1.58.0.jar;C:\Users\henry\.m2\repository\io\opentelemetry\opentelemetry-context\1.58.0\opentelemetry-context-1.58.0.jar;C:\Users\henry\.m2\repository\io\opentelemetry\opentelemetry-common\1.58.0\opentelemetry-common-1.58.0.jar;C:\Users\henry\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.58.0\opentelemetry-exporter-logging-1.58.0.jar;C:\Users\henry\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.58.0\opentelemetry-sdk-common-1.58.0.jar;C:\Users\henry\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.58.0\opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar;C:\Users\henry\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.58.0\opentelemetry-sdk-extension-autoconfigure-1.58.0.jar;C:\Users\henry\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.58.0\opentelemetry-sdk-trace-1.58.0.jar;C:\Users\henry\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.58.0\opentelemetry-sdk-1.58.0.jar;C:\Users\henry\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.58.0\opentelemetry-sdk-metrics-1.58.0.jar;C:\Users\henry\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.58.0\opentelemetry-sdk-logs-1.58.0.jar;C:\Users\henry\.m2\repository\net\bytebuddy\byte-buddy\1.18.4\byte-buddy-1.18.4.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-os\4.40.0\selenium-os-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.40.0\selenium-safari-driver-4.40.0.jar;C:\Users\henry\.m2\repository\org\seleniumhq\selenium\selenium-support\4.40.0\selenium-support-4.40.0.jar;C:\Users\henry\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\henry\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\henry\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\henry\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\henry\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\henry\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\henry\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\henry\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\henry\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\henry\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\henry\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\henry\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\henry\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.22.1\log4j-slf4j2-impl-2.22.1.jar;C:\Users\henry\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\henry\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\henry\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;C:\Users\henry\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\henry\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\henry\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\henry\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\henry\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\henry\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\henry\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\henry\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\henry\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\henry\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\henry\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\henry\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\henry\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\henry\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\henry\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\henry\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\henry\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\henry\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\henry\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\henry\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\henry\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\henry\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\henry\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\henry\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\henry\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\henry\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\henry\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,10 +33,11 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\henry\AppData\Local\Temp\surefire3932900354219587560\surefirebooter-20260217023315255_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\henry\AppData\Local\Temp\surefire389312395158287745\surefirebooter-20260219161556565_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.10+7-LTS"/>
+    <property name="webdriver.edge.driver" value="C:\Users\henry\.cache\selenium\msedgedriver\win64\145.0.3800.65\msedgedriver.exe"/>
     <property name="user.name" value="henry"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
@@ -51,6 +52,7 @@
     <property name="java.version" value="21.0.10"/>
     <property name="user.dir" value="C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp"/>
     <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\henry\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
@@ -62,36 +64,108 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="verifyRegisterWithMandatoryFields" classname="testcases.RegisterMandatoryFieldsTest" time="3.552">
-    <system-out><![CDATA[02:33:16.930 [main] INFO  testcases.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: true
-02:33:17.387 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-02:33:17.432 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
-02:33:23.793 [main] INFO  testcases.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
-02:33:23.795 [main] INFO  pages.HomePage - Navigating to Register Page
-02:33:24.710 [main] INFO  utils.TestDataUtil - Generated First Name: Daniel
-02:33:24.710 [main] INFO  utils.TestDataUtil - Generated Last Name: Williams
-02:33:24.710 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260217023324_391@testmail.com
-02:33:24.710 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1660922836
-02:33:24.710 [main] INFO  utils.TestDataUtil - Generated Strong Password
-02:33:24.710 [main] INFO  pages.RegisterPage - Registering user with mandatory fields
-02:33:25.541 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
-02:33:27.302 [main] INFO  pages.AccountPage - Validating Account page
+  <testcase name="verifyRegisterWithMandatoryFields" classname="registertests.RegisterMandatoryFieldsTest" time="6.503">
+    <system-out><![CDATA[16:16:01.185 [TestNG-tests-3] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: firefox | Headless: false
+16:16:01.185 [TestNG-tests-2] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: edge | Headless: false
+16:16:01.185 [TestNG-tests-1] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: false
+16:16:02.804 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+16:16:02.830 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+16:16:02.950 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 147)
+16:16:02.966 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\henry\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:16:03.264 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 145.0.3800.65 (resolved driver for Edge 145)
+16:16:03.274 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://msedgedriver.microsoft.com/145.0.3800.65/edgedriver_win64.zip
+16:16:04.037 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file edgedriver_win64.zip
+16:16:04.786 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\henry\.cache\selenium\msedgedriver\win64\145.0.3800.65\msedgedriver.exe
+16:16:07.656 [TestNG-tests-1] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+16:16:07.661 [TestNG-tests-1] INFO  pages.HomePage - Navigating to Register Page
+16:16:09.136 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated First Name: David
+16:16:09.138 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+16:16:09.139 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161609_155@testmail.com
+16:16:09.139 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Phone Number: 1365195893
+16:16:09.139 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Strong Password
+16:16:09.140 [TestNG-tests-1] INFO  pages.RegisterPage - Registering user with mandatory fields
+16:16:13.082 [TestNG-tests-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+16:16:14.030 [TestNG-tests-1] INFO  pages.AccountPage - Validating Account page
+]]></system-out>
+    <system-err><![CDATA[Feb 19, 2026 4:16:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRegisterWithMandatoryFields" classname="registertests.RegisterMandatoryFieldsTest" time="4.347">
+    <system-out><![CDATA[16:16:14.544 [TestNG-tests-1] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: chrome | Headless: false
+16:16:14.653 [TestNG-tests-3] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+16:16:14.654 [TestNG-tests-3] INFO  pages.HomePage - Navigating to Register Page
+16:16:14.967 [TestNG-tests-2] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+16:16:14.967 [TestNG-tests-2] INFO  pages.HomePage - Navigating to Register Page
+16:16:15.267 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+16:16:15.316 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+16:16:15.852 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated First Name: John
+16:16:15.853 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Last Name: Smith
+16:16:15.853 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161615_48@testmail.com
+16:16:15.853 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Phone Number: 1465220843
+16:16:15.853 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Strong Password
+16:16:15.853 [TestNG-tests-3] INFO  pages.RegisterPage - Registering user with mandatory fields
+16:16:16.917 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated First Name: Chris
+16:16:16.917 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Last Name: Williams
+16:16:16.919 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161616_771@testmail.com
+16:16:16.920 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Phone Number: 1730649402
+16:16:16.920 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Strong Password
+16:16:16.921 [TestNG-tests-2] INFO  pages.RegisterPage - Registering user with mandatory fields
+16:16:18.034 [TestNG-tests-3] INFO  pages.AccountSuccessPage - Validating Account Success page
+16:16:19.213 [TestNG-tests-3] INFO  pages.AccountPage - Validating Account page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyRegisterWithAllFields" classname="testcases.RegisterAllFieldsTest" time="3.281">
-    <system-out><![CDATA[02:33:27.493 [main] INFO  testcases.RegisterAllFieldsTest - Starting test on browser: chrome | Headless: true
-02:33:27.502 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-02:33:27.511 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
-02:33:31.219 [main] INFO  testcases.RegisterAllFieldsTest - Starting Register test with all fields
-02:33:31.220 [main] INFO  pages.HomePage - Navigating to Register Page
-02:33:32.076 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
-02:33:32.076 [main] INFO  utils.TestDataUtil - Generated Last Name: Williams
-02:33:32.077 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260217023332_457@testmail.com
-02:33:32.077 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1780612957
-02:33:32.077 [main] INFO  utils.TestDataUtil - Generated Strong Password
-02:33:32.077 [main] INFO  pages.RegisterPage - Registering user with all fields
-02:33:34.002 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
-02:33:34.476 [main] INFO  pages.AccountPage - Validating Account page
+  <testcase name="verifyRegisterWithMandatoryFields" classname="registertests.RegisterMandatoryFieldsTest" time="1.547">
+    <system-out><![CDATA[16:16:19.507 [TestNG-tests-1] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
+16:16:19.508 [TestNG-tests-1] INFO  pages.HomePage - Navigating to Register Page
+16:16:20.111 [TestNG-tests-2] INFO  pages.AccountSuccessPage - Validating Account Success page
+16:16:20.994 [TestNG-tests-2] INFO  pages.AccountPage - Validating Account page
+]]></system-out>
+  </testcase>
+  <testcase name="verifyRegisterWithAllFields" classname="registertests.RegisterAllFieldsTest" time="5.341">
+    <system-out><![CDATA[16:16:21.057 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated First Name: Chris
+16:16:21.057 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Last Name: Smith
+16:16:21.058 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161621_831@testmail.com
+16:16:21.058 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Phone Number: 1864745169
+16:16:21.060 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Strong Password
+16:16:21.060 [TestNG-tests-1] INFO  pages.RegisterPage - Registering user with all fields
+16:16:21.755 [TestNG-tests-2] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: edge | Headless: false
+16:16:21.779 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 145.0.3800.65 (resolved driver for Edge 145)
+16:16:21.812 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\henry\.cache\selenium\msedgedriver\win64\145.0.3800.65\msedgedriver.exe
+16:16:22.195 [TestNG-tests-3] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: firefox | Headless: false
+16:16:23.087 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 147)
+16:16:23.124 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\henry\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:16:24.068 [TestNG-tests-1] INFO  pages.AccountSuccessPage - Validating Account Success page
+16:16:24.791 [TestNG-tests-1] INFO  pages.AccountPage - Validating Account page
+]]></system-out>
+    <system-err><![CDATA[Feb 19, 2026 4:16:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRegisterWithAllFields" classname="registertests.RegisterAllFieldsTest" time="5.467">
+    <system-out><![CDATA[16:16:25.314 [TestNG-tests-2] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
+16:16:25.314 [TestNG-tests-2] INFO  pages.HomePage - Navigating to Register Page
+16:16:26.493 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated First Name: Daniel
+16:16:26.494 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Last Name: Smith
+16:16:26.515 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161626_886@testmail.com
+16:16:26.517 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Phone Number: 1588332313
+16:16:26.519 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Strong Password
+16:16:26.519 [TestNG-tests-2] INFO  pages.RegisterPage - Registering user with all fields
+16:16:29.748 [TestNG-tests-2] INFO  pages.AccountSuccessPage - Validating Account Success page
+16:16:30.703 [TestNG-tests-2] INFO  pages.AccountPage - Validating Account page
+]]></system-out>
+  </testcase>
+  <testcase name="verifyRegisterWithAllFields" classname="registertests.RegisterAllFieldsTest" time="4.26">
+    <system-out><![CDATA[16:16:31.287 [TestNG-tests-3] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
+16:16:31.288 [TestNG-tests-3] INFO  pages.HomePage - Navigating to Register Page
+16:16:32.580 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated First Name: John
+16:16:32.580 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+16:16:32.581 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161632_215@testmail.com
+16:16:32.581 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Phone Number: 1191752939
+16:16:32.581 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Strong Password
+16:16:32.582 [TestNG-tests-3] INFO  pages.RegisterPage - Registering user with all fields
+16:16:34.370 [TestNG-tests-3] INFO  pages.AccountSuccessPage - Validating Account Success page
+16:16:35.493 [TestNG-tests-3] INFO  pages.AccountPage - Validating Account page
 ]]></system-out>
   </testcase>
 </testsuite>

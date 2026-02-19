@@ -10,30 +10,30 @@
     <!-- Chrome -->
     <test name="Smoke - Chrome">
         <parameter name="browser" value="chrome"/>
-        <!--<parameter name="os" value="windows"/>-->
+       
         <classes>
-            <!--<class name="testcases.RegisterMandatoryFieldsTest"/>-->
-            <class name="testcases.RegisterAllFieldsTest"/>
+            <class name="registertests.RegisterMandatoryFieldsTest"/>
+            <class name="registertests.RegisterAllFieldsTest"/>
         </classes>
     </test>
 
     <!-- Firefox -->
     <test name="Smoke - Firefox">
         <parameter name="browser" value="firefox"/>
-        <!--<parameter name="os" value="windows"/>-->
+        
         <classes>
-            <!--<class name="testcases.RegisterMandatoryFieldsTest"/>-->
-            <class name="testcases.RegisterAllFieldsTest"/>
+            <class name="registertests.RegisterMandatoryFieldsTest"/>
+            <class name="registertests.RegisterAllFieldsTest"/>
         </classes>
     </test>
 
     <!-- Edge -->
     <test name="Smoke - Edge">
         <parameter name="browser" value="edge"/>
-        <!--<parameter name="os" value="windows"/>-->
+        
         <classes>
-             <!--<class name="testcases.RegisterMandatoryFieldsTest"/>-->
-             <class name="testcases.RegisterAllFieldsTest"/>
+             <class name="registertests.RegisterMandatoryFieldsTest"/>
+             <class name="registertests.RegisterAllFieldsTest"/>
         </classes>
     </test>
 

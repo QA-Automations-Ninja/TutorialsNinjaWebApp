@@ -10,8 +10,8 @@
     <test name="Test">
        <parameter name="browser" value="chrome"/>
         <classes>
-           <class name="testcases.RegisterMandatoryFieldsTest"/>
-            <class name="testcases.RegisterAllFieldsTest"/>
+           <class name="registertests.RegisterMandatoryFieldsTest"/>
+            <class name="registertests.RegisterAllFieldsTest"/>
            
         </classes>
     </test>

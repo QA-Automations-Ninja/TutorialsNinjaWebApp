@@ -1,0 +1,26 @@
+02:33:16.930 [main] INFO  testcases.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: true
+02:33:17.387 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+02:33:17.432 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+02:33:23.793 [main] INFO  testcases.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+02:33:23.795 [main] INFO  pages.HomePage - Navigating to Register Page
+02:33:24.710 [main] INFO  utils.TestDataUtil - Generated First Name: Daniel
+02:33:24.710 [main] INFO  utils.TestDataUtil - Generated Last Name: Williams
+02:33:24.710 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260217023324_391@testmail.com
+02:33:24.710 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1660922836
+02:33:24.710 [main] INFO  utils.TestDataUtil - Generated Strong Password
+02:33:24.710 [main] INFO  pages.RegisterPage - Registering user with mandatory fields
+02:33:25.541 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+02:33:27.302 [main] INFO  pages.AccountPage - Validating Account page
+02:33:27.493 [main] INFO  testcases.RegisterAllFieldsTest - Starting test on browser: chrome | Headless: true
+02:33:27.502 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+02:33:27.511 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+02:33:31.219 [main] INFO  testcases.RegisterAllFieldsTest - Starting Register test with all fields
+02:33:31.220 [main] INFO  pages.HomePage - Navigating to Register Page
+02:33:32.076 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
+02:33:32.076 [main] INFO  utils.TestDataUtil - Generated Last Name: Williams
+02:33:32.077 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260217023332_457@testmail.com
+02:33:32.077 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1780612957
+02:33:32.077 [main] INFO  utils.TestDataUtil - Generated Strong Password
+02:33:32.077 [main] INFO  pages.RegisterPage - Registering user with all fields
+02:33:34.002 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+02:33:34.476 [main] INFO  pages.AccountPage - Validating Account page

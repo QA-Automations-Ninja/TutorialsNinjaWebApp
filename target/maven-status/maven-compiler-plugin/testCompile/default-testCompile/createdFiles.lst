@@ -1,7 +1,5 @@
 utilities\ExcelUtility.class
 utilities\ScreenshotUtil.class
-testcases\RegisterMandatoryFieldsTest.class
 utilities\ExtentReportManager.class
 utilities\DataProviders.class
 utilities\ExtentTestListener.class
-testcases\RegisterAllFieldsTest.class
