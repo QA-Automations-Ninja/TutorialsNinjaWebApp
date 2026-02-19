@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-14T21:02:24 EST" name="Parallel Cross Browser Suite" finished-at="2026-02-14T21:02:56 EST" duration-ms="32532">
+  <suite started-at="2026-02-17T02:33:16 EST" name="Single Suite" finished-at="2026-02-17T02:33:34 EST" duration-ms="17909">
     <groups>
     </groups>
-    <test started-at="2026-02-14T21:02:24 EST" name="Chrome Test" finished-at="2026-02-14T21:02:51 EST" duration-ms="27821">
-      <class name="testcases.RegisterMandatoryFieldsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.RegisterMandatoryFieldsTest@7b8233cd]" started-at="2026-02-14T21:02:24 EST" name="setUp" finished-at="2026-02-14T21:02:39 EST" duration-ms="14552" status="PASS">
+    <test started-at="2026-02-17T02:33:16 EST" name="Test" finished-at="2026-02-17T02:33:34 EST" duration-ms="17909">
+      <class name="testcases.RegisterAllFieldsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.RegisterAllFieldsTest@3542162a]" started-at="2026-02-17T02:33:27 EST" name="setUp" finished-at="2026-02-17T02:33:31 EST" duration-ms="3727" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,61 +18,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithMandatoryFields()[pri:0, instance:testcases.RegisterMandatoryFieldsTest@7b8233cd]" started-at="2026-02-14T21:02:39 EST" name="verifyRegisterWithMandatoryFields" finished-at="2026-02-14T21:02:48 EST" duration-ms="8863" status="PASS">
+        <test-method signature="verifyRegisterWithAllFields()[pri:0, instance:testcases.RegisterAllFieldsTest@3542162a]" started-at="2026-02-17T02:33:31 EST" name="verifyRegisterWithAllFields" finished-at="2026-02-17T02:33:34 EST" duration-ms="3281" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.RegisterMandatoryFieldsTest@7b8233cd]" started-at="2026-02-14T21:02:48 EST" name="tearDown" finished-at="2026-02-14T21:02:51 EST" duration-ms="3823" status="PASS">
+        </test-method> <!-- verifyRegisterWithAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.RegisterAllFieldsTest@3542162a]" started-at="2026-02-17T02:33:34 EST" name="tearDown" finished-at="2026-02-17T02:33:34 EST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.RegisterMandatoryFieldsTest -->
-    </test> <!-- Chrome Test -->
-    <test started-at="2026-02-14T21:02:24 EST" name="Edge Test" finished-at="2026-02-14T21:02:51 EST" duration-ms="26968">
+      </class> <!-- testcases.RegisterAllFieldsTest -->
       <class name="testcases.RegisterMandatoryFieldsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.RegisterMandatoryFieldsTest@2e11485]" started-at="2026-02-14T21:02:24 EST" name="setUp" finished-at="2026-02-14T21:02:39 EST" duration-ms="14654" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.RegisterMandatoryFieldsTest@4ba302e0]" started-at="2026-02-17T02:33:16 EST" name="setUp" finished-at="2026-02-17T02:33:23 EST" duration-ms="6881" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithMandatoryFields()[pri:0, instance:testcases.RegisterMandatoryFieldsTest@2e11485]" started-at="2026-02-14T21:02:39 EST" name="verifyRegisterWithMandatoryFields" finished-at="2026-02-14T21:02:49 EST" duration-ms="10048" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryFields()[pri:0, instance:testcases.RegisterMandatoryFieldsTest@4ba302e0]" started-at="2026-02-17T02:33:23 EST" name="verifyRegisterWithMandatoryFields" finished-at="2026-02-17T02:33:27 EST" duration-ms="3550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.RegisterMandatoryFieldsTest@2e11485]" started-at="2026-02-14T21:02:49 EST" name="tearDown" finished-at="2026-02-14T21:02:51 EST" duration-ms="1734" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.RegisterMandatoryFieldsTest@4ba302e0]" started-at="2026-02-17T02:33:27 EST" name="tearDown" finished-at="2026-02-17T02:33:27 EST" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.RegisterMandatoryFieldsTest -->
-    </test> <!-- Edge Test -->
-    <test started-at="2026-02-14T21:02:24 EST" name="Firefox Test" finished-at="2026-02-14T21:02:56 EST" duration-ms="32531">
-      <class name="testcases.RegisterMandatoryFieldsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.RegisterMandatoryFieldsTest@662f5666]" started-at="2026-02-14T21:02:24 EST" name="setUp" finished-at="2026-02-14T21:02:50 EST" duration-ms="25616" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithMandatoryFields()[pri:0, instance:testcases.RegisterMandatoryFieldsTest@662f5666]" started-at="2026-02-14T21:02:50 EST" name="verifyRegisterWithMandatoryFields" finished-at="2026-02-14T21:02:53 EST" duration-ms="3345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.RegisterMandatoryFieldsTest@662f5666]" started-at="2026-02-14T21:02:53 EST" name="tearDown" finished-at="2026-02-14T21:02:56 EST" duration-ms="3050" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.RegisterMandatoryFieldsTest -->
-    </test> <!-- Firefox Test -->
-  </suite> <!-- Parallel Cross Browser Suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Single Suite -->
 </testng-results>

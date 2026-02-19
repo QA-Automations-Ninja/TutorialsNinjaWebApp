@@ -33,7 +33,7 @@ public class RegisterAllFieldsTest extends BaseTest {
         AccountSuccessPage successPage = new AccountSuccessPage(getDriver());
 
         Assert.assertTrue(successPage.isAccountCreated(),
-                "Account Success page not displayed");
+                "Account Success page was not displayed");
         
         successPage.clickContinue();
 
