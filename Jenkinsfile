@@ -5,10 +5,6 @@ pipeline {
         maven 'Maven3'
     }
 
-    environment {
-        TEST_RESULTS = "target/surefire-reports"
-    }
-
     stages {
         stage('Checkout') {
             steps {
@@ -45,9 +41,10 @@ pipeline {
             }
         }
 
-        stage('Publish Test Results') {
+               stage('Publish Results') {
             steps {
-                junit "${env.TEST_RESULTS}/*.xml"
+                junit 'target/surefire-reports/*.xml'
+
             }
         }
     }
