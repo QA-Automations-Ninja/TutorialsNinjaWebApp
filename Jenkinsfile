@@ -6,6 +6,7 @@ pipeline {
     }
 
     stages {
+
         stage('Checkout') {
             steps {
                 checkout scm
@@ -20,31 +21,33 @@ pipeline {
 
         stage('Run Tests in Parallel Browsers') {
             parallel {
+
                 stage('Chrome Tests') {
                     steps {
-                        echo "Running tests on Chrome"
-                        bat 'mvn test -Dtest=registertests -Dbrowser=chrome'
+                        echo "Running registertests package on Chrome"
+                        bat 'mvn test -Dtest=registertests.* -Dbrowser=chrome -Dsurefire.reportNameSuffix=chrome'
                     }
                 }
+
                 stage('Firefox Tests') {
                     steps {
-                        echo "Running tests on Firefox"
-                        bat 'mvn test -Dtest=registertests -Dbrowser=firefox'
+                        echo "Running registertests package on Firefox"
+                        bat 'mvn test -Dtest=registertests.* -Dbrowser=firefox -Dsurefire.reportNameSuffix=firefox'
                     }
                 }
+
                 stage('Edge Tests') {
                     steps {
-                        echo "Running tests on Edge"
-                        bat 'mvn test -Dtest=registertests -Dbrowser=edge'
+                        echo "Running registertests package on Edge"
+                        bat 'mvn test -Dtest=registertests.* -Dbrowser=edge -Dsurefire.reportNameSuffix=edge'
                     }
                 }
             }
         }
 
-               stage('Publish Results') {
+        stage('Publish Results') {
             steps {
                 junit 'target/surefire-reports/*.xml'
-
             }
         }
     }
