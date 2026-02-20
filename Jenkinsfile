@@ -19,27 +19,27 @@ pipeline {
             }
         }
 
-        stage('Run Tests in Parallel Browsers') {
+        stage('Run Suite in Parallel Browsers') {
             parallel {
 
-                stage('Chrome Tests') {
+                stage('Chrome Suite') {
                     steps {
-                        echo "Running registertests package on Chrome"
-                        bat 'mvn test -Dtest=registertests.* -Dbrowser=chrome -Dsurefire.reportNameSuffix=chrome'
+                        echo "Running TestNG suite on Chrome"
+                        bat 'mvn test -DsuiteXmlFile=src/test/resources/singletestsuite.xml -Dbrowser=chrome -Dsurefire.reportNameSuffix=chrome'
                     }
                 }
 
-                stage('Firefox Tests') {
+                stage('Firefox Suite') {
                     steps {
-                        echo "Running registertests package on Firefox"
-                        bat 'mvn test -Dtest=registertests.* -Dbrowser=firefox -Dsurefire.reportNameSuffix=firefox'
+                        echo "Running TestNG suite on Firefox"
+                        bat 'mvn test -DsuiteXmlFile=src/test/resources/singletestsuite.xml -Dbrowser=firefox -Dsurefire.reportNameSuffix=firefox'
                     }
                 }
 
-                stage('Edge Tests') {
+                stage('Edge Suite') {
                     steps {
-                        echo "Running registertests package on Edge"
-                        bat 'mvn test -Dtest=registertests.* -Dbrowser=edge -Dsurefire.reportNameSuffix=edge'
+                        echo "Running TestNG suite on Edge"
+                        bat 'mvn test -DsuiteXmlFile=src/test/resources/singletestsuite.xml -Dbrowser=edge -Dsurefire.reportNameSuffix=edge'
                     }
                 }
             }
