@@ -22,7 +22,7 @@ pipeline {
         stage('Run Single Test Suite') {
             steps {
                 echo "Running incremental TestNG suite"
-                bat 'mvn test -DsuiteXmlFile=src/test/resources/singletestsuit.xml'
+                bat 'mvn test -DsuiteXmlFile=src/test/resources/singletestsuite.xml'
             }
         }
 
