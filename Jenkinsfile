@@ -19,29 +19,10 @@ pipeline {
             }
         }
 
-        stage('Run Suite in Parallel Browsers') {
-            parallel {
-
-                stage('Chrome Suite') {
-                    steps {
-                        echo "Running TestNG suite on Chrome"
-                        bat 'mvn test -DsuiteXmlFile=src/test/resources/singletestsuite.xml -Dbrowser=chrome -Dsurefire.reportNameSuffix=chrome'
-                    }
-                }
-
-                stage('Firefox Suite') {
-                    steps {
-                        echo "Running TestNG suite on Firefox"
-                        bat 'mvn test -DsuiteXmlFile=src/test/resources/singletestsuite.xml -Dbrowser=firefox -Dsurefire.reportNameSuffix=firefox'
-                    }
-                }
-
-                stage('Edge Suite') {
-                    steps {
-                        echo "Running TestNG suite on Edge"
-                        bat 'mvn test -DsuiteXmlFile=src/test/resources/singletestsuite.xml -Dbrowser=edge -Dsurefire.reportNameSuffix=edge'
-                    }
-                }
+        stage('Run Single Test Suite') {
+            steps {
+                echo "Running incremental TestNG suite"
+                bat 'mvn test -DsuiteXmlFile=src/test/resources/singletestsuit.xml'
             }
         }
 
