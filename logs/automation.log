@@ -76,3 +76,29 @@
 21:52:45.257 [main] INFO  pages.RegisterPage - Registering user with all fields
 21:52:47.642 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
 21:52:48.200 [main] INFO  pages.AccountPage - Validating Account page
+23:12:50.105 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: true
+23:12:51.974 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+23:12:51.998 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+23:13:02.675 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+23:13:02.677 [main] INFO  pages.HomePage - Navigating to Register Page
+23:13:03.582 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
+23:13:03.582 [main] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+23:13:03.582 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260220231303_1@testmail.com
+23:13:03.583 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1444503201
+23:13:03.583 [main] INFO  utils.TestDataUtil - Generated Strong Password
+23:13:03.583 [main] INFO  pages.RegisterPage - Registering user with mandatory fields
+23:13:05.178 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+23:13:05.631 [main] INFO  pages.AccountPage - Validating Account page
+23:13:07.535 [main] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: chrome | Headless: true
+23:13:07.546 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+23:13:07.563 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+23:13:10.581 [main] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
+23:13:10.582 [main] INFO  pages.HomePage - Navigating to Register Page
+23:13:11.419 [main] INFO  utils.TestDataUtil - Generated First Name: Chris
+23:13:11.419 [main] INFO  utils.TestDataUtil - Generated Last Name: Brown
+23:13:11.419 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260220231311_412@testmail.com
+23:13:11.419 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1838021166
+23:13:11.419 [main] INFO  utils.TestDataUtil - Generated Strong Password
+23:13:11.419 [main] INFO  pages.RegisterPage - Registering user with all fields
+23:13:11.913 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+23:13:13.515 [main] INFO  pages.AccountPage - Validating Account page
