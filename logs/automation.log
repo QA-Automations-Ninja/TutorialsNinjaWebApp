@@ -1,106 +1,78 @@
-16:07:15.764 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: false
-16:07:16.201 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-16:07:16.240 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
-16:07:20.127 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
-16:07:20.129 [main] INFO  pages.HomePage - Navigating to Register Page
-16:07:21.243 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
-16:07:21.244 [main] INFO  utils.TestDataUtil - Generated Last Name: Taylor
-16:07:21.244 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260219160721_83@testmail.com
-16:07:21.245 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1345652487
-16:07:21.245 [main] INFO  utils.TestDataUtil - Generated Strong Password
-16:07:21.245 [main] INFO  pages.RegisterPage - Registering user with mandatory fields
-16:07:23.714 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
-16:07:24.359 [main] INFO  pages.AccountPage - Validating Account page
-16:07:24.627 [main] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: chrome | Headless: false
-16:07:24.635 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-16:07:24.646 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
-16:07:28.587 [main] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
-16:07:28.587 [main] INFO  pages.HomePage - Navigating to Register Page
-16:07:29.682 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
-16:07:29.682 [main] INFO  utils.TestDataUtil - Generated Last Name: Brown
-16:07:29.683 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260219160729_815@testmail.com
-16:07:29.683 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1112760376
-16:07:29.683 [main] INFO  utils.TestDataUtil - Generated Strong Password
-16:07:29.683 [main] INFO  pages.RegisterPage - Registering user with all fields
-16:07:32.100 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
-16:07:32.622 [main] INFO  pages.AccountPage - Validating Account page
-16:16:01.185 [TestNG-tests-2] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: edge | Headless: false
-16:16:01.185 [TestNG-tests-1] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: false
-16:16:01.185 [TestNG-tests-3] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: firefox | Headless: false
-16:16:02.804 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-16:16:02.830 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
-16:16:02.950 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 147)
-16:16:02.966 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\henry\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
-16:16:03.264 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 145.0.3800.65 (resolved driver for Edge 145)
-16:16:03.274 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://msedgedriver.microsoft.com/145.0.3800.65/edgedriver_win64.zip
-16:16:04.037 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file edgedriver_win64.zip
-16:16:04.786 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\henry\.cache\selenium\msedgedriver\win64\145.0.3800.65\msedgedriver.exe
-16:16:07.656 [TestNG-tests-1] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
-16:16:07.661 [TestNG-tests-1] INFO  pages.HomePage - Navigating to Register Page
-16:16:09.136 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated First Name: David
-16:16:09.138 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Last Name: Taylor
-16:16:09.139 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161609_155@testmail.com
-16:16:09.139 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Phone Number: 1365195893
-16:16:09.139 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Strong Password
-16:16:09.140 [TestNG-tests-1] INFO  pages.RegisterPage - Registering user with mandatory fields
-16:16:13.082 [TestNG-tests-1] INFO  pages.AccountSuccessPage - Validating Account Success page
-16:16:14.030 [TestNG-tests-1] INFO  pages.AccountPage - Validating Account page
-16:16:14.544 [TestNG-tests-1] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: chrome | Headless: false
-16:16:14.653 [TestNG-tests-3] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
-16:16:14.654 [TestNG-tests-3] INFO  pages.HomePage - Navigating to Register Page
-16:16:14.967 [TestNG-tests-2] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
-16:16:14.967 [TestNG-tests-2] INFO  pages.HomePage - Navigating to Register Page
-16:16:15.267 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-16:16:15.316 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
-16:16:15.852 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated First Name: John
-16:16:15.853 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Last Name: Smith
-16:16:15.853 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161615_48@testmail.com
-16:16:15.853 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Phone Number: 1465220843
-16:16:15.853 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Strong Password
-16:16:15.853 [TestNG-tests-3] INFO  pages.RegisterPage - Registering user with mandatory fields
-16:16:16.917 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated First Name: Chris
-16:16:16.917 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Last Name: Williams
-16:16:16.919 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161616_771@testmail.com
-16:16:16.920 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Phone Number: 1730649402
-16:16:16.920 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Strong Password
-16:16:16.921 [TestNG-tests-2] INFO  pages.RegisterPage - Registering user with mandatory fields
-16:16:18.034 [TestNG-tests-3] INFO  pages.AccountSuccessPage - Validating Account Success page
-16:16:19.213 [TestNG-tests-3] INFO  pages.AccountPage - Validating Account page
-16:16:19.507 [TestNG-tests-1] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
-16:16:19.508 [TestNG-tests-1] INFO  pages.HomePage - Navigating to Register Page
-16:16:20.111 [TestNG-tests-2] INFO  pages.AccountSuccessPage - Validating Account Success page
-16:16:20.994 [TestNG-tests-2] INFO  pages.AccountPage - Validating Account page
-16:16:21.057 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated First Name: Chris
-16:16:21.057 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Last Name: Smith
-16:16:21.058 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161621_831@testmail.com
-16:16:21.058 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Phone Number: 1864745169
-16:16:21.060 [TestNG-tests-1] INFO  utils.TestDataUtil - Generated Strong Password
-16:16:21.060 [TestNG-tests-1] INFO  pages.RegisterPage - Registering user with all fields
-16:16:21.755 [TestNG-tests-2] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: edge | Headless: false
-16:16:21.779 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 145.0.3800.65 (resolved driver for Edge 145)
-16:16:21.812 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\henry\.cache\selenium\msedgedriver\win64\145.0.3800.65\msedgedriver.exe
-16:16:22.195 [TestNG-tests-3] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: firefox | Headless: false
-16:16:23.087 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 147)
-16:16:23.124 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\henry\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
-16:16:24.068 [TestNG-tests-1] INFO  pages.AccountSuccessPage - Validating Account Success page
-16:16:24.791 [TestNG-tests-1] INFO  pages.AccountPage - Validating Account page
-16:16:25.314 [TestNG-tests-2] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
-16:16:25.314 [TestNG-tests-2] INFO  pages.HomePage - Navigating to Register Page
-16:16:26.493 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated First Name: Daniel
-16:16:26.494 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Last Name: Smith
-16:16:26.515 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161626_886@testmail.com
-16:16:26.517 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Phone Number: 1588332313
-16:16:26.519 [TestNG-tests-2] INFO  utils.TestDataUtil - Generated Strong Password
-16:16:26.519 [TestNG-tests-2] INFO  pages.RegisterPage - Registering user with all fields
-16:16:29.748 [TestNG-tests-2] INFO  pages.AccountSuccessPage - Validating Account Success page
-16:16:30.703 [TestNG-tests-2] INFO  pages.AccountPage - Validating Account page
-16:16:31.287 [TestNG-tests-3] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
-16:16:31.288 [TestNG-tests-3] INFO  pages.HomePage - Navigating to Register Page
-16:16:32.580 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated First Name: John
-16:16:32.580 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Last Name: Johnson
-16:16:32.581 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Email: testuser_20260219161632_215@testmail.com
-16:16:32.581 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Phone Number: 1191752939
-16:16:32.581 [TestNG-tests-3] INFO  utils.TestDataUtil - Generated Strong Password
-16:16:32.582 [TestNG-tests-3] INFO  pages.RegisterPage - Registering user with all fields
-16:16:34.370 [TestNG-tests-3] INFO  pages.AccountSuccessPage - Validating Account Success page
-16:16:35.493 [TestNG-tests-3] INFO  pages.AccountPage - Validating Account page
+21:49:16.240 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: true
+21:49:16.959 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+21:49:17.041 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+21:49:30.255 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+21:49:30.257 [main] INFO  pages.HomePage - Navigating to Register Page
+21:49:31.151 [main] INFO  utils.TestDataUtil - Generated First Name: Chris
+21:49:31.152 [main] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+21:49:31.152 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260220214931_760@testmail.com
+21:49:31.152 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1430946831
+21:49:31.152 [main] INFO  utils.TestDataUtil - Generated Strong Password
+21:49:31.152 [main] INFO  pages.RegisterPage - Registering user with mandatory fields
+21:49:33.334 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+21:49:33.992 [main] INFO  pages.AccountPage - Validating Account page
+21:49:34.393 [main] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: chrome | Headless: true
+21:49:34.415 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+21:49:34.430 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+21:49:40.660 [main] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
+21:49:40.660 [main] INFO  pages.HomePage - Navigating to Register Page
+21:49:41.432 [main] INFO  utils.TestDataUtil - Generated First Name: David
+21:49:41.432 [main] INFO  utils.TestDataUtil - Generated Last Name: Smith
+21:49:41.433 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260220214941_671@testmail.com
+21:49:41.433 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1089085055
+21:49:41.433 [main] INFO  utils.TestDataUtil - Generated Strong Password
+21:49:41.433 [main] INFO  pages.RegisterPage - Registering user with all fields
+21:49:43.328 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+21:49:43.814 [main] INFO  pages.AccountPage - Validating Account page
+21:50:41.360 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: false
+21:50:41.730 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+21:50:41.773 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+21:50:45.613 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+21:50:45.618 [main] INFO  pages.HomePage - Navigating to Register Page
+21:50:46.727 [main] INFO  utils.TestDataUtil - Generated First Name: Chris
+21:50:46.728 [main] INFO  utils.TestDataUtil - Generated Last Name: Smith
+21:50:46.728 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260220215046_46@testmail.com
+21:50:46.729 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1539673382
+21:50:46.729 [main] INFO  utils.TestDataUtil - Generated Strong Password
+21:50:46.729 [main] INFO  pages.RegisterPage - Registering user with mandatory fields
+21:50:49.673 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+21:50:50.221 [main] INFO  pages.AccountPage - Validating Account page
+21:50:50.495 [main] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: chrome | Headless: false
+21:50:50.505 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+21:50:50.514 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+21:50:53.880 [main] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
+21:50:53.880 [main] INFO  pages.HomePage - Navigating to Register Page
+21:50:54.895 [main] INFO  utils.TestDataUtil - Generated First Name: John
+21:50:54.895 [main] INFO  utils.TestDataUtil - Generated Last Name: Brown
+21:50:54.896 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260220215054_451@testmail.com
+21:50:54.896 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1811667557
+21:50:54.896 [main] INFO  utils.TestDataUtil - Generated Strong Password
+21:50:54.897 [main] INFO  pages.RegisterPage - Registering user with all fields
+21:50:57.168 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+21:50:57.708 [main] INFO  pages.AccountPage - Validating Account page
+21:52:31.592 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: false
+21:52:31.970 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+21:52:32.018 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+21:52:36.076 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+21:52:36.080 [main] INFO  pages.HomePage - Navigating to Register Page
+21:52:37.224 [main] INFO  utils.TestDataUtil - Generated First Name: David
+21:52:37.224 [main] INFO  utils.TestDataUtil - Generated Last Name: Brown
+21:52:37.226 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260220215237_143@testmail.com
+21:52:37.227 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1563666342
+21:52:37.227 [main] INFO  utils.TestDataUtil - Generated Strong Password
+21:52:37.228 [main] INFO  pages.RegisterPage - Registering user with mandatory fields
+21:52:39.614 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+21:52:40.207 [main] INFO  pages.AccountPage - Validating Account page
+21:52:40.436 [main] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: chrome | Headless: false
+21:52:40.445 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+21:52:40.454 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+21:52:44.070 [main] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
+21:52:44.070 [main] INFO  pages.HomePage - Navigating to Register Page
+21:52:45.256 [main] INFO  utils.TestDataUtil - Generated First Name: John
+21:52:45.256 [main] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+21:52:45.256 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260220215245_845@testmail.com
+21:52:45.257 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1034357692
+21:52:45.257 [main] INFO  utils.TestDataUtil - Generated Strong Password
+21:52:45.257 [main] INFO  pages.RegisterPage - Registering user with all fields
+21:52:47.642 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+21:52:48.200 [main] INFO  pages.AccountPage - Validating Account page
