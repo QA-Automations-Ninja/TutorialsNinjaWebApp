@@ -76,6 +76,7 @@
 21:52:45.257 [main] INFO  pages.RegisterPage - Registering user with all fields
 21:52:47.642 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
 21:52:48.200 [main] INFO  pages.AccountPage - Validating Account page
+<<<<<<< HEAD
 23:12:50.105 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: true
 23:12:51.974 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
 23:12:51.998 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
@@ -102,3 +103,5 @@
 23:13:11.419 [main] INFO  pages.RegisterPage - Registering user with all fields
 23:13:11.913 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
 23:13:13.515 [main] INFO  pages.AccountPage - Validating Account page
+=======
+>>>>>>> 8946ab30b869964bfbfa5c89dd4ce9a939690b76
