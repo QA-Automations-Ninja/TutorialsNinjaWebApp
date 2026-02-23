@@ -300,3 +300,144 @@
 01:48:03.356 [main] INFO  registertests.RegisterInvalidEmailTest - Check the page heading is still 'Register Account
 01:48:03.357 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
 01:48:03.433 [main] INFO  registertests.RegisterInvalidEmailTest - Test completed for invalid email: automationninja82@gmail
+20:44:15.718 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test on browser: chrome | Headless: true
+20:44:16.624 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+20:44:16.774 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+20:44:23.282 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test for invalid email: automationninja82
+20:44:23.285 [main] INFO  pages.HomePage - Navigating to Register Page
+20:44:24.280 [main] INFO  utils.TestDataUtil - Generated First Name: David
+20:44:24.281 [main] INFO  utils.TestDataUtil - Generated Last Name: Smith
+20:44:24.281 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1184648468
+20:44:24.281 [main] INFO  utils.TestDataUtil - Generated Strong Password
+20:44:24.282 [main] INFO  pages.RegisterPage - Registering user with invalid email: automationninja82
+20:44:25.210 [main] INFO  registertests.RegisterInvalidEmailTest - Check the page heading is still 'Register Account
+20:44:25.210 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+20:44:25.282 [main] INFO  registertests.RegisterInvalidEmailTest - Test completed for invalid email: automationninja82
+20:44:34.911 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test on browser: chrome | Headless: true
+20:44:34.930 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+20:44:34.951 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+20:44:39.484 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test for invalid email: automationninja82@
+20:44:39.485 [main] INFO  pages.HomePage - Navigating to Register Page
+20:44:40.629 [main] INFO  utils.TestDataUtil - Generated First Name: Chris
+20:44:40.629 [main] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+20:44:40.629 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1587833242
+20:44:40.629 [main] INFO  utils.TestDataUtil - Generated Strong Password
+20:44:40.629 [main] INFO  pages.RegisterPage - Registering user with invalid email: automationninja82@
+20:44:41.507 [main] INFO  registertests.RegisterInvalidEmailTest - Check the page heading is still 'Register Account
+20:44:41.507 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+20:44:41.556 [main] INFO  registertests.RegisterInvalidEmailTest - Test completed for invalid email: automationninja82@
+20:44:45.993 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test on browser: chrome | Headless: true
+20:44:46.027 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+20:44:46.043 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+20:45:07.532 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test for invalid email: automationninja82@gmail
+20:45:07.533 [main] INFO  pages.HomePage - Navigating to Register Page
+20:45:12.869 [main] INFO  utils.TestDataUtil - Generated First Name: Daniel
+20:45:12.869 [main] INFO  utils.TestDataUtil - Generated Last Name: Smith
+20:45:12.869 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1649659301
+20:45:12.869 [main] INFO  utils.TestDataUtil - Generated Strong Password
+20:45:12.870 [main] INFO  pages.RegisterPage - Registering user with invalid email: automationninja82@gmail
+20:45:15.654 [main] INFO  registertests.RegisterInvalidEmailTest - Check the page heading is still 'Register Account
+20:45:15.654 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+20:45:15.680 [main] INFO  registertests.RegisterInvalidEmailTest - Test completed for invalid email: automationninja82@gmail
+20:45:39.435 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test on browser: chrome | Headless: false
+20:45:40.107 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+20:45:40.219 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+20:45:45.487 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test for invalid email: automationninja82
+20:45:45.502 [main] INFO  pages.HomePage - Navigating to Register Page
+20:45:46.930 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
+20:45:46.930 [main] INFO  utils.TestDataUtil - Generated Last Name: Williams
+20:45:46.930 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1424749192
+20:45:46.935 [main] INFO  utils.TestDataUtil - Generated Strong Password
+20:45:46.935 [main] INFO  pages.RegisterPage - Registering user with invalid email: automationninja82
+20:45:48.622 [main] INFO  registertests.RegisterInvalidEmailTest - Check the page heading is still 'Register Account
+20:45:48.622 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+20:45:48.693 [main] INFO  registertests.RegisterInvalidEmailTest - Test completed for invalid email: automationninja82
+20:45:49.125 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test on browser: chrome | Headless: false
+20:45:49.138 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+20:45:49.154 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+20:46:14.344 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test for invalid email: automationninja82@
+20:46:14.349 [main] INFO  pages.HomePage - Navigating to Register Page
+20:46:16.274 [main] INFO  utils.TestDataUtil - Generated First Name: David
+20:46:16.274 [main] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+20:46:16.274 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1477108676
+20:46:16.274 [main] INFO  utils.TestDataUtil - Generated Strong Password
+20:46:16.275 [main] INFO  pages.RegisterPage - Registering user with invalid email: automationninja82@
+20:46:17.955 [main] INFO  registertests.RegisterInvalidEmailTest - Check the page heading is still 'Register Account
+20:46:17.956 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+20:46:18.020 [main] INFO  registertests.RegisterInvalidEmailTest - Test completed for invalid email: automationninja82@
+20:46:18.299 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test on browser: chrome | Headless: false
+20:46:18.316 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+20:46:18.335 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+20:46:23.182 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test for invalid email: automationninja82@gmail
+20:46:23.183 [main] INFO  pages.HomePage - Navigating to Register Page
+20:46:24.481 [main] INFO  utils.TestDataUtil - Generated First Name: Chris
+20:46:24.481 [main] INFO  utils.TestDataUtil - Generated Last Name: Smith
+20:46:24.482 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1234003311
+20:46:24.482 [main] INFO  utils.TestDataUtil - Generated Strong Password
+20:46:24.483 [main] INFO  pages.RegisterPage - Registering user with invalid email: automationninja82@gmail
+20:46:26.416 [main] INFO  registertests.RegisterInvalidEmailTest - Check the page heading is still 'Register Account
+20:46:26.416 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+20:46:26.456 [main] INFO  registertests.RegisterInvalidEmailTest - Test completed for invalid email: automationninja82@gmail
+21:04:01.825 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test on browser: chrome | Headless: false
+21:04:02.240 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+21:04:02.300 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+21:04:06.931 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test for invalid email: automationninja82
+21:04:06.937 [main] INFO  pages.HomePage - Navigating to Register Page
+21:04:08.161 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
+21:04:08.161 [main] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+21:04:08.162 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1210176711
+21:04:08.162 [main] INFO  utils.TestDataUtil - Generated Strong Password
+21:04:08.162 [main] INFO  pages.RegisterPage - Registering user with invalid email: automationninja82
+21:04:09.313 [main] INFO  registertests.RegisterInvalidEmailTest - Check the page heading is still 'Register Account
+21:04:09.313 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+21:04:09.370 [main] INFO  registertests.RegisterInvalidEmailTest - Test completed for invalid email: automationninja82
+21:04:09.646 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test on browser: chrome | Headless: false
+21:04:09.656 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+21:04:09.667 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+21:04:15.954 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test for invalid email: automationninja82@
+21:04:15.955 [main] INFO  pages.HomePage - Navigating to Register Page
+21:04:17.217 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
+21:04:17.218 [main] INFO  utils.TestDataUtil - Generated Last Name: Brown
+21:04:17.218 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1496982359
+21:04:17.218 [main] INFO  utils.TestDataUtil - Generated Strong Password
+21:04:17.218 [main] INFO  pages.RegisterPage - Registering user with invalid email: automationninja82@
+21:04:18.476 [main] INFO  registertests.RegisterInvalidEmailTest - Check the page heading is still 'Register Account
+21:04:18.476 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+21:04:18.527 [main] INFO  registertests.RegisterInvalidEmailTest - Test completed for invalid email: automationninja82@
+21:04:18.736 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test on browser: chrome | Headless: false
+21:04:18.750 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+21:04:18.776 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+21:04:22.576 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test for invalid email: automationninja82@gmail
+21:04:22.577 [main] INFO  pages.HomePage - Navigating to Register Page
+21:04:23.611 [main] INFO  utils.TestDataUtil - Generated First Name: John
+21:04:23.611 [main] INFO  utils.TestDataUtil - Generated Last Name: Smith
+21:04:23.611 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1350353659
+21:04:23.611 [main] INFO  utils.TestDataUtil - Generated Strong Password
+21:04:23.611 [main] INFO  pages.RegisterPage - Registering user with invalid email: automationninja82@gmail
+21:04:25.309 [main] INFO  registertests.RegisterInvalidEmailTest - Check the page heading is still 'Register Account
+21:04:25.309 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+21:04:25.384 [main] INFO  registertests.RegisterInvalidEmailTest - Test completed for invalid email: automationninja82@gmail
+21:19:25.455 [main] INFO  registertests.RegisterInvalidPhoneNumberTest - Starting test on browser: chrome | Headless: false
+21:19:26.068 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+21:19:26.169 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+21:19:30.712 [main] INFO  registertests.RegisterInvalidPhoneNumberTest - Starting test for invalid email: 1111
+21:19:30.743 [main] INFO  pages.HomePage - Navigating to Register Page
+21:19:32.003 [main] INFO  utils.TestDataUtil - Generated First Name: David
+21:19:32.005 [main] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+21:19:32.007 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260222211932_437@testmail.com
+21:19:32.007 [main] INFO  utils.TestDataUtil - Generated Strong Password
+21:19:32.008 [main] INFO  pages.RegisterPage - Registering user with invalid phone number: 1111
+21:19:35.519 [main] INFO  registertests.RegisterInvalidPhoneNumberTest - Check the page heading is still 'Register Account
+21:19:35.519 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+21:19:46.084 [main] INFO  registertests.RegisterInvalidPhoneNumberTest - Starting test on browser: chrome | Headless: false
+21:19:46.098 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+21:19:46.107 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+21:19:49.774 [main] INFO  registertests.RegisterInvalidPhoneNumberTest - Starting test for invalid email: abcd
+21:19:49.774 [main] INFO  pages.HomePage - Navigating to Register Page
+21:19:50.916 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
+21:19:50.916 [main] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+21:19:50.916 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260222211950_431@testmail.com
+21:19:50.916 [main] INFO  utils.TestDataUtil - Generated Strong Password
+21:19:50.916 [main] INFO  pages.RegisterPage - Registering user with invalid phone number: abcd
+21:19:53.293 [main] INFO  registertests.RegisterInvalidPhoneNumberTest - Check the page heading is still 'Register Account
+21:19:53.293 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading

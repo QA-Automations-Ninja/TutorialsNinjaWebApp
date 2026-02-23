@@ -12,4 +12,16 @@ public class DataProviders {
                 {"automationninja82@gmail"}
         };
     }
-}
+     
+     
+     
+     @DataProvider(name = "invalidPhoneNumbers")
+     public Object[][] invalidPhoneNumbers() {
+         return new Object[][]{
+                 {"1111"},
+                 {"abcd"}
+         };
+     }
+ }
+
+

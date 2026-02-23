@@ -19,6 +19,7 @@
                <class name ="registertests.RegisterPasswordMismatchTest"/>
                <class name ="registertests.RegisterWithExistingEmailTest"/>
                <class name ="registertests.RegisterInvalidEmailTest"/>
+                  <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
         </classes>
     </test>
 
@@ -34,6 +35,7 @@
               <class name ="registertests.RegisterPasswordMismatchTest"/>
               <class name ="registertests.RegisterWithExistingEmailTest"/>
                <class name ="registertests.RegisterInvalidEmailTest"/>
+                  <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
         </classes>
     </test>
 
@@ -48,6 +50,7 @@
               <class name ="registertests.RegisterPasswordMismatchTest"/>
               <class name ="registertests.RegisterWithExistingEmailTest"/>
                <class name ="registertests.RegisterInvalidEmailTest"/>
+                  <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
         </classes>
     </test>
 

@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="registertests.RegisterInvalidEmailTest">
+      <class name="registertests.RegisterInvalidPhoneNumberTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyRegisterWithInvalidEmail" invocation-numbers="0 1 2"/>
+          <include name="verifyRegisterWithInvalidPhoneNumbers" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- registertests.RegisterInvalidEmailTest -->
+      </class> <!-- registertests.RegisterInvalidPhoneNumberTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Single Suite] -->

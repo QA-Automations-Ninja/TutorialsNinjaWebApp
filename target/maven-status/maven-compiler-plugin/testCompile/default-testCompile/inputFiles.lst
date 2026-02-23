@@ -1,5 +1,6 @@
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterAllFieldsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterInvalidEmailTest.java
+C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterInvalidPhoneNumberTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterMandatoryFieldsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterPasswordMismatchTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterWithEmptyFieldsTest.java

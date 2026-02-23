@@ -9,24 +9,24 @@ import utils.TestDataUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class RegisterInvalidEmailTest extends BaseTest {
+public class RegisterInvalidPhoneNumberTest extends BaseTest {
 
-    @Test(dataProvider = "invalidEmails", dataProviderClass=DataProviders.class)
-    public void verifyRegisterWithInvalidEmail(String invalidEmail) {
+    @Test(dataProvider = "invalidPhoneNumbers", dataProviderClass=DataProviders.class)
+    public void verifyRegisterWithInvalidPhoneNumbers(String invalidPhoneNumber) {
 
-    	logger.info("Starting test for invalid email: {}", invalidEmail);
+    	logger.info("Starting test for invalid email: {}", invalidPhoneNumber);
 
 
         HomePage homePage = new HomePage(getDriver());
         RegisterPage registerPage = new RegisterPage(getDriver());
 
         homePage.navigateToRegisterPage();
-        registerPage.registerWithInvalidEmail(
+        registerPage.registerWithInvalidPhoneNumber(
         		
         		 TestDataUtil.getRandomFirstName(),
                  TestDataUtil.getRandomLastName(),
-                 invalidEmail,
-                 TestDataUtil.getRandomPhoneNumber(),
+                 TestDataUtil.getRandomEmail(),
+                 invalidPhoneNumber,
                  TestDataUtil.getStrongPassword()
          );
         
@@ -36,7 +36,7 @@ public class RegisterInvalidEmailTest extends BaseTest {
         String pageHeading = registerPage.getPageHeading();
         Assert.assertEquals(pageHeading, "Register Account", "ERROR: Unexpected page after registration!");
 
-        logger.info("Test completed for invalid email: {}", invalidEmail);
+        logger.info("Test completed for invalid email: {}", invalidPhoneNumber);
     }
 }
 

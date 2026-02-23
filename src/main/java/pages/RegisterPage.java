@@ -212,15 +212,15 @@ public class RegisterPage extends BasePage {
     		String fName,
             String lName,
             String email,
-            String invalidPhone,
+            String invalidPhoneNumber,
             String pwd) {
 
-        logger.info("Registering user with phone: {}", invalidPhone);
+        logger.info("Registering user with invalid phone number: {}", invalidPhoneNumber);
 
            enterFirstName(fName);
            enterLastName(lName);
            enterEmail(email);
-           enterTelephone(invalidPhone);
+           enterTelephone(invalidPhoneNumber);
            enterPassword(pwd);
            enterConfirmPassword(pwd);
            subscribeNewsletterNo();
