@@ -1,4 +1,4 @@
-   package utilities;
+package utilities;
 
 import java.io.IOException;
 
@@ -11,12 +11,12 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
+import base.BaseTest;
+
 public class ExtentTestListener implements ITestListener {
 
     private static ExtentReports extent;
-    // Thread-safe ExtentTest for parallel execution
     private static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<>();
-	private WebDriver driver;
 
     @Override
     public void onStart(ITestContext context) {
@@ -25,7 +25,6 @@ public class ExtentTestListener implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
-        // Create test and store in ThreadLocal
         ExtentTest test = extent.createTest(result.getMethod().getMethodName());
         test.assignCategory(result.getMethod().getGroups());
         extentTest.set(test);
@@ -41,12 +40,17 @@ public class ExtentTestListener implements ITestListener {
         extentTest.get().log(Status.FAIL, result.getName() + " failed");
         extentTest.get().log(Status.INFO, result.getThrowable());
 
-        // Capture screenshot        
         try {
-            String imgPath = new ScreenshotUtil(driver).captureScreen(result.getName());
+            // Get WebDriver from the running test instance
+            Object testClass = result.getInstance();
+            WebDriver driver = ((BaseTest) testClass).getDriver();
+
+            // Capture screenshot
+            String imgPath = ScreenshotUtil.captureScreen(driver, result.getName());
             if (imgPath != null) {
                 extentTest.get().addScreenCaptureFromPath(imgPath);
             }
+
         } catch (IOException e) {
             extentTest.get().log(Status.WARNING, "Screenshot capture failed: " + e.getMessage());
             e.printStackTrace();
@@ -66,6 +70,4 @@ public class ExtentTestListener implements ITestListener {
         extent.flush();
         ExtentReportManager.openReport();
     }
-
-    
 }

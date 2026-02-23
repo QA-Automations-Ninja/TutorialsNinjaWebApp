@@ -1,4 +1,3 @@
-utilities\ExcelUtility.class
 utilities\ScreenshotUtil.class
 utilities\ExtentReportManager.class
 utilities\DataProviders.class

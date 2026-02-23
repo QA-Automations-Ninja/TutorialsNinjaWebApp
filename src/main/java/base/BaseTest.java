@@ -23,7 +23,7 @@ public class BaseTest {
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     protected Logger logger;
 
-    protected WebDriver getDriver() {
+    public WebDriver getDriver() {
         return driver.get();
     }
 

@@ -10,9 +10,12 @@
     <test name="Test">
        <parameter name="browser" value="chrome"/>
         <classes>
-           <class name="registertests.RegisterMandatoryFieldsTest"/>
-            <class name="registertests.RegisterAllFieldsTest"/>
-           
+           <!--<class name="registertests.RegisterMandatoryFieldsTest"/>-->
+            <!--<class name="registertests.RegisterAllFieldsTest"/>-->
+           <!--<class name ="registertests.RegisterWithEmptyFieldsTest"/>-->
+           <!--<class name ="registertests.RegisterPasswordMismatchTest"/>-->
+           <!--<class name ="registertests.RegisterWithExistingEmailTest"/>-->
+            <class name ="registertests.RegisterInvalidEmailTest"/>
         </classes>
     </test>
 

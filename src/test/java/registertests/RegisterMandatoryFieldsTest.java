@@ -49,5 +49,7 @@ public class RegisterMandatoryFieldsTest extends BaseTest {
 
         Assert.assertTrue(accountPage.isUserOnAccountPage(),
                 "User not navigated to Account page");
+        
+        logger.info("Test Completed Successfully");
     }
 }

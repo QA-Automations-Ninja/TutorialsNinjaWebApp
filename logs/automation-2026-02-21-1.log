@@ -1,0 +1,131 @@
+14:56:54.121 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting test on browser: chrome | Headless: true
+14:56:56.301 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+14:56:56.356 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+14:57:00.197 [main] INFO  registertests.RegisterMandatoryFieldsTest - Starting Register test with mandatory fields
+14:57:00.198 [main] INFO  pages.HomePage - Navigating to Register Page
+14:57:01.129 [main] INFO  utils.TestDataUtil - Generated First Name: Daniel
+14:57:01.129 [main] INFO  utils.TestDataUtil - Generated Last Name: Smith
+14:57:01.130 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260221145701_304@testmail.com
+14:57:01.131 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1016880287
+14:57:01.131 [main] INFO  utils.TestDataUtil - Generated Strong Password
+14:57:01.131 [main] INFO  pages.RegisterPage - Registering user with mandatory fields
+14:57:03.540 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+14:57:03.994 [main] INFO  pages.AccountPage - Validating Account page
+14:57:04.183 [main] INFO  registertests.RegisterAllFieldsTest - Starting test on browser: chrome | Headless: true
+14:57:04.192 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+14:57:04.205 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+14:57:07.474 [main] INFO  registertests.RegisterAllFieldsTest - Starting Register test with all fields
+14:57:07.475 [main] INFO  pages.HomePage - Navigating to Register Page
+14:57:08.258 [main] INFO  utils.TestDataUtil - Generated First Name: John
+14:57:08.258 [main] INFO  utils.TestDataUtil - Generated Last Name: Williams
+14:57:08.258 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260221145708_51@testmail.com
+14:57:08.258 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1787052367
+14:57:08.258 [main] INFO  utils.TestDataUtil - Generated Strong Password
+14:57:08.258 [main] INFO  pages.RegisterPage - Registering user with all fields
+14:57:09.931 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+14:57:10.384 [main] INFO  pages.AccountPage - Validating Account page
+14:57:10.549 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Starting test on browser: chrome | Headless: true
+14:57:10.556 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+14:57:10.569 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+14:57:13.578 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Start Navigating To Register Page
+14:57:13.578 [main] INFO  pages.HomePage - Navigating to Register Page
+14:57:14.377 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Starting RegisterWithEmptyFields
+14:57:14.377 [main] INFO  pages.RegisterPage - Submitting empty registration form
+15:00:57.079 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Starting test on browser: chrome | Headless: false
+15:00:57.447 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+15:00:57.490 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+15:01:00.976 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Start Navigating To Register Page
+15:01:00.980 [main] INFO  pages.HomePage - Navigating to Register Page
+15:01:02.079 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Starting RegisterWithEmptyFields
+15:01:02.082 [main] INFO  pages.RegisterPage - Submitting empty registration form
+15:11:50.499 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Starting test on browser: chrome | Headless: false
+15:11:50.855 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+15:11:50.891 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+15:11:56.889 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Start Navigating To Register Page
+15:11:56.892 [main] INFO  pages.HomePage - Navigating to Register Page
+15:11:57.935 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Starting RegisterWithEmptyFields
+15:11:57.936 [main] INFO  pages.RegisterPage - Submitting empty registration form
+15:11:58.527 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating First Name warning
+15:11:58.649 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating Last Name warning
+15:11:58.718 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating Email warning
+15:11:58.802 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating Telephone warning
+15:11:58.863 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating Password warning
+15:11:58.916 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating Privacy warning
+16:01:20.524 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Starting test on browser: chrome | Headless: false
+16:01:21.978 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+16:01:22.013 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+16:01:26.380 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Start Navigating To Register Page
+16:01:26.383 [main] INFO  pages.HomePage - Navigating to Register Page
+16:01:27.595 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Starting RegisterWithEmptyFields
+16:01:27.597 [main] INFO  pages.RegisterPage - Submitting empty registration form
+16:01:29.287 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating First Name warning
+16:01:29.433 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating Last Name warning
+16:01:29.495 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating Email warning
+16:01:29.565 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating Telephone warning
+16:01:29.619 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating Password warning
+16:01:29.674 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Validating Privacy warning
+16:01:29.738 [main] INFO  registertests.RegisterWithEmptyFieldsTest - Test Completed Successfully
+16:08:49.775 [main] INFO  registertests.RegisterPasswordMismatchTest - Starting test on browser: chrome | Headless: false
+16:08:50.126 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+16:08:50.174 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+16:08:55.244 [main] INFO  registertests.RegisterPasswordMismatchTest - Starting Test: Register With Password Mismatch
+16:08:55.247 [main] INFO  pages.HomePage - Navigating to Register Page
+16:08:56.187 [main] INFO  pages.RegisterPage - Registering with mismatched passwords
+16:08:58.426 [main] INFO  registertests.RegisterPasswordMismatchTest - Validating Password Mismatch warning Message
+16:08:58.587 [main] INFO  registertests.RegisterPasswordMismatchTest - Test Completed Successfully
+16:19:15.347 [main] INFO  registertests.RegisterPasswordMismatchTest - Starting test on browser: chrome | Headless: false
+16:19:15.852 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+16:19:15.938 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+16:19:20.300 [main] INFO  registertests.RegisterPasswordMismatchTest - Starting Test: Register With Password Mismatch
+16:19:20.306 [main] INFO  pages.HomePage - Navigating to Register Page
+16:19:21.552 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260221161921_871@testmail.com
+16:19:21.553 [main] INFO  pages.RegisterPage - Registering with mismatched passwords
+16:19:24.407 [main] INFO  registertests.RegisterPasswordMismatchTest - Validating Password Mismatch warning Message
+16:19:24.548 [main] INFO  registertests.RegisterPasswordMismatchTest - Test Completed Successfully
+16:20:20.670 [main] INFO  registertests.RegisterPasswordMismatchTest - Starting test on browser: chrome | Headless: false
+16:20:21.176 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+16:20:21.256 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+16:20:26.215 [main] INFO  registertests.RegisterPasswordMismatchTest - Starting Test: Register With Password Mismatch
+16:20:26.218 [main] INFO  pages.HomePage - Navigating to Register Page
+16:20:27.392 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260221162027_771@testmail.com
+16:20:27.393 [main] INFO  pages.RegisterPage - Registering with mismatched passwords
+16:20:30.098 [main] INFO  registertests.RegisterPasswordMismatchTest - Validating Password Mismatch warning Message
+16:20:30.222 [main] INFO  registertests.RegisterPasswordMismatchTest - Test Completed Successfully
+16:21:48.148 [main] INFO  registertests.RegisterPasswordMismatchTest - Starting test on browser: chrome | Headless: false
+16:21:48.486 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+16:21:48.526 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+16:21:52.365 [main] INFO  registertests.RegisterPasswordMismatchTest - Starting Test: Register With Password Mismatch
+16:21:52.369 [main] INFO  pages.HomePage - Navigating to Register Page
+16:21:53.580 [main] INFO  pages.RegisterPage - Registering with mismatched passwords
+16:21:56.202 [main] INFO  registertests.RegisterPasswordMismatchTest - Validating Password Mismatch warning Message
+16:21:56.355 [main] INFO  registertests.RegisterPasswordMismatchTest - Test Completed Successfully
+20:59:20.597 [main] INFO  registertests.RegisterWithExistingEmailTest - Starting test on browser: chrome | Headless: false
+20:59:22.342 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+20:59:22.418 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+20:59:27.866 [main] INFO  registertests.RegisterWithExistingEmailTest - Starting Test: Register With Existing Email
+20:59:27.869 [main] INFO  pages.HomePage - Navigating to Register Page
+20:59:28.924 [main] INFO  pages.RegisterPage - Registering using existing email
+20:59:31.218 [main] INFO  registertests.RegisterWithExistingEmailTest - Validating Existing email warning Message
+20:59:31.407 [main] INFO  registertests.RegisterWithExistingEmailTest - Test Completed Successfully
+23:39:41.674 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test on browser: chrome | Headless: false
+23:39:43.304 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+23:39:43.335 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+23:39:47.897 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test for invalid email: automationninja82
+23:39:47.905 [main] INFO  pages.HomePage - Navigating to Register Page
+23:39:49.118 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
+23:39:49.118 [main] INFO  utils.TestDataUtil - Generated Last Name: Smith
+23:39:49.119 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1156659624
+23:39:49.119 [main] INFO  utils.TestDataUtil - Generated Strong Password
+23:39:49.120 [main] INFO  pages.RegisterPage - Registering user with invalid email: automationninja82
+23:39:50.753 [main] INFO  pages.RegisterPage - Validating email warning message is displayed
+23:42:22.454 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test on browser: chrome | Headless: false
+23:42:22.837 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+23:42:22.880 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+23:42:28.788 [main] INFO  registertests.RegisterInvalidEmailTest - Starting test for invalid email: automationninja82
+23:42:28.856 [main] INFO  pages.HomePage - Navigating to Register Page
+23:42:34.494 [main] INFO  utils.TestDataUtil - Generated First Name: Chris
+23:42:34.495 [main] INFO  utils.TestDataUtil - Generated Last Name: Taylor
+23:42:34.495 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1840477818
+23:42:34.495 [main] INFO  utils.TestDataUtil - Generated Strong Password
+23:42:34.496 [main] INFO  pages.RegisterPage - Registering user with invalid email: automationninja82
+23:42:36.451 [main] INFO  pages.RegisterPage - Validating email warning message is displayed
