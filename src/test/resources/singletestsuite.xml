@@ -13,13 +13,13 @@
            <!--<class name="registertests.RegisterMandatoryFieldsTest"/>-->
             <!--<class name="registertests.RegisterAllFieldsTest"/>-->
            <!--<class name ="registertests.RegisterWithEmptyFieldsTest"/>-->
-           <!--<class name ="registertests.RegisterPasswordMismatchTest"/>-->
+           <class name ="registertests.RegisterPasswordMismatchTest"/>
            <!--<class name ="registertests.RegisterWithExistingEmailTest"/>-->
             <!--<class name ="registertests.RegisterInvalidEmailTest"/>-->
             <!--<class name ="registertests.RegisterInvalidPhoneNumberTest"/>-->
             <!--<class name ="registertests.RegisterUsingKeyboardTest"/>-->
             <!--<class name ="registertests.RegisterWithSpacesTest"/>-->
-            <class name ="registertests.RegisterPasswordComplexityTest"/>
+            <!--<class name ="registertests.RegisterPasswordComplexityTest"/>-->
         </classes>
     </test>
 
