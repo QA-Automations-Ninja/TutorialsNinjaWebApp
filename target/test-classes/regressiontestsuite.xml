@@ -13,8 +13,8 @@
         <parameter name="browser" value="chrome"/>
       
         <classes>
-            <class name="registertests.RegisterMandatoryFieldsTest"/>
-            <class name="registertests.RegisterAllFieldsTest"/>
+         <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
+           <class name ="registertests.RegisterPasswordComplexityTest"/>
            
         </classes>
     </test>
@@ -24,8 +24,8 @@
         <parameter name="browser" value="firefox"/>
      
         <classes>
-            <class name="registertests.RegisterMandatoryFieldsTest"/>
-            <class name="registertests.RegisterAllFieldsTest"/>
+         <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
+           <class name ="registertests.RegisterPasswordComplexityTest"/>
         </classes>
     </test>
 
@@ -35,8 +35,8 @@
         
                
         <classes>
-            <class name="registertests.RegisterMandatoryFieldsTest"/>
-            <class name="registertests.RegisterAllFieldsTest"/>
+         <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
+           <class name ="registertests.RegisterPasswordComplexityTest"/>
         </classes>
     </test>
 

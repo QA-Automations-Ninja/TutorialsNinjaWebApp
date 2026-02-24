@@ -1,0 +1,122 @@
+19:53:42.287 [main] INFO  registertests.RegisterUsingKeyboardTest - Starting test on browser: chrome | Headless: true
+19:53:44.033 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+19:53:44.061 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+19:53:47.504 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== Test Started: Register Using Keyboard =====
+19:53:47.505 [main] INFO  pages.HomePage - Navigating to Register Page
+19:53:48.273 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
+19:53:48.273 [main] INFO  utils.TestDataUtil - Generated Last Name: Brown
+19:53:48.273 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260223195348_985@testmail.com
+19:53:48.273 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1397916474
+19:53:48.273 [main] INFO  utils.TestDataUtil - Generated Strong Password
+19:53:48.273 [main] INFO  pages.RegisterPage - Starting keyboard-based registration flow
+19:53:49.734 [main] INFO  pages.RegisterPage - Registration submitted using keyboard keys
+19:53:49.734 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== User navigating to account page =====
+19:53:49.735 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+19:59:27.974 [main] INFO  registertests.RegisterUsingKeyboardTest - Starting test on browser: chrome | Headless: false
+19:59:28.315 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+19:59:28.352 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+19:59:32.042 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== Test Started: Register Using Keyboard =====
+19:59:32.050 [main] INFO  pages.HomePage - Navigating to Register Page
+19:59:33.018 [main] INFO  utils.TestDataUtil - Generated First Name: David
+19:59:33.018 [main] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+19:59:33.018 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260223195933_981@testmail.com
+19:59:33.018 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1338956151
+19:59:33.018 [main] INFO  utils.TestDataUtil - Generated Strong Password
+19:59:33.020 [main] INFO  pages.RegisterPage - Starting keyboard-based registration flow
+19:59:34.420 [main] INFO  pages.RegisterPage - Registration submitted using keyboard keys
+19:59:34.421 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== User navigating to account page =====
+19:59:34.421 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:04:20.059 [main] INFO  registertests.RegisterUsingKeyboardTest - Starting test on browser: chrome | Headless: false
+20:04:20.368 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+20:04:20.410 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+20:04:24.080 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== Test Started: Register Using Keyboard =====
+20:04:24.080 [main] INFO  pages.HomePage - Navigating to Register Page
+20:04:25.039 [main] INFO  utils.TestDataUtil - Generated First Name: David
+20:04:25.039 [main] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+20:04:25.039 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260223200425_977@testmail.com
+20:04:25.041 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1053987459
+20:04:25.041 [main] INFO  utils.TestDataUtil - Generated Strong Password
+20:04:25.041 [main] INFO  pages.RegisterPage - Starting keyboard-based registration flow
+20:04:27.843 [main] INFO  pages.RegisterPage - Registration submitted using keyboard keys
+20:04:27.843 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== User navigating to account page =====
+20:04:27.845 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:04:28.392 [main] INFO  pages.AccountPage - Validating Account page
+20:04:28.420 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== Test Completed Successfully =====
+20:13:26.931 [main] INFO  registertests.RegisterUsingKeyboardTest - Starting test on browser: chrome | Headless: false
+20:13:27.269 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+20:13:27.307 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+20:13:30.712 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== Test Started: Register Using Keyboard =====
+20:13:30.715 [main] INFO  pages.HomePage - Navigating to Register Page
+20:13:31.611 [main] INFO  utils.TestDataUtil - Generated First Name: David
+20:13:31.611 [main] INFO  utils.TestDataUtil - Generated Last Name: Williams
+20:13:31.612 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260223201331_954@testmail.com
+20:13:31.613 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1832886234
+20:13:31.613 [main] INFO  utils.TestDataUtil - Generated Strong Password
+20:13:31.613 [main] INFO  pages.RegisterPage - Starting keyboard-based registration flow
+20:13:34.106 [main] INFO  pages.RegisterPage - Registration submitted using keyboard keys
+20:13:34.106 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== User navigating to account page =====
+20:13:34.106 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:13:34.698 [main] INFO  pages.AccountPage - Validating Account page
+20:13:34.746 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== Test Completed Successfully =====
+20:16:04.854 [main] INFO  registertests.RegisterUsingKeyboardTest - Starting test on browser: chrome | Headless: false
+20:16:05.188 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+20:16:05.231 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+20:16:08.713 [main] INFO  pages.HomePage - Navigating to Register Page
+20:16:09.607 [main] INFO  utils.TestDataUtil - Generated First Name: Daniel
+20:16:09.607 [main] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+20:16:09.607 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260223201609_970@testmail.com
+20:16:09.607 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1777585965
+20:16:09.607 [main] INFO  utils.TestDataUtil - Generated Strong Password
+20:16:09.610 [main] INFO  pages.RegisterPage - Starting keyboard-based registration flow
+20:16:12.030 [main] INFO  pages.RegisterPage - Registration submitted using keyboard keys
+20:16:12.030 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== User navigating to account page =====
+20:16:12.031 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:16:12.588 [main] INFO  pages.AccountPage - Validating Account page
+20:16:12.627 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== Test Completed Successfully =====
+20:19:15.365 [main] INFO  registertests.RegisterUsingKeyboardTest - Starting test on browser: chrome | Headless: false
+20:19:15.672 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+20:19:15.727 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+20:19:19.238 [main] INFO  pages.HomePage - Navigating to Register Page
+20:19:20.100 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
+20:19:20.100 [main] INFO  utils.TestDataUtil - Generated Last Name: Smith
+20:19:20.100 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260223201920_195@testmail.com
+20:19:20.100 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1655910658
+20:19:20.100 [main] INFO  utils.TestDataUtil - Generated Strong Password
+20:19:22.274 [main] INFO  pages.RegisterPage - Registration submitted using keyboard keys
+20:19:22.275 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== User navigating to account page =====
+20:19:22.276 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:19:22.887 [main] INFO  pages.AccountPage - Validating Account page
+20:19:22.909 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== Test Completed Successfully =====
+20:21:37.011 [main] INFO  registertests.RegisterUsingKeyboardTest - Starting test on browser: chrome | Headless: false
+20:21:37.358 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+20:21:37.400 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+20:21:41.020 [main] INFO  pages.HomePage - Navigating to Register Page
+20:21:42.088 [main] INFO  utils.TestDataUtil - Generated First Name: David
+20:21:42.088 [main] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+20:21:42.088 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260223202142_495@testmail.com
+20:21:42.088 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1037075847
+20:21:42.089 [main] INFO  utils.TestDataUtil - Generated Strong Password
+20:21:44.692 [main] INFO  pages.RegisterPage - Registration submitted using keyboard keys
+20:21:44.692 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== User navigating to account page =====
+20:21:44.694 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
+20:21:45.209 [main] INFO  pages.AccountPage - Validating Account page
+20:21:45.248 [main] INFO  registertests.RegisterUsingKeyboardTest - ===== Test Completed Successfully =====
+23:23:51.726 [main] INFO  registertests.RegisterWithSpacesTest - Starting test on browser: chrome | Headless: false
+23:23:53.830 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+23:23:53.896 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win64/chromedriver-win64.zip
+23:23:54.511 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+23:23:54.808 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+23:23:59.033 [main] INFO  registertests.RegisterWithSpacesTest - Navigating to Register Page
+23:23:59.041 [main] INFO  pages.HomePage - Navigating to Register Page
+23:24:00.254 [main] INFO  pages.RegisterPage - Registering user by entering spaces in all fields
+23:24:02.760 [main] INFO  pages.RegisterPage - Submitted registration form with spaces
+23:24:02.760 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+23:24:02.807 [main] INFO  registertests.RegisterWithSpacesTest - Test completed: Registration with spaces blocked successfully
+23:25:54.805 [main] INFO  registertests.RegisterWithSpacesTest - Starting test on browser: chrome | Headless: false
+23:25:55.176 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+23:25:55.213 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+23:25:59.389 [main] INFO  pages.HomePage - Navigating to Register Page
+23:26:00.439 [main] INFO  pages.RegisterPage - Registering user by entering spaces in all fields
+23:26:02.889 [main] INFO  pages.RegisterPage - Submitted registration form with spaces
+23:26:02.889 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
+23:26:02.950 [main] INFO  registertests.RegisterWithSpacesTest - Test completed: Registration with spaces blocked successfully

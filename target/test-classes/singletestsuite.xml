@@ -16,7 +16,10 @@
            <!--<class name ="registertests.RegisterPasswordMismatchTest"/>-->
            <!--<class name ="registertests.RegisterWithExistingEmailTest"/>-->
             <!--<class name ="registertests.RegisterInvalidEmailTest"/>-->
-            <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
+            <!--<class name ="registertests.RegisterInvalidPhoneNumberTest"/>-->
+            <!--<class name ="registertests.RegisterUsingKeyboardTest"/>-->
+            <!--<class name ="registertests.RegisterWithSpacesTest"/>-->
+            <class name ="registertests.RegisterPasswordComplexityTest"/>
         </classes>
     </test>
 

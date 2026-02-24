@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import base.BasePage;
 
@@ -103,6 +104,7 @@ public class RegisterPage extends BasePage {
     { 
     	driver.findElement(continueButton).click(); 
     }
+    
     
     // Business Methods
     public void registerWithMandatoryFields
@@ -227,7 +229,81 @@ public class RegisterPage extends BasePage {
            acceptPrivacyPolicy();
            clickContinue();
   }
+       
+              
+                // Keyboard Flow
+
+    public void registerUsingKeyboard(String fName, String lName,
+                                         String email, String phone,
+                                         String pwd) {
+
+           // Focus on first field
+           driver.findElement(firstName).click();
+           driver.switchTo().activeElement().sendKeys(fName, Keys.TAB);
+
+           driver.switchTo().activeElement().sendKeys(lName, Keys.TAB);
+           driver.switchTo().activeElement().sendKeys(email, Keys.TAB);
+           driver.switchTo().activeElement().sendKeys(phone, Keys.TAB);
+           driver.switchTo().activeElement().sendKeys(pwd, Keys.TAB);
+           driver.switchTo().activeElement().sendKeys(pwd, Keys.TAB);
+           
+           // Select NewsletterNo
+          driver.switchTo().activeElement().sendKeys(Keys.TAB);
+          driver.switchTo().activeElement().sendKeys(Keys.TAB);
+
+           // Privacy Policy - Space to check
+           driver.switchTo().activeElement().sendKeys(Keys.SPACE, Keys.TAB);
+
+           // Press Enter on Continue
+           driver.switchTo().activeElement().sendKeys(Keys.ENTER);
+
+           logger.info("Registration submitted using keyboard keys");
+       }
+
+    
+    public void registerWithSpaces(
+    		String fName, String lName,
+            String email, String phone,
+            String pwd)
+    	{
+        logger.info("Registering user by entering spaces in all fields");
+
+        enterFirstName(fName);
+        enterLastName(lName);
+        enterEmail(email);
+        enterTelephone(phone);
+        enterPassword(pwd);
+        enterConfirmPassword(pwd);
+        subscribeNewsletterNo();
+        acceptPrivacyPolicy();
+        clickContinue();
+        
+        logger.info("Submitted registration form with spaces");
+    }
   
+  
+    public void attemptRegistrationWithWeakPassword(
+    		String fName,
+            String lName,
+            String email,
+            String phone,
+            String weakpwd) 
+    {
+        logger.info("Attempting registration using weak password: {}", weakpwd);
+
+        enterFirstName(fName);
+        enterLastName(lName);
+        enterEmail(email);
+        enterTelephone(phone);
+        enterPassword(weakpwd);
+        enterConfirmPassword(weakpwd);
+        subscribeNewsletterNo();
+        acceptPrivacyPolicy();
+        clickContinue();
+        
+
+        logger.info("Registration form submitted");
+    }
        
         // ====== Validation Methods ======
 

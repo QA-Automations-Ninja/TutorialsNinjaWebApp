@@ -22,6 +22,22 @@ public class DataProviders {
                  {"abcd"}
          };
      }
+     
+     
+     
+     @DataProvider(name = "weakPasswords")
+     public Object[][] weakPasswords() {
+         return new Object[][]{
+                 {"123456"},
+                 {"abcde"},
+                 {"ABCDE"},
+                 {"Efghij"},
+                 {"Test1"},
+                 {"Test@"}
+         };
+     }
+     
+     
  }
 
 
