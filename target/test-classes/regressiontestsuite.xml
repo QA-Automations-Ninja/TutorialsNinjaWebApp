@@ -15,6 +15,7 @@
         <classes>
          <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
            <class name ="registertests.RegisterPasswordComplexityTest"/>
+           <class name ="registertests.RegisterTrimSpacesTest"/>
            
         </classes>
     </test>
@@ -26,6 +27,7 @@
         <classes>
          <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
            <class name ="registertests.RegisterPasswordComplexityTest"/>
+           <class name ="registertests.RegisterTrimSpacesTest"/>
         </classes>
     </test>
 
@@ -37,6 +39,7 @@
         <classes>
          <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
            <class name ="registertests.RegisterPasswordComplexityTest"/>
+           <class name ="registertests.RegisterTrimSpacesTest"/>
         </classes>
     </test>
 

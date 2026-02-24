@@ -230,8 +230,6 @@ public class RegisterPage extends BasePage {
            clickContinue();
   }
        
-              
-                // Keyboard Flow
 
     public void registerUsingKeyboard(String fName, String lName,
                                          String email, String phone,
@@ -303,6 +301,24 @@ public class RegisterPage extends BasePage {
         
 
         logger.info("Registration form submitted");
+    }
+    
+    
+    public void registerUserWithLeadingAndTrailingSpaces(String fName, String lName,
+            String mail, String phone,
+            String pwd) {
+
+    logger.info("Registering user with leading and trailing spaces");
+
+         enterFirstName(fName);
+         enterLastName(lName);
+         enterEmail(mail);
+         enterTelephone(phone);
+         enterPassword(pwd);
+         enterConfirmPassword(pwd);
+         subscribeNewsletterNo();
+         acceptPrivacyPolicy();
+         clickContinue();
     }
        
         // ====== Validation Methods ======

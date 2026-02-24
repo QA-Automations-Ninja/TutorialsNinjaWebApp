@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="registertests.RegisterPasswordComplexityTest">
+      <class name="registertests.RegisterTrimSpacesTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyPasswordComplexity" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="verifyLeadingTrailingSpacesAreTrimmed"/>
         </methods>
-      </class> <!-- registertests.RegisterPasswordComplexityTest -->
+      </class> <!-- registertests.RegisterTrimSpacesTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Single Suite] -->

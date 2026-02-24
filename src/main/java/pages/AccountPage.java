@@ -15,6 +15,16 @@ public class AccountPage extends BasePage {
 	 
 	 //Capturing Webelements
     private By myAccountHeading = By.xpath("//h2[text()='My Account']");
+    private By editAccountInfo = By.xpath("//a[normalize-space()='Edit your account information']");
+    
+    
+    //Page Actions:
+    
+    public void clickEditAccountInfo() {
+        logger.info("Clicking Edit Account Information");
+        driver.findElement(editAccountInfo).click();
+    }
+
 
    
 

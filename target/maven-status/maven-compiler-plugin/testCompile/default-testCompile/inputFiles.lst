@@ -4,6 +4,7 @@ C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertest
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterMandatoryFieldsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterPasswordComplexityTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterPasswordMismatchTest.java
+C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterTrimSpacesTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterUsingKeyboardTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterWithEmptyFieldsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterWithExistingEmailTest.java

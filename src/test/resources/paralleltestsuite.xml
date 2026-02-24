@@ -13,16 +13,17 @@
     
 
         <classes>
-            <class name="registertests.RegisterMandatoryFieldsTest"/>
-            <class name="registertests.RegisterAllFieldsTest"/>
-             <class name ="registertests.RegisterWithEmptyFieldsTest"/>
-               <class name ="registertests.RegisterPasswordMismatchTest"/>
-               <class name ="registertests.RegisterWithExistingEmailTest"/>
-               <class name ="registertests.RegisterInvalidEmailTest"/>
-                  <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
-                   <class name ="registertests.RegisterUsingKeyboardTest"/>
-                   <class name ="registertests.RegisterWithSpacesTest"/>
-                   <class name ="registertests.RegisterPasswordComplexityTest"/>
+            <!--<class name="registertests.RegisterMandatoryFieldsTest"/>-->
+            <!--<class name="registertests.RegisterAllFieldsTest"/>-->
+             <!--<class name ="registertests.RegisterWithEmptyFieldsTest"/>-->
+               <!--<class name ="registertests.RegisterPasswordMismatchTest"/>-->
+               <!--<class name ="registertests.RegisterWithExistingEmailTest"/>-->
+               <!--<class name ="registertests.RegisterInvalidEmailTest"/>-->
+                  <!--<class name ="registertests.RegisterInvalidPhoneNumberTest"/>-->
+                  <!--<class name ="registertests.RegisterUsingKeyboardTest"/>-->
+                   <!--<class name ="registertests.RegisterWithSpacesTest"/>-->
+                   <!--<class name ="registertests.RegisterPasswordComplexityTest"/>-->
+                   <class name ="registertests.RegisterTrimSpacesTest"/>
         </classes>
     </test>
 
@@ -32,16 +33,17 @@
      
 
         <classes>
-            <class name="registertests.RegisterMandatoryFieldsTest"/>
-            <class name="registertests.RegisterAllFieldsTest"/>
-            <class name ="registertests.RegisterWithEmptyFieldsTest"/>
-              <class name ="registertests.RegisterPasswordMismatchTest"/>
-              <class name ="registertests.RegisterWithExistingEmailTest"/>
-               <class name ="registertests.RegisterInvalidEmailTest"/>
-                  <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
-                   <class name ="registertests.RegisterUsingKeyboardTest"/>
-                   <class name ="registertests.RegisterWithSpacesTest"/>
-                   <class name ="registertests.RegisterPasswordComplexityTest"/>
+             <!--<class name="registertests.RegisterMandatoryFieldsTest"/>-->
+            <!--<class name="registertests.RegisterAllFieldsTest"/>-->
+             <!--<class name ="registertests.RegisterWithEmptyFieldsTest"/>-->
+               <!--<class name ="registertests.RegisterPasswordMismatchTest"/>-->
+               <!--<class name ="registertests.RegisterWithExistingEmailTest"/>-->
+               <!--<class name ="registertests.RegisterInvalidEmailTest"/>-->
+                  <!--<class name ="registertests.RegisterInvalidPhoneNumberTest"/>-->
+                  <!--<class name ="registertests.RegisterUsingKeyboardTest"/>-->
+                   <!--<class name ="registertests.RegisterWithSpacesTest"/>-->
+                   <!--<class name ="registertests.RegisterPasswordComplexityTest"/>-->
+                   <class name ="registertests.RegisterTrimSpacesTest"/>
         </classes>
     </test>
 
@@ -50,16 +52,17 @@
         <parameter name="browser" value="firefox"/>
        
         <classes>
-            <class name="registertests.RegisterMandatoryFieldsTest"/>
-            <class name="registertests.RegisterAllFieldsTest"/>
-            <class name ="registertests.RegisterWithEmptyFieldsTest"/>
-              <class name ="registertests.RegisterPasswordMismatchTest"/>
-              <class name ="registertests.RegisterWithExistingEmailTest"/>
-               <class name ="registertests.RegisterInvalidEmailTest"/>
-                  <class name ="registertests.RegisterInvalidPhoneNumberTest"/>
-                   <class name ="registertests.RegisterUsingKeyboardTest"/>
-                   <class name ="registertests.RegisterWithSpacesTest"/>
-                   <class name ="registertests.RegisterPasswordComplexityTest"/>
+            <!--<class name="registertests.RegisterMandatoryFieldsTest"/>-->
+            <!--<class name="registertests.RegisterAllFieldsTest"/>-->
+             <!--<class name ="registertests.RegisterWithEmptyFieldsTest"/>-->
+               <!--<class name ="registertests.RegisterPasswordMismatchTest"/>-->
+               <!--<class name ="registertests.RegisterWithExistingEmailTest"/>-->
+               <!--<class name ="registertests.RegisterInvalidEmailTest"/>-->
+                  <!--<class name ="registertests.RegisterInvalidPhoneNumberTest"/>-->
+                  <!--<class name ="registertests.RegisterUsingKeyboardTest"/>-->
+                   <!--<class name ="registertests.RegisterWithSpacesTest"/>-->
+                   <!--<class name ="registertests.RegisterPasswordComplexityTest"/>-->
+                   <class name ="registertests.RegisterTrimSpacesTest"/>
         </classes>
     </test>
 

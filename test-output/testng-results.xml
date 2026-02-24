@@ -1,57 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-21T16:04:47 EST" name="Parallel Cross Browser Suite" finished-at="2026-02-21T16:05:34 EST" duration-ms="47101">
+  <suite started-at="2026-02-24T15:01:57 EST" name="Single Suite" finished-at="2026-02-24T15:02:07 EST" duration-ms="10390">
     <groups>
     </groups>
-    <test started-at="2026-02-21T16:04:47 EST" name="Edge Test" finished-at="2026-02-21T16:05:17 EST" duration-ms="30690">
-      <class name="registertests.RegisterAllFieldsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registertests.RegisterAllFieldsTest@2e385cce]" started-at="2026-02-21T16:05:03 EST" name="setUp" finished-at="2026-02-21T16:05:07 EST" duration-ms="4604" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithAllFields()[pri:0, instance:registertests.RegisterAllFieldsTest@2e385cce]" started-at="2026-02-21T16:05:07 EST" name="verifyRegisterWithAllFields" finished-at="2026-02-21T16:05:13 EST" duration-ms="5869" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterWithAllFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:registertests.RegisterAllFieldsTest@2e385cce]" started-at="2026-02-21T16:05:13 EST" name="tearDown" finished-at="2026-02-21T16:05:17 EST" duration-ms="4070" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- registertests.RegisterAllFieldsTest -->
-      <class name="registertests.RegisterMandatoryFieldsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registertests.RegisterMandatoryFieldsTest@3e27aa33]" started-at="2026-02-21T16:04:47 EST" name="setUp" finished-at="2026-02-21T16:04:55 EST" duration-ms="8324" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithMandatoryFields()[pri:0, instance:registertests.RegisterMandatoryFieldsTest@3e27aa33]" started-at="2026-02-21T16:04:55 EST" name="verifyRegisterWithMandatoryFields" finished-at="2026-02-21T16:05:01 EST" duration-ms="5534" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:registertests.RegisterMandatoryFieldsTest@3e27aa33]" started-at="2026-02-21T16:05:01 EST" name="tearDown" finished-at="2026-02-21T16:05:03 EST" duration-ms="2029" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- registertests.RegisterMandatoryFieldsTest -->
-    </test> <!-- Edge Test -->
-    <test started-at="2026-02-21T16:04:47 EST" name="Chrome Test" finished-at="2026-02-21T16:05:25 EST" duration-ms="38508">
-      <class name="registertests.RegisterWithEmptyFieldsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registertests.RegisterWithEmptyFieldsTest@4b0d79fc]" started-at="2026-02-21T16:05:14 EST" name="setUp" finished-at="2026-02-21T16:05:18 EST" duration-ms="4152" status="PASS">
+    <test started-at="2026-02-24T15:01:57 EST" name="Test" finished-at="2026-02-24T15:02:07 EST" duration-ms="10390">
+      <class name="registertests.RegisterTrimSpacesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registertests.RegisterTrimSpacesTest@4efac082]" started-at="2026-02-24T15:01:57 EST" name="setUp" finished-at="2026-02-24T15:02:02 EST" duration-ms="5211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,101 +18,56 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyMandatoryFieldWarningsWhenSubmittingEmptyForm()[pri:0, instance:registertests.RegisterWithEmptyFieldsTest@4b0d79fc]" started-at="2026-02-21T16:05:18 EST" name="verifyMandatoryFieldWarningsWhenSubmittingEmptyForm" finished-at="2026-02-21T16:05:22 EST" duration-ms="3819" status="PASS">
+        <test-method signature="verifyLeadingTrailingSpacesAreTrimmed()[pri:0, instance:registertests.RegisterTrimSpacesTest@4efac082]" started-at="2026-02-24T15:02:02 EST" name="verifyLeadingTrailingSpacesAreTrimmed" finished-at="2026-02-24T15:02:07 EST" duration-ms="4503" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[First Name not trimmed expected [John] but found [  John  ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: First Name not trimmed expected [John] but found [  John  ]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at registertests.RegisterTrimSpacesTest.verifyLeadingTrailingSpacesAreTrimmed(RegisterTrimSpacesTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyMandatoryFieldWarningsWhenSubmittingEmptyForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:registertests.RegisterWithEmptyFieldsTest@4b0d79fc]" started-at="2026-02-21T16:05:22 EST" name="tearDown" finished-at="2026-02-21T16:05:25 EST" duration-ms="3504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- registertests.RegisterWithEmptyFieldsTest -->
-      <class name="registertests.RegisterAllFieldsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registertests.RegisterAllFieldsTest@55634720]" started-at="2026-02-21T16:04:59 EST" name="setUp" finished-at="2026-02-21T16:05:05 EST" duration-ms="5784" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithAllFields()[pri:0, instance:registertests.RegisterAllFieldsTest@55634720]" started-at="2026-02-21T16:05:05 EST" name="verifyRegisterWithAllFields" finished-at="2026-02-21T16:05:13 EST" duration-ms="7857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterWithAllFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:registertests.RegisterAllFieldsTest@55634720]" started-at="2026-02-21T16:05:13 EST" name="tearDown" finished-at="2026-02-21T16:05:14 EST" duration-ms="593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- registertests.RegisterAllFieldsTest -->
-      <class name="registertests.RegisterMandatoryFieldsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registertests.RegisterMandatoryFieldsTest@17497425]" started-at="2026-02-21T16:04:47 EST" name="setUp" finished-at="2026-02-21T16:04:51 EST" duration-ms="4677" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithMandatoryFields()[pri:0, instance:registertests.RegisterMandatoryFieldsTest@17497425]" started-at="2026-02-21T16:04:51 EST" name="verifyRegisterWithMandatoryFields" finished-at="2026-02-21T16:04:58 EST" duration-ms="6917" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:registertests.RegisterMandatoryFieldsTest@17497425]" started-at="2026-02-21T16:04:58 EST" name="tearDown" finished-at="2026-02-21T16:04:59 EST" duration-ms="914" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- registertests.RegisterMandatoryFieldsTest -->
-    </test> <!-- Chrome Test -->
-    <test started-at="2026-02-21T16:04:47 EST" name="Firefox Test" finished-at="2026-02-21T16:05:34 EST" duration-ms="47101">
-      <class name="registertests.RegisterAllFieldsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registertests.RegisterAllFieldsTest@2a7f1f10]" started-at="2026-02-21T16:05:09 EST" name="setUp" finished-at="2026-02-21T16:05:28 EST" duration-ms="18840" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithAllFields()[pri:0, instance:registertests.RegisterAllFieldsTest@2a7f1f10]" started-at="2026-02-21T16:05:28 EST" name="verifyRegisterWithAllFields" finished-at="2026-02-21T16:05:32 EST" duration-ms="3789" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterWithAllFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:registertests.RegisterAllFieldsTest@2a7f1f10]" started-at="2026-02-21T16:05:32 EST" name="tearDown" finished-at="2026-02-21T16:05:34 EST" duration-ms="1709" status="PASS">
+        </test-method> <!-- verifyLeadingTrailingSpacesAreTrimmed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:registertests.RegisterTrimSpacesTest@4efac082]" started-at="2026-02-24T15:02:07 EST" name="tearDown" finished-at="2026-02-24T15:02:07 EST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- registertests.RegisterAllFieldsTest -->
-      <class name="registertests.RegisterMandatoryFieldsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:registertests.RegisterMandatoryFieldsTest@298a5e20]" started-at="2026-02-21T16:04:47 EST" name="setUp" finished-at="2026-02-21T16:04:57 EST" duration-ms="10081" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithMandatoryFields()[pri:0, instance:registertests.RegisterMandatoryFieldsTest@298a5e20]" started-at="2026-02-21T16:04:57 EST" name="verifyRegisterWithMandatoryFields" finished-at="2026-02-21T16:05:04 EST" duration-ms="6830" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:registertests.RegisterMandatoryFieldsTest@298a5e20]" started-at="2026-02-21T16:05:04 EST" name="tearDown" finished-at="2026-02-21T16:05:09 EST" duration-ms="5591" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- registertests.RegisterMandatoryFieldsTest -->
-    </test> <!-- Firefox Test -->
-  </suite> <!-- Parallel Cross Browser Suite -->
+      </class> <!-- registertests.RegisterTrimSpacesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Single Suite -->
 </testng-results>
