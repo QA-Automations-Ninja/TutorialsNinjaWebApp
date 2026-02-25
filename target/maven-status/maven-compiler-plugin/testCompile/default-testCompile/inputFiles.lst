@@ -3,11 +3,14 @@ C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertest
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterInvalidPhoneNumberTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterMandatoryFieldsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterPasswordComplexityTest.java
+C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterPasswordConfirmValidationTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterPasswordMismatchTest.java
+C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterPasswordVisibilityTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterTrimSpacesTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterUsingKeyboardTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterWithEmptyFieldsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterWithExistingEmailTest.java
+C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterWithoutPrivacyPolicyTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterWithSpacesTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\utilities\DataProviders.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\utilities\ExtentReportManager.java

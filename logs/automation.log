@@ -161,3 +161,54 @@
 15:27:31.298 [main] INFO  pages.AccountEditPage - Retrieving Last Name value from Edit Account page
 15:27:31.355 [main] INFO  pages.AccountEditPage - Retrieving Email value from Edit Account page
 15:27:31.377 [main] INFO  pages.AccountEditPage - Retrieving Telephone value from Edit Account page
+19:52:30.214 [main] INFO  registertests.RegisterWithoutPrivacyPolicyTest - Starting test on browser: chrome | Headless: false
+19:52:31.894 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:52:31.948 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:52:36.475 [main] INFO  pages.HomePage - Navigating to Register Page
+19:52:37.609 [main] INFO  utils.TestDataUtil - Generated First Name: David
+19:52:37.609 [main] INFO  utils.TestDataUtil - Generated Last Name: Johnson
+19:52:37.609 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260224195237_806@testmail.com
+19:52:37.609 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1130516425
+19:52:37.609 [main] INFO  utils.TestDataUtil - Generated Strong Password
+19:52:37.609 [main] INFO  pages.RegisterPage - Registering user without selecting Privacy Policy
+19:52:39.818 [main] INFO  registertests.RegisterWithoutPrivacyPolicyTest - Validating Privacy warning
+19:52:39.906 [main] INFO  registertests.RegisterWithoutPrivacyPolicyTest - Test completed successfully...
+20:49:39.570 [main] INFO  registertests.RegisterPasswordVisibilityTest - Starting test on browser: chrome | Headless: false
+20:49:39.965 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:49:40.009 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:49:43.852 [main] INFO  registertests.RegisterPasswordVisibilityTest - ===== Starting Test: Verify Password Fields Are Hidden =====
+20:49:43.858 [main] INFO  pages.HomePage - Navigating to Register Page
+20:49:44.767 [main] INFO  pages.RegisterPage - Entering password into both fields
+20:49:44.974 [main] INFO  pages.RegisterPage - Validating password fields are hidden
+20:49:44.974 [main] INFO  pages.RegisterPage - Fetching password field type attribute
+20:49:45.010 [main] INFO  pages.RegisterPage - Fetching confirm password field type attribute
+20:49:45.098 [main] INFO  registertests.RegisterPasswordVisibilityTest - ===== Test Completed Successfully =====
+20:51:43.072 [main] INFO  registertests.RegisterPasswordVisibilityTest - Starting test on browser: chrome | Headless: false
+20:51:43.395 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:51:43.434 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:51:47.097 [main] INFO  registertests.RegisterPasswordVisibilityTest - ===== Starting Test: Verify Password Fields Are Hidden =====
+20:51:47.104 [main] INFO  pages.HomePage - Navigating to Register Page
+20:51:48.023 [main] INFO  pages.RegisterPage - Entering password into both fields
+20:51:48.214 [main] INFO  pages.RegisterPage - Validating password fields are hidden
+20:51:48.214 [main] INFO  pages.RegisterPage - Fetching password field type attribute
+20:51:48.264 [main] INFO  pages.RegisterPage - Fetching confirm password field type attribute
+20:51:48.304 [main] INFO  registertests.RegisterPasswordVisibilityTest - ===== Test Completed Successfully =====
+21:44:33.548 [main] INFO  registertests.RegisterPasswordConfirmValidationTest - Starting test on browser: chrome | Headless: false
+21:44:34.795 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:44:34.820 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:44:38.578 [main] INFO  pages.HomePage - Navigating to Register Page
+21:44:39.507 [main] INFO  pages.RegisterPage - Executing business flow: Register without Password Confirm
+21:44:41.499 [main] INFO  pages.RegisterPage - Validating Password Confirm warning message is displayed
+21:48:31.831 [main] INFO  registertests.RegisterPasswordConfirmValidationTest - Starting test on browser: chrome | Headless: false
+21:48:32.172 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:48:32.205 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:48:35.762 [main] INFO  pages.HomePage - Navigating to Register Page
+21:48:36.629 [main] INFO  pages.RegisterPage - Executing business flow: Register without Password Confirm
+21:48:38.128 [main] INFO  pages.RegisterPage - Validating Password Confirm warning message is displayed
+21:53:16.508 [main] INFO  registertests.RegisterPasswordConfirmValidationTest - Starting test on browser: chrome | Headless: false
+21:53:16.839 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:53:16.874 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:53:20.607 [main] INFO  pages.HomePage - Navigating to Register Page
+21:53:21.487 [main] INFO  pages.RegisterPage - Executing business flow: Register without Password Confirm
+21:53:22.921 [main] INFO  pages.RegisterPage - Validating Password Confirm warning message is displayed
+21:53:23.013 [main] INFO  registertests.RegisterPasswordConfirmValidationTest - ===== TEST COMPLETED SUCCESSFULLY =====

@@ -36,7 +36,7 @@ public class RegisterPage extends BasePage {
     
     // Warning under Confirm Password
     private By confirmPasswordWarning =
-            By.xpath("//input[@id='input-confirm']/following-sibling::div");
+            By.xpath("//div[@class='text-danger']");
 
     // Top warning message
     private By existingEmailWarning =
@@ -305,14 +305,14 @@ public class RegisterPage extends BasePage {
     
     
     public void registerUserWithLeadingAndTrailingSpaces(String fName, String lName,
-            String mail, String phone,
+            String email, String phone,
             String pwd) {
 
     logger.info("Registering user with leading and trailing spaces");
 
          enterFirstName(fName);
          enterLastName(lName);
-         enterEmail(mail);
+         enterEmail(email);
          enterTelephone(phone);
          enterPassword(pwd);
          enterConfirmPassword(pwd);
@@ -320,6 +320,51 @@ public class RegisterPage extends BasePage {
          acceptPrivacyPolicy();
          clickContinue();
     }
+    
+    
+       public void registerWithoutPrivacyPolicy(String fName, String lName,
+            String email, String phone,
+            String pwd) {
+
+       logger.info("Registering user without selecting Privacy Policy");
+
+             enterFirstName(fName);
+             enterLastName(lName);
+             enterEmail(email);
+             enterTelephone(phone);
+             enterPassword(pwd);
+             enterConfirmPassword(pwd);
+             subscribeNewsletterNo();
+             clickContinue();
+      }
+       
+       public void enterPasswordDetails(String pwd) {
+           logger.info("Entering password into both fields");
+           enterPassword(pwd);
+           enterConfirmPassword(pwd);
+       }
+       
+       
+       public void registerWithoutPasswordConfirm(
+               String fName,
+               String lName,
+               String email,
+               String phone,
+               String pwd) {
+
+           logger.info("Executing business flow: Register without Password Confirm");
+
+           enterFirstName(fName);
+           enterLastName(lName);
+           enterEmail(email);
+           enterTelephone(phone);
+           enterPassword(pwd);
+           subscribeNewsletterNo();
+           acceptPrivacyPolicy();
+           clickContinue();
+       }
+       
+        
        
         // ====== Validation Methods ======
 
@@ -379,5 +424,31 @@ public class RegisterPage extends BasePage {
     	logger.info("Getting Register Account Page Heading");
         return driver.findElement(registerAccountPageHeading).getText();
     }
+    
+    public String getPasswordFieldType() {
+        logger.info("Fetching password field type attribute");
+        return driver.findElement(password).getAttribute("type");
+    }
+
+    public String getConfirmPasswordFieldType() {
+        logger.info("Fetching confirm password field type attribute");
+        return driver.findElement(confirmPassword).getAttribute("type");
+    }
+
+    public boolean isPasswordHidden() {
+        logger.info("Validating password fields are hidden");
+        return getPasswordFieldType().equals("password") &&
+               getConfirmPasswordFieldType().equals("password");
+    }
+    
+    
+    public boolean isPasswordConfirmWarningDisplayed() {
+        logger.info("Validating Password Confirm warning message is displayed");
+        
+        String expected = "Password confirmation does not match password!";
+        return driver.findElement(confirmPasswordWarning).isDisplayed() &&
+        		 driver.findElement(confirmPasswordWarning).getText().equals(expected);
+    }
+    
     
 }

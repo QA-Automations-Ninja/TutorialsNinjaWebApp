@@ -20,7 +20,10 @@
             <!--<class name ="registertests.RegisterUsingKeyboardTest"/>-->
             <!--<class name ="registertests.RegisterWithSpacesTest"/>-->
             <!--<class name ="registertests.RegisterPasswordComplexityTest"/>-->
-            <class name ="registertests.RegisterTrimSpacesTest"/>
+            <!--<class name ="registertests.RegisterTrimSpacesTest"/>-->
+            <!--<class name ="registertests.RegisterWithoutPrivacyPolicyTest"/>-->
+            <!--<class name ="registertests.RegisterPasswordVisibilityTest"/>-->
+            <class name ="registertests.RegisterPasswordConfirmValidationTest"/>
         </classes>
     </test>
 
