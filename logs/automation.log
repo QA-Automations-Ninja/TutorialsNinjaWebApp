@@ -1,214 +1,125 @@
-00:05:11.918 [main] INFO  registertests.RegisterWithSpacesTest - Starting test on browser: chrome | Headless: false
-00:05:12.357 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-00:05:12.380 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-00:05:17.515 [main] INFO  pages.HomePage - Navigating to Register Page
-00:05:19.131 [main] INFO  pages.RegisterPage - Registering user by entering spaces in all fields
-00:05:21.277 [main] INFO  pages.RegisterPage - Submitted registration form with spaces
-00:05:21.277 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
-00:05:21.323 [main] INFO  registertests.RegisterWithSpacesTest - Test completed: Registration with spaces blocked successfully
-00:27:31.212 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test on browser: chrome | Headless: false
-00:27:33.673 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-00:27:33.692 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-00:27:37.732 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test with weak password: 123456
-00:27:37.732 [main] INFO  pages.HomePage - Navigating to Register Page
-00:27:38.972 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
-00:27:38.972 [main] INFO  utils.TestDataUtil - Generated Last Name: Brown
-00:27:38.972 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260224002738_419@testmail.com
-00:27:38.972 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1890598998
-00:27:38.972 [main] INFO  pages.RegisterPage - Attempting registration using weak password: 123456
-00:27:42.064 [main] INFO  pages.RegisterPage - Registration form submitted
-00:27:42.064 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
-00:27:52.725 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test on browser: chrome | Headless: false
-00:27:52.736 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-00:27:52.750 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-00:27:56.551 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test with weak password: abcde
-00:27:56.551 [main] INFO  pages.HomePage - Navigating to Register Page
-00:27:57.673 [main] INFO  utils.TestDataUtil - Generated First Name: Chris
-00:27:57.673 [main] INFO  utils.TestDataUtil - Generated Last Name: Johnson
-00:27:57.674 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260224002757_481@testmail.com
-00:27:57.674 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1730635197
-00:27:57.674 [main] INFO  pages.RegisterPage - Attempting registration using weak password: abcde
-00:28:00.388 [main] INFO  pages.RegisterPage - Registration form submitted
-00:28:00.388 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
-00:28:10.820 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test on browser: chrome | Headless: false
-00:28:10.833 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-00:28:10.847 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-00:28:14.600 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test with weak password: ABCDE
-00:28:14.600 [main] INFO  pages.HomePage - Navigating to Register Page
-00:28:15.784 [main] INFO  utils.TestDataUtil - Generated First Name: Daniel
-00:28:15.784 [main] INFO  utils.TestDataUtil - Generated Last Name: Taylor
-00:28:15.784 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260224002815_499@testmail.com
-00:28:15.784 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1376550629
-00:28:15.784 [main] INFO  pages.RegisterPage - Attempting registration using weak password: ABCDE
-00:28:18.846 [main] INFO  pages.RegisterPage - Registration form submitted
-00:28:18.849 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
-00:28:29.351 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test on browser: chrome | Headless: false
-00:28:29.361 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-00:28:29.374 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-00:28:33.482 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test with weak password: Efghij
-00:28:33.482 [main] INFO  pages.HomePage - Navigating to Register Page
-00:28:34.832 [main] INFO  utils.TestDataUtil - Generated First Name: Michael
-00:28:34.832 [main] INFO  utils.TestDataUtil - Generated Last Name: Brown
-00:28:34.837 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260224002834_35@testmail.com
-00:28:34.837 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1024593208
-00:28:34.837 [main] INFO  pages.RegisterPage - Attempting registration using weak password: Efghij
-00:28:37.859 [main] INFO  pages.RegisterPage - Registration form submitted
-00:28:37.859 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
-00:28:48.327 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test on browser: chrome | Headless: false
-00:28:48.336 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-00:28:48.347 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-00:28:52.681 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test with weak password: Test1
-00:28:52.683 [main] INFO  pages.HomePage - Navigating to Register Page
-00:28:53.883 [main] INFO  utils.TestDataUtil - Generated First Name: Daniel
-00:28:53.884 [main] INFO  utils.TestDataUtil - Generated Last Name: Smith
-00:28:53.885 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260224002853_884@testmail.com
-00:28:53.885 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1799395159
-00:28:53.885 [main] INFO  pages.RegisterPage - Attempting registration using weak password: Test1
-00:28:56.513 [main] INFO  pages.RegisterPage - Registration form submitted
-00:28:56.513 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
-00:29:07.123 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test on browser: chrome | Headless: false
-00:29:07.132 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-00:29:07.142 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-00:29:10.785 [main] INFO  registertests.RegisterPasswordComplexityTest - Starting test with weak password: Test@
-00:29:10.785 [main] INFO  pages.HomePage - Navigating to Register Page
-00:29:12.221 [main] INFO  utils.TestDataUtil - Generated First Name: Daniel
-00:29:12.221 [main] INFO  utils.TestDataUtil - Generated Last Name: Williams
-00:29:12.221 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260224002912_919@testmail.com
-00:29:12.221 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1041769872
-00:29:12.221 [main] INFO  pages.RegisterPage - Attempting registration using weak password: Test@
-00:29:14.626 [main] INFO  pages.RegisterPage - Registration form submitted
-00:29:14.626 [main] INFO  pages.RegisterPage - Getting Register Account Page Heading
-15:03:48.138 [TestNG-tests-2] INFO  registertests.RegisterTrimSpacesTest - Starting test on browser: edge | Headless: false
-15:03:48.138 [TestNG-tests-1] INFO  registertests.RegisterTrimSpacesTest - Starting test on browser: chrome | Headless: false
-15:03:48.139 [TestNG-tests-3] INFO  registertests.RegisterTrimSpacesTest - Starting test on browser: firefox | Headless: false
-15:03:48.526 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-15:03:48.568 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-15:03:49.402 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 145.0.3800.70 (resolved driver for Edge 145)
-15:03:49.418 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\henry\.cache\selenium\msedgedriver\win64\145.0.3800.70\msedgedriver.exe
-15:03:49.552 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 148)
-15:03:49.570 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\henry\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
-15:03:52.703 [TestNG-tests-1] INFO  pages.HomePage - Navigating to Register Page
-15:03:52.989 [TestNG-tests-2] INFO  pages.HomePage - Navigating to Register Page
-15:03:53.772 [TestNG-tests-1] INFO  pages.RegisterPage - Registering user with leading and trailing spaces
-15:03:54.009 [TestNG-tests-2] INFO  pages.RegisterPage - Registering user with leading and trailing spaces
-15:03:56.313 [TestNG-tests-2] INFO  pages.AccountSuccessPage - Validating Account Success page
-15:03:56.600 [TestNG-tests-1] INFO  pages.AccountSuccessPage - Validating Account Success page
-15:03:56.833 [TestNG-tests-2] INFO  pages.AccountPage - Clicking Edit Account Information
-15:03:57.264 [TestNG-tests-1] INFO  pages.AccountPage - Clicking Edit Account Information
-15:03:57.402 [TestNG-tests-2] INFO  pages.AccountEditPage - Retrieving First Name value from Edit Account page
-15:03:57.425 [TestNG-tests-2] INFO  pages.AccountEditPage - Retrieving Last Name value from Edit Account page
-15:03:57.450 [TestNG-tests-2] INFO  pages.AccountEditPage - Retrieving Email value from Edit Account page
-15:03:57.476 [TestNG-tests-2] INFO  pages.AccountEditPage - Retrieving Telephone value from Edit Account page
-15:03:57.891 [TestNG-tests-1] INFO  pages.AccountEditPage - Retrieving First Name value from Edit Account page
-15:03:57.939 [TestNG-tests-1] INFO  pages.AccountEditPage - Retrieving Last Name value from Edit Account page
-15:03:57.987 [TestNG-tests-1] INFO  pages.AccountEditPage - Retrieving Email value from Edit Account page
-15:03:58.019 [TestNG-tests-1] INFO  pages.AccountEditPage - Retrieving Telephone value from Edit Account page
-15:03:58.297 [TestNG-tests-3] INFO  pages.HomePage - Navigating to Register Page
-15:03:59.218 [TestNG-tests-3] INFO  pages.RegisterPage - Registering user with leading and trailing spaces
-15:04:02.015 [TestNG-tests-3] INFO  pages.AccountSuccessPage - Validating Account Success page
-15:04:02.950 [TestNG-tests-3] INFO  pages.AccountPage - Clicking Edit Account Information
-15:04:03.470 [TestNG-tests-3] INFO  pages.AccountEditPage - Retrieving First Name value from Edit Account page
-15:04:03.501 [TestNG-tests-3] INFO  pages.AccountEditPage - Retrieving Last Name value from Edit Account page
-15:04:03.502 [TestNG-tests-3] INFO  pages.AccountEditPage - Retrieving Email value from Edit Account page
-15:04:03.521 [TestNG-tests-3] INFO  pages.AccountEditPage - Retrieving Telephone value from Edit Account page
-15:08:09.787 [main] INFO  registertests.RegisterTrimSpacesTest - Starting test on browser: chrome | Headless: false
-15:08:10.128 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-15:08:10.163 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-15:08:14.256 [main] INFO  pages.HomePage - Navigating to Register Page
-15:08:15.139 [main] INFO  pages.RegisterPage - Registering user with leading and trailing spaces
-15:08:17.169 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
-15:08:17.680 [main] INFO  pages.AccountPage - Clicking Edit Account Information
-15:08:18.138 [main] INFO  pages.AccountEditPage - Retrieving First Name value from Edit Account page
-15:08:18.163 [main] INFO  pages.AccountEditPage - Retrieving Last Name value from Edit Account page
-15:08:18.172 [main] INFO  pages.AccountEditPage - Retrieving Email value from Edit Account page
-15:08:18.208 [main] INFO  pages.AccountEditPage - Retrieving Telephone value from Edit Account page
-15:12:22.561 [main] INFO  registertests.RegisterTrimSpacesTest - Starting test on browser: chrome | Headless: false
-15:12:22.883 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-15:12:22.918 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-15:12:26.795 [main] INFO  pages.HomePage - Navigating to Register Page
-15:12:27.982 [main] INFO  pages.RegisterPage - Registering user with leading and trailing spaces
-15:12:30.167 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
-15:12:30.739 [main] INFO  pages.AccountPage - Clicking Edit Account Information
-15:12:31.285 [main] INFO  pages.AccountEditPage - Retrieving First Name value from Edit Account page
-15:12:31.318 [main] INFO  pages.AccountEditPage - Retrieving Last Name value from Edit Account page
-15:12:31.347 [main] INFO  pages.AccountEditPage - Retrieving Email value from Edit Account page
-15:12:31.376 [main] INFO  pages.AccountEditPage - Retrieving Telephone value from Edit Account page
-15:22:17.996 [main] INFO  registertests.RegisterTrimSpacesTest - Starting test on browser: chrome | Headless: false
-15:22:18.306 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-15:22:18.345 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-15:22:21.919 [main] INFO  pages.HomePage - Navigating to Register Page
-15:22:22.814 [main] INFO  pages.RegisterPage - Registering user with leading and trailing spaces
-15:22:24.846 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
-15:22:25.365 [main] INFO  pages.AccountPage - Clicking Edit Account Information
-15:22:25.860 [main] INFO  pages.AccountEditPage - Retrieving First Name value from Edit Account page
-15:22:25.902 [main] INFO  pages.AccountEditPage - Retrieving Last Name value from Edit Account page
-15:22:25.936 [main] INFO  pages.AccountEditPage - Retrieving Email value from Edit Account page
-15:22:25.969 [main] INFO  pages.AccountEditPage - Retrieving Telephone value from Edit Account page
-15:26:20.704 [main] INFO  registertests.RegisterTrimSpacesTest - Starting test on browser: chrome | Headless: false
-15:26:21.033 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-15:26:21.074 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-15:26:24.766 [main] INFO  pages.HomePage - Navigating to Register Page
-15:26:25.718 [main] INFO  pages.RegisterPage - Registering user with leading and trailing spaces
-15:26:27.463 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
-15:27:23.408 [main] INFO  registertests.RegisterTrimSpacesTest - Starting test on browser: chrome | Headless: false
-15:27:23.715 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-15:27:23.755 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-15:27:27.147 [main] INFO  pages.HomePage - Navigating to Register Page
-15:27:28.008 [main] INFO  pages.RegisterPage - Registering user with leading and trailing spaces
-15:27:30.241 [main] INFO  pages.AccountSuccessPage - Validating Account Success page
-15:27:30.767 [main] INFO  pages.AccountPage - Clicking Edit Account Information
-15:27:31.256 [main] INFO  pages.AccountEditPage - Retrieving First Name value from Edit Account page
-15:27:31.298 [main] INFO  pages.AccountEditPage - Retrieving Last Name value from Edit Account page
-15:27:31.355 [main] INFO  pages.AccountEditPage - Retrieving Email value from Edit Account page
-15:27:31.377 [main] INFO  pages.AccountEditPage - Retrieving Telephone value from Edit Account page
-19:52:30.214 [main] INFO  registertests.RegisterWithoutPrivacyPolicyTest - Starting test on browser: chrome | Headless: false
-19:52:31.894 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-19:52:31.948 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-19:52:36.475 [main] INFO  pages.HomePage - Navigating to Register Page
-19:52:37.609 [main] INFO  utils.TestDataUtil - Generated First Name: David
-19:52:37.609 [main] INFO  utils.TestDataUtil - Generated Last Name: Johnson
-19:52:37.609 [main] INFO  utils.TestDataUtil - Generated Email: testuser_20260224195237_806@testmail.com
-19:52:37.609 [main] INFO  utils.TestDataUtil - Generated Phone Number: 1130516425
-19:52:37.609 [main] INFO  utils.TestDataUtil - Generated Strong Password
-19:52:37.609 [main] INFO  pages.RegisterPage - Registering user without selecting Privacy Policy
-19:52:39.818 [main] INFO  registertests.RegisterWithoutPrivacyPolicyTest - Validating Privacy warning
-19:52:39.906 [main] INFO  registertests.RegisterWithoutPrivacyPolicyTest - Test completed successfully...
-20:49:39.570 [main] INFO  registertests.RegisterPasswordVisibilityTest - Starting test on browser: chrome | Headless: false
-20:49:39.965 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-20:49:40.009 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-20:49:43.852 [main] INFO  registertests.RegisterPasswordVisibilityTest - ===== Starting Test: Verify Password Fields Are Hidden =====
-20:49:43.858 [main] INFO  pages.HomePage - Navigating to Register Page
-20:49:44.767 [main] INFO  pages.RegisterPage - Entering password into both fields
-20:49:44.974 [main] INFO  pages.RegisterPage - Validating password fields are hidden
-20:49:44.974 [main] INFO  pages.RegisterPage - Fetching password field type attribute
-20:49:45.010 [main] INFO  pages.RegisterPage - Fetching confirm password field type attribute
-20:49:45.098 [main] INFO  registertests.RegisterPasswordVisibilityTest - ===== Test Completed Successfully =====
-20:51:43.072 [main] INFO  registertests.RegisterPasswordVisibilityTest - Starting test on browser: chrome | Headless: false
-20:51:43.395 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-20:51:43.434 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-20:51:47.097 [main] INFO  registertests.RegisterPasswordVisibilityTest - ===== Starting Test: Verify Password Fields Are Hidden =====
-20:51:47.104 [main] INFO  pages.HomePage - Navigating to Register Page
-20:51:48.023 [main] INFO  pages.RegisterPage - Entering password into both fields
-20:51:48.214 [main] INFO  pages.RegisterPage - Validating password fields are hidden
-20:51:48.214 [main] INFO  pages.RegisterPage - Fetching password field type attribute
-20:51:48.264 [main] INFO  pages.RegisterPage - Fetching confirm password field type attribute
-20:51:48.304 [main] INFO  registertests.RegisterPasswordVisibilityTest - ===== Test Completed Successfully =====
-21:44:33.548 [main] INFO  registertests.RegisterPasswordConfirmValidationTest - Starting test on browser: chrome | Headless: false
-21:44:34.795 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-21:44:34.820 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-21:44:38.578 [main] INFO  pages.HomePage - Navigating to Register Page
-21:44:39.507 [main] INFO  pages.RegisterPage - Executing business flow: Register without Password Confirm
-21:44:41.499 [main] INFO  pages.RegisterPage - Validating Password Confirm warning message is displayed
-21:48:31.831 [main] INFO  registertests.RegisterPasswordConfirmValidationTest - Starting test on browser: chrome | Headless: false
-21:48:32.172 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-21:48:32.205 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-21:48:35.762 [main] INFO  pages.HomePage - Navigating to Register Page
-21:48:36.629 [main] INFO  pages.RegisterPage - Executing business flow: Register without Password Confirm
-21:48:38.128 [main] INFO  pages.RegisterPage - Validating Password Confirm warning message is displayed
-21:53:16.508 [main] INFO  registertests.RegisterPasswordConfirmValidationTest - Starting test on browser: chrome | Headless: false
-21:53:16.839 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-21:53:16.874 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-21:53:20.607 [main] INFO  pages.HomePage - Navigating to Register Page
-21:53:21.487 [main] INFO  pages.RegisterPage - Executing business flow: Register without Password Confirm
-21:53:22.921 [main] INFO  pages.RegisterPage - Validating Password Confirm warning message is displayed
-21:53:23.013 [main] INFO  registertests.RegisterPasswordConfirmValidationTest - ===== TEST COMPLETED SUCCESSFULLY =====
+14:21:11.388 [main] INFO  logintests.LoginWithValidCredentialsTest - Starting test on browser: chrome | Headless: false
+14:21:14.435 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+14:21:14.559 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+14:21:20.248 [main] INFO  pages.HomePage - Navigating to Login Page
+14:21:21.231 [main] INFO  pages.LoginPage - Performing login with valid credentials
+14:21:24.214 [main] INFO  pages.AccountPage - Validating Account page
+14:21:24.290 [main] INFO  logintests.LoginWithValidCredentialsTest - ===== Test Completed Successfully =====
+14:22:51.044 [main] INFO  logintests.LoginWithValidCredentialsTest - Starting test on browser: chrome | Headless: false
+14:22:51.442 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+14:22:51.494 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+14:22:57.079 [main] INFO  pages.HomePage - Navigating to Login Page
+14:22:57.886 [main] INFO  pages.LoginPage - Performing login with valid credentials
+14:23:00.278 [main] INFO  pages.AccountPage - Validating Account page
+14:23:00.372 [main] INFO  logintests.LoginWithValidCredentialsTest - ===== Test Completed Successfully =====
+14:25:20.579 [main] INFO  logintests.LoginWithValidCredentialsTest - Starting test on browser: chrome | Headless: false
+14:25:20.941 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+14:25:20.983 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+14:25:28.011 [main] INFO  pages.HomePage - Navigating to Login Page
+14:25:28.831 [main] INFO  pages.LoginPage - Performing login with valid credentials
+14:25:31.344 [main] INFO  pages.AccountPage - Validating Account page
+14:25:31.420 [main] INFO  logintests.LoginWithValidCredentialsTest - ===== Test Completed Successfully =====
+18:07:37.215 [main] INFO  logintests.LoginWithValidCredentialsTest - Starting test on browser: chrome | Headless: false
+18:07:38.898 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+18:07:38.928 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+18:07:46.256 [main] INFO  pages.HomePage - Navigating to Login Page
+18:07:47.127 [main] INFO  pages.LoginPage - Performing login with valid credentials
+18:07:47.763 [main] INFO  pages.AccountPage - Validating Account page
+18:07:49.707 [main] INFO  logintests.LoginWithValidCredentialsTest - ===== Test Completed Successfully =====
+19:19:12.649 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:19:14.064 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:19:14.085 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:19:18.909 [main] INFO  pages.HomePage - Navigating to Login Page
+19:19:19.625 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:19:20.296 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:19:21.317 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:19:21.497 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:19:21.506 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:19:21.515 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:19:26.203 [main] INFO  pages.HomePage - Navigating to Login Page
+19:19:26.999 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:19:27.647 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:19:28.308 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:19:28.494 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:19:28.504 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:19:28.512 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:19:31.954 [main] INFO  pages.HomePage - Navigating to Login Page
+19:19:32.730 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:19:34.161 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:19:34.241 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:19:34.429 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:19:34.435 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:19:34.443 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:19:36.229 [main] INFO  pages.HomePage - Navigating to Login Page
+19:19:39.181 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:19:40.582 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:19:40.658 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:31:03.213 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:31:03.554 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:31:03.598 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:31:07.329 [main] INFO  pages.HomePage - Navigating to Login Page
+19:31:08.324 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:31:09.356 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:31:09.551 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:31:09.833 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:31:09.842 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:31:09.853 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:31:13.566 [main] INFO  pages.HomePage - Navigating to Login Page
+19:31:14.316 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:31:14.904 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:31:15.379 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:31:15.576 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:31:15.596 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:31:15.645 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:31:19.157 [main] INFO  pages.HomePage - Navigating to Login Page
+19:31:19.923 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:31:21.145 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:31:21.249 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:31:21.462 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:31:21.474 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:31:21.482 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:31:27.786 [main] INFO  pages.HomePage - Navigating to Login Page
+19:31:28.414 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:31:28.981 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:31:29.631 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:37:50.555 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:37:50.931 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:37:51.043 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:37:54.920 [main] INFO  pages.HomePage - Navigating to Login Page
+19:37:55.738 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:37:56.479 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:37:57.424 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:37:57.433 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:37:57.441 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:38:01.434 [main] INFO  pages.HomePage - Navigating to Login Page
+19:38:02.251 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:38:03.499 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:38:04.034 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:38:04.043 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:38:04.054 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:38:08.368 [main] INFO  pages.HomePage - Navigating to Login Page
+19:38:09.015 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:38:10.039 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:38:10.594 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:38:10.605 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:38:10.617 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:38:18.422 [main] INFO  pages.HomePage - Navigating to Login Page
+19:38:19.142 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:38:20.279 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:38:20.385 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+22:37:50.940 [main] INFO  logintests.ForgottenPasswordLinkTest - Starting test on browser: chrome | Headless: false
+22:37:52.374 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+22:37:52.402 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+22:38:01.591 [main] INFO  pages.HomePage - Navigating to Login Page
+22:38:02.406 [main] INFO  pages.LoginPage - Checking if Forgotten Password link is displayed
+22:38:02.466 [main] INFO  pages.LoginPage - Executing business flow: Click Forgotten Password
+22:38:02.990 [main] INFO  pages.ForgottenPasswordPage - Validating Forgotten Password page display
+22:38:03.101 [main] INFO  logintests.ForgottenPasswordLinkTest - ===== Test Completed Successfully =====
+22:38:52.023 [main] INFO  logintests.ForgottenPasswordLinkTest - Starting test on browser: chrome | Headless: false
+22:38:52.379 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+22:38:52.429 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+22:38:56.238 [main] INFO  pages.HomePage - Navigating to Login Page
+22:38:56.941 [main] INFO  pages.LoginPage - Checking if Forgotten Password link is displayed
+22:38:56.996 [main] INFO  pages.LoginPage - Executing business flow: Click Forgotten Password
+22:38:57.467 [main] INFO  pages.ForgottenPasswordPage - Validating Forgotten Password page display
+22:38:57.550 [main] INFO  logintests.ForgottenPasswordLinkTest - ===== Test Completed Successfully =====

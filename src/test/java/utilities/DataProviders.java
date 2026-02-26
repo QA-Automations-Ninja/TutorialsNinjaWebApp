@@ -38,6 +38,18 @@ public class DataProviders {
      }
      
      
+     @DataProvider(name = "invalidLoginData")
+     public Object[][] invalidLoginData() {
+
+         return new Object[][] {
+
+                 {"abc123@gmail.com", "Test123"},            // Invalid + Invalid
+                 {"abc123@gmail.com", "Password123"},         // Invalid + Valid
+                 {"automationninja82@gmail.com", "xyz123"},        // Valid + Invalid
+                 {"", ""}                                        // Blank credentials
+         };
+     }
+     
  }
 
 

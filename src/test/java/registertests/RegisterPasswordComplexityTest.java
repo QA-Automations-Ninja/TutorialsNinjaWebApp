@@ -1,4 +1,4 @@
-package registertests;
+ package registertests;
 
 import base.BaseTest;
 import pages.HomePage;

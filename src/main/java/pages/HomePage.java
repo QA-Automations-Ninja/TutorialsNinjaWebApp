@@ -17,6 +17,7 @@ public class HomePage extends BasePage
      // Capturing Webelements
 	private By myAccountDropdown = By.xpath("//span[text()='My Account']");
     private By registerOption = By.linkText("Register");
+    private By loginOption = By.xpath("//a[normalize-space()='Login']");
 
    
 
@@ -28,6 +29,10 @@ public class HomePage extends BasePage
     public void clickRegister() {
         driver.findElement(registerOption).click();
     }
+    
+    public void clickLogin() {
+    	driver.findElement(loginOption).click();
+    }
 
     // Business Method
     public void navigateToRegisterPage() 
@@ -35,5 +40,12 @@ public class HomePage extends BasePage
         logger.info("Navigating to Register Page");
         clickMyAccount();
         clickRegister();
+    }
+    
+    public void navigateToLoginPage() 
+    {
+        logger.info("Navigating to Login Page");
+        clickMyAccount();
+        clickLogin();
     }
 }

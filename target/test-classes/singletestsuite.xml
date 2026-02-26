@@ -10,6 +10,7 @@
     <test name="Test">
        <parameter name="browser" value="chrome"/>
         <classes>
+                    <!--Registertests-->
            <!--<class name="registertests.RegisterMandatoryFieldsTest"/>-->
             <!--<class name="registertests.RegisterAllFieldsTest"/>-->
            <!--<class name ="registertests.RegisterWithEmptyFieldsTest"/>-->
@@ -23,7 +24,14 @@
             <!--<class name ="registertests.RegisterTrimSpacesTest"/>-->
             <!--<class name ="registertests.RegisterWithoutPrivacyPolicyTest"/>-->
             <!--<class name ="registertests.RegisterPasswordVisibilityTest"/>-->
-            <class name ="registertests.RegisterPasswordConfirmValidationTest"/>
+            <!--<class name ="registertests.RegisterPasswordConfirmValidationTest"/>-->
+            
+            
+                       <!--Logintests-->
+            <!--<class name ="logintests.LoginWithValidCredentialsTest"/>-->
+            <!--<class name ="logintests.LoginWithInvalidCredentialsTest"/>-->
+            <class name ="logintests.ForgottenPasswordLinkTest"/>
+            
         </classes>
     </test>
 
