@@ -2,35 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-25T22:39:20 EST" name="Parallel Cross Browser Suite" finished-at="2026-02-25T22:40:10 EST" duration-ms="49875">
+  <suite started-at="2026-02-26T00:49:42 EST" name="Parallel Cross Browser Suite" finished-at="2026-02-26T00:50:14 EST" duration-ms="32012">
     <groups>
     </groups>
-    <test started-at="2026-02-25T22:39:20 EST" name="Firefox Test" finished-at="2026-02-25T22:39:39 EST" duration-ms="18925">
-      <class name="logintests.ForgottenPasswordLinkTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logintests.ForgottenPasswordLinkTest@5d0bf09b]" started-at="2026-02-25T22:39:21 EST" name="setUp" finished-at="2026-02-25T22:39:35 EST" duration-ms="14266" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyForgottenPasswordLinkIsClickable()[pri:0, instance:logintests.ForgottenPasswordLinkTest@5d0bf09b]" started-at="2026-02-25T22:39:35 EST" name="verifyForgottenPasswordLinkIsClickable" finished-at="2026-02-25T22:39:37 EST" duration-ms="1710" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgottenPasswordLinkIsClickable -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintests.ForgottenPasswordLinkTest@5d0bf09b]" started-at="2026-02-25T22:39:37 EST" name="tearDown" finished-at="2026-02-25T22:39:39 EST" duration-ms="2556" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- logintests.ForgottenPasswordLinkTest -->
-    </test> <!-- Firefox Test -->
-    <test started-at="2026-02-25T22:39:20 EST" name="Chrome Test" finished-at="2026-02-25T22:40:07 EST" duration-ms="46778">
-      <class name="logintests.ForgottenPasswordLinkTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logintests.ForgottenPasswordLinkTest@4efac082]" started-at="2026-02-25T22:39:21 EST" name="setUp" finished-at="2026-02-25T22:40:02 EST" duration-ms="41922" status="PASS">
+    <test started-at="2026-02-26T00:49:42 EST" name="Chrome Test" finished-at="2026-02-26T00:49:56 EST" duration-ms="14364">
+      <class name="logintests.LogoutBackNavigationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logintests.LogoutBackNavigationTest@4efac082]" started-at="2026-02-26T00:49:42 EST" name="setUp" finished-at="2026-02-26T00:49:48 EST" duration-ms="6172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyForgottenPasswordLinkIsClickable()[pri:0, instance:logintests.ForgottenPasswordLinkTest@4efac082]" started-at="2026-02-25T22:40:02 EST" name="verifyForgottenPasswordLinkIsClickable" finished-at="2026-02-25T22:40:07 EST" duration-ms="4246" status="PASS">
+        <test-method signature="verifyLogoutAndBrowserBackNavigation()[pri:0, instance:logintests.LogoutBackNavigationTest@4efac082]" started-at="2026-02-26T00:49:48 EST" name="verifyLogoutAndBrowserBackNavigation" finished-at="2026-02-26T00:49:56 EST" duration-ms="7542" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyForgottenPasswordLinkIsClickable -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintests.ForgottenPasswordLinkTest@4efac082]" started-at="2026-02-25T22:40:07 EST" name="tearDown" finished-at="2026-02-25T22:40:07 EST" duration-ms="252" status="PASS">
+        </test-method> <!-- verifyLogoutAndBrowserBackNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintests.LogoutBackNavigationTest@4efac082]" started-at="2026-02-26T00:49:56 EST" name="tearDown" finished-at="2026-02-26T00:49:56 EST" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- logintests.ForgottenPasswordLinkTest -->
+      </class> <!-- logintests.LogoutBackNavigationTest -->
     </test> <!-- Chrome Test -->
-    <test started-at="2026-02-25T22:39:20 EST" name="Edge Test" finished-at="2026-02-25T22:40:10 EST" duration-ms="49875">
-      <class name="logintests.ForgottenPasswordLinkTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logintests.ForgottenPasswordLinkTest@2af004b]" started-at="2026-02-25T22:39:21 EST" name="setUp" finished-at="2026-02-25T22:40:07 EST" duration-ms="46317" status="PASS">
+    <test started-at="2026-02-26T00:49:42 EST" name="Edge Test" finished-at="2026-02-26T00:49:56 EST" duration-ms="14101">
+      <class name="logintests.LogoutBackNavigationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logintests.LogoutBackNavigationTest@2af004b]" started-at="2026-02-26T00:49:42 EST" name="setUp" finished-at="2026-02-26T00:49:50 EST" duration-ms="7703" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,15 +41,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyForgottenPasswordLinkIsClickable()[pri:0, instance:logintests.ForgottenPasswordLinkTest@2af004b]" started-at="2026-02-25T22:40:07 EST" name="verifyForgottenPasswordLinkIsClickable" finished-at="2026-02-25T22:40:10 EST" duration-ms="2837" status="PASS">
+        <test-method signature="verifyLogoutAndBrowserBackNavigation()[pri:0, instance:logintests.LogoutBackNavigationTest@2af004b]" started-at="2026-02-26T00:49:50 EST" name="verifyLogoutAndBrowserBackNavigation" finished-at="2026-02-26T00:49:55 EST" duration-ms="5725" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyForgottenPasswordLinkIsClickable -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintests.ForgottenPasswordLinkTest@2af004b]" started-at="2026-02-25T22:40:10 EST" name="tearDown" finished-at="2026-02-25T22:40:10 EST" duration-ms="369" status="PASS">
+        </test-method> <!-- verifyLogoutAndBrowserBackNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintests.LogoutBackNavigationTest@2af004b]" started-at="2026-02-26T00:49:55 EST" name="tearDown" finished-at="2026-02-26T00:49:56 EST" duration-ms="405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- logintests.ForgottenPasswordLinkTest -->
+      </class> <!-- logintests.LogoutBackNavigationTest -->
     </test> <!-- Edge Test -->
+    <test started-at="2026-02-26T00:49:42 EST" name="Firefox Test" finished-at="2026-02-26T00:50:14 EST" duration-ms="32012">
+      <class name="logintests.LogoutBackNavigationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logintests.LogoutBackNavigationTest@5d0bf09b]" started-at="2026-02-26T00:49:42 EST" name="setUp" finished-at="2026-02-26T00:50:01 EST" duration-ms="19432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutAndBrowserBackNavigation()[pri:0, instance:logintests.LogoutBackNavigationTest@5d0bf09b]" started-at="2026-02-26T00:50:01 EST" name="verifyLogoutAndBrowserBackNavigation" finished-at="2026-02-26T00:50:12 EST" duration-ms="10918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutAndBrowserBackNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintests.LogoutBackNavigationTest@5d0bf09b]" started-at="2026-02-26T00:50:12 EST" name="tearDown" finished-at="2026-02-26T00:50:14 EST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- logintests.LogoutBackNavigationTest -->
+    </test> <!-- Firefox Test -->
   </suite> <!-- Parallel Cross Browser Suite -->
 </testng-results>

@@ -4,40 +4,16 @@
   <listeners>
     <listener class-name="utilities.ExtentTestListener"/>
   </listeners>
-  <test thread-count="3" parallel="tests" name="Edge Test(failed)">
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="logintests.LoginWithInvalidCredentialsTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifyLoginWithInvalidCredentials" invocation-numbers="1"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- logintests.LoginWithInvalidCredentialsTest -->
-    </classes>
-  </test> <!-- Edge Test(failed) -->
-  <test thread-count="3" parallel="tests" name="Chrome Test(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="logintests.LoginWithInvalidCredentialsTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifyLoginWithInvalidCredentials" invocation-numbers="1"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- logintests.LoginWithInvalidCredentialsTest -->
-    </classes>
-  </test> <!-- Chrome Test(failed) -->
   <test thread-count="3" parallel="tests" name="Firefox Test(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="logintests.LoginWithInvalidCredentialsTest">
+      <class name="logintests.LoginBackNavigationTest">
         <methods>
           <include name="setUp"/>
-          <include name="verifyLoginWithInvalidCredentials" invocation-numbers="0 1"/>
           <include name="tearDown"/>
+          <include name="verifyLoginAndBrowserBackNavigation"/>
         </methods>
-      </class> <!-- logintests.LoginWithInvalidCredentialsTest -->
+      </class> <!-- logintests.LoginBackNavigationTest -->
     </classes>
   </test> <!-- Firefox Test(failed) -->
 </suite> <!-- Failed suite [Parallel Cross Browser Suite] -->

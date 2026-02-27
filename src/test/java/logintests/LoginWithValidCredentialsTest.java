@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
+import config.ConfigReader;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.AccountPage;
@@ -18,10 +19,15 @@ public class LoginWithValidCredentialsTest extends BaseTest {
         AccountPage accountPage = new AccountPage(getDriver());
 
         homePage.navigateToLoginPage();
+        
+     // Fetch credentials from config file
+        String email = ConfigReader.get("email");
+        String password = ConfigReader.get("password");
+
 
         loginPage.loginWithValidCredentials(
-                "automationninja82@gmail.com",
-                "Password123"
+        		email, 
+        		password
         );
 
         Assert.assertTrue(accountPage.isUserOnAccountPage(),

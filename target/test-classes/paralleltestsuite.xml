@@ -33,7 +33,9 @@
                               <!--Logintests-->
                    <!--<class name ="logintests.LoginWithValidCredentialsTest"/>-->
                    <!--<class name ="logintests.LoginWithInvalidCredentialsTest"/>-->
-                   <class name ="logintests.ForgottenPasswordLinkTest"/>
+                   <!--<class name ="logintests.ForgottenPasswordLinkTest"/>-->
+                   <!--<class name ="logintests.LoginBackNavigationTest"/>-->
+                      <class name ="logintests.LogoutBackNavigationTest"/>
         </classes>
     </test>
 
@@ -63,7 +65,9 @@
                             <!--Logintests-->
                    <!--<class name ="logintests.LoginWithValidCredentialsTest"/>-->
                    <!--<class name ="logintests.LoginWithInvalidCredentialsTest"/>-->
-                   <class name ="logintests.ForgottenPasswordLinkTest"/>
+                   <!--<class name ="logintests.ForgottenPasswordLinkTest"/>-->
+                   <!--<class name ="logintests.LoginBackNavigationTest"/>-->
+                      <class name ="logintests.LogoutBackNavigationTest"/>
         </classes>
     </test>
 
@@ -92,7 +96,9 @@
                            <!--Logintests-->
                    <!--class name ="logintests.LoginWithValidCredentialsTest"/>-->
                    <!--<class name ="logintests.LoginWithInvalidCredentialsTest"/>-->
-                   <class name ="logintests.ForgottenPasswordLinkTest"/>
+                   <!--<class name ="logintests.ForgottenPasswordLinkTest"/>-->
+                   <!--<class name ="logintests.LoginBackNavigationTest"/>-->
+                      <class name ="logintests.LogoutBackNavigationTest"/>
         </classes>
     </test>
 

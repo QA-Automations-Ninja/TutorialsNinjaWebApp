@@ -1,0 +1,163 @@
+14:21:11.388 [main] INFO  logintests.LoginWithValidCredentialsTest - Starting test on browser: chrome | Headless: false
+14:21:14.435 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+14:21:14.559 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+14:21:20.248 [main] INFO  pages.HomePage - Navigating to Login Page
+14:21:21.231 [main] INFO  pages.LoginPage - Performing login with valid credentials
+14:21:24.214 [main] INFO  pages.AccountPage - Validating Account page
+14:21:24.290 [main] INFO  logintests.LoginWithValidCredentialsTest - ===== Test Completed Successfully =====
+14:22:51.044 [main] INFO  logintests.LoginWithValidCredentialsTest - Starting test on browser: chrome | Headless: false
+14:22:51.442 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+14:22:51.494 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+14:22:57.079 [main] INFO  pages.HomePage - Navigating to Login Page
+14:22:57.886 [main] INFO  pages.LoginPage - Performing login with valid credentials
+14:23:00.278 [main] INFO  pages.AccountPage - Validating Account page
+14:23:00.372 [main] INFO  logintests.LoginWithValidCredentialsTest - ===== Test Completed Successfully =====
+14:25:20.579 [main] INFO  logintests.LoginWithValidCredentialsTest - Starting test on browser: chrome | Headless: false
+14:25:20.941 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+14:25:20.983 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+14:25:28.011 [main] INFO  pages.HomePage - Navigating to Login Page
+14:25:28.831 [main] INFO  pages.LoginPage - Performing login with valid credentials
+14:25:31.344 [main] INFO  pages.AccountPage - Validating Account page
+14:25:31.420 [main] INFO  logintests.LoginWithValidCredentialsTest - ===== Test Completed Successfully =====
+18:07:37.215 [main] INFO  logintests.LoginWithValidCredentialsTest - Starting test on browser: chrome | Headless: false
+18:07:38.898 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+18:07:38.928 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+18:07:46.256 [main] INFO  pages.HomePage - Navigating to Login Page
+18:07:47.127 [main] INFO  pages.LoginPage - Performing login with valid credentials
+18:07:47.763 [main] INFO  pages.AccountPage - Validating Account page
+18:07:49.707 [main] INFO  logintests.LoginWithValidCredentialsTest - ===== Test Completed Successfully =====
+19:19:12.649 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:19:14.064 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:19:14.085 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:19:18.909 [main] INFO  pages.HomePage - Navigating to Login Page
+19:19:19.625 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:19:20.296 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:19:21.317 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:19:21.497 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:19:21.506 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:19:21.515 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:19:26.203 [main] INFO  pages.HomePage - Navigating to Login Page
+19:19:26.999 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:19:27.647 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:19:28.308 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:19:28.494 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:19:28.504 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:19:28.512 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:19:31.954 [main] INFO  pages.HomePage - Navigating to Login Page
+19:19:32.730 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:19:34.161 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:19:34.241 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:19:34.429 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:19:34.435 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:19:34.443 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:19:36.229 [main] INFO  pages.HomePage - Navigating to Login Page
+19:19:39.181 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:19:40.582 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:19:40.658 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:31:03.213 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:31:03.554 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:31:03.598 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:31:07.329 [main] INFO  pages.HomePage - Navigating to Login Page
+19:31:08.324 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:31:09.356 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:31:09.551 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:31:09.833 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:31:09.842 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:31:09.853 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:31:13.566 [main] INFO  pages.HomePage - Navigating to Login Page
+19:31:14.316 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:31:14.904 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:31:15.379 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:31:15.576 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:31:15.596 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:31:15.645 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:31:19.157 [main] INFO  pages.HomePage - Navigating to Login Page
+19:31:19.923 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:31:21.145 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:31:21.249 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:31:21.462 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:31:21.474 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:31:21.482 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:31:27.786 [main] INFO  pages.HomePage - Navigating to Login Page
+19:31:28.414 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:31:28.981 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:31:29.631 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+19:37:50.555 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:37:50.931 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:37:51.043 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:37:54.920 [main] INFO  pages.HomePage - Navigating to Login Page
+19:37:55.738 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:37:56.479 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:37:57.424 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:37:57.433 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:37:57.441 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:38:01.434 [main] INFO  pages.HomePage - Navigating to Login Page
+19:38:02.251 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:38:03.499 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:38:04.034 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:38:04.043 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:38:04.054 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:38:08.368 [main] INFO  pages.HomePage - Navigating to Login Page
+19:38:09.015 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:38:10.039 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:38:10.594 [main] INFO  logintests.LoginWithInvalidCredentialsTest - Starting test on browser: chrome | Headless: false
+19:38:10.605 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:38:10.617 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:38:18.422 [main] INFO  pages.HomePage - Navigating to Login Page
+19:38:19.142 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+19:38:20.279 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+19:38:20.385 [main] INFO  logintests.LoginWithInvalidCredentialsTest - ===== Negative Login Test Completed =====
+22:37:50.940 [main] INFO  logintests.ForgottenPasswordLinkTest - Starting test on browser: chrome | Headless: false
+22:37:52.374 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+22:37:52.402 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+22:38:01.591 [main] INFO  pages.HomePage - Navigating to Login Page
+22:38:02.406 [main] INFO  pages.LoginPage - Checking if Forgotten Password link is displayed
+22:38:02.466 [main] INFO  pages.LoginPage - Executing business flow: Click Forgotten Password
+22:38:02.990 [main] INFO  pages.ForgottenPasswordPage - Validating Forgotten Password page display
+22:38:03.101 [main] INFO  logintests.ForgottenPasswordLinkTest - ===== Test Completed Successfully =====
+22:38:52.023 [main] INFO  logintests.ForgottenPasswordLinkTest - Starting test on browser: chrome | Headless: false
+22:38:52.379 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+22:38:52.429 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+22:38:56.238 [main] INFO  pages.HomePage - Navigating to Login Page
+22:38:56.941 [main] INFO  pages.LoginPage - Checking if Forgotten Password link is displayed
+22:38:56.996 [main] INFO  pages.LoginPage - Executing business flow: Click Forgotten Password
+22:38:57.467 [main] INFO  pages.ForgottenPasswordPage - Validating Forgotten Password page display
+22:38:57.550 [main] INFO  logintests.ForgottenPasswordLinkTest - ===== Test Completed Successfully =====
+23:27:16.834 [main] INFO  logintests.LoginBackNavigationTest - Starting test on browser: chrome | Headless: false
+23:27:17.370 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+23:27:17.436 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+23:28:19.386 [main] INFO  pages.HomePage - Navigating to Login Page
+23:28:21.426 [main] INFO  pages.LoginPage - Performing login with valid credentials
+23:28:23.384 [main] INFO  pages.AccountPage - Validating Account page
+23:28:23.443 [main] INFO  pages.AccountPage - Navigating back using browser back button
+23:28:23.474 [main] INFO  pages.LoginPage - Validating Login page is displayed
+23:28:23.509 [main] INFO  logintests.LoginBackNavigationTest - ===== Test Completed Successfully =====
+23:29:16.517 [main] INFO  logintests.LoginBackNavigationTest - Starting test on browser: chrome | Headless: false
+23:29:16.847 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+23:29:16.889 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+23:29:20.574 [main] INFO  pages.HomePage - Navigating to Login Page
+23:29:21.180 [main] INFO  pages.LoginPage - Performing login with valid credentials
+23:29:21.578 [main] INFO  pages.AccountPage - Validating Account page
+23:29:23.049 [main] INFO  pages.AccountPage - Navigating back using browser back button
+23:29:23.084 [main] INFO  pages.LoginPage - Validating Login page is displayed
+23:29:23.118 [main] INFO  logintests.LoginBackNavigationTest - ===== Test Completed Successfully =====
+23:55:17.178 [main] INFO  logintests.LoginWithValidCredentialsTest - Starting test on browser: chrome | Headless: false
+23:55:18.290 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+23:55:18.307 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+23:55:22.080 [main] INFO  pages.HomePage - Navigating to Login Page
+23:55:22.680 [main] INFO  pages.LoginPage - Performing login with valid credentials
+23:55:24.566 [main] INFO  pages.AccountPage - Validating Account page
+23:55:24.639 [main] INFO  logintests.LoginWithValidCredentialsTest - ===== Test Completed Successfully =====
+23:55:54.377 [main] INFO  logintests.LoginWithValidCredentialsTest - Starting test on browser: chrome | Headless: false
+23:55:54.714 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+23:55:54.752 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+23:56:00.810 [main] INFO  pages.HomePage - Navigating to Login Page
+23:56:01.365 [main] INFO  pages.LoginPage - Performing login with valid credentials
+23:56:01.830 [main] INFO  pages.AccountPage - Validating Account page
+23:56:03.362 [main] INFO  logintests.LoginWithValidCredentialsTest - ===== Test Completed Successfully =====
+23:59:53.796 [main] INFO  logintests.LoginBackNavigationTest - Starting test on browser: chrome | Headless: false
+23:59:54.102 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+23:59:54.147 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+23:59:58.777 [main] INFO  pages.HomePage - Navigating to Login Page
+23:59:59.389 [main] INFO  pages.LoginPage - Performing login with valid credentials
+23:59:59.792 [main] INFO  pages.AccountPage - Validating Account page

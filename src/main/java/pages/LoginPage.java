@@ -16,7 +16,7 @@ public class LoginPage extends BasePage {
     private By loginButton = By.xpath("//input[@value='Login']");
     private By warningMessage = By.xpath("//div[contains(@class,'alert-danger')]");
     private By forgottenPasswordLink = By.xpath("//div[@class='form-group']//a[normalize-space()='Forgotten Password']");
-
+    private By loginHeading = By.xpath("//h2[normalize-space()='Returning Customer']");
 
     // Page Actions
     public void enterEmail(String email) {
@@ -71,6 +71,11 @@ public class LoginPage extends BasePage {
     public boolean isForgottenPasswordLinkDisplayed() {
         logger.info("Checking if Forgotten Password link is displayed");
         return driver.findElement(forgottenPasswordLink).isDisplayed();
+    }
+    
+    public boolean isLoginPageDisplayed() {
+        logger.info("Validating Login page is displayed");
+        return driver.findElement(loginHeading).isDisplayed();
     }
     
     
