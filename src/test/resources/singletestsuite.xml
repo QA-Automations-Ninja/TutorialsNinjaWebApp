@@ -32,7 +32,11 @@
             <!--<class name ="logintests.LoginWithInvalidCredentialsTest"/>-->
             <!--<class name ="logintests.ForgottenPasswordLinkTest"/>-->
             <!--<class name ="logintests.LoginBackNavigationTest"/>-->
-            <class name ="logintests.LogoutBackNavigationTest"/>
+            <!--<class name ="logintests.LogoutBackNavigationTest"/>-->
+            <!--<class name ="logintests.LoginAttemptsTest"/>-->
+            <!--<class name ="logintests.LoginPasswordMaskTest"/>-->
+            <class name ="logintests.PasswordFieldTypeTest"/>
+            
             
             
         </classes>

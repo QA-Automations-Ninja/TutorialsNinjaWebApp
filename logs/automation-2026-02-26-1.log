@@ -1,0 +1,40 @@
+00:00:01.301 [main] INFO  pages.AccountPage - Navigating back using browser back button
+00:00:01.335 [main] INFO  pages.LoginPage - Validating Login page is displayed
+00:00:01.384 [main] INFO  logintests.LoginBackNavigationTest - ===== Test Completed Successfully =====
+00:00:21.099 [main] INFO  logintests.LoginBackNavigationTest - Starting test on browser: chrome | Headless: false
+00:00:21.428 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+00:00:21.471 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+00:00:25.694 [main] INFO  pages.HomePage - Navigating to Login Page
+00:00:26.462 [main] INFO  pages.LoginPage - Performing login with valid credentials
+00:00:28.459 [main] INFO  pages.AccountPage - Validating Account page
+00:00:28.535 [main] INFO  pages.AccountPage - Navigating back using browser back button
+00:00:28.558 [main] INFO  pages.LoginPage - Validating Login page is displayed
+00:00:28.584 [main] INFO  logintests.LoginBackNavigationTest - ===== Test Completed Successfully =====
+00:47:53.067 [main] INFO  logintests.LogoutBackNavigationTest - Starting test on browser: chrome | Headless: false
+00:47:53.428 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+00:47:53.469 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+00:47:57.723 [main] INFO  logintests.LogoutBackNavigationTest - Starting Test: Logout and Back Navigation
+00:47:57.731 [main] INFO  pages.HomePage - Navigating to Login Page
+00:47:58.366 [main] INFO  pages.LoginPage - Performing login with valid credentials
+00:47:58.846 [main] INFO  pages.AccountPage - Validating Account page
+00:48:00.219 [main] INFO  pages.AccountPage - Clicking my account dropdown menu
+00:48:00.302 [main] INFO  pages.AccountPage - Clicking on logout link
+00:48:01.042 [main] INFO  pages.LogoutPage - Validating Logout is successful
+00:48:01.077 [main] INFO  pages.AccountPage - Navigating back using browser back button
+00:48:01.102 [main] INFO  pages.AccountPage - Clicking Edit Account Information
+00:48:01.859 [main] INFO  pages.LoginPage - Validating Login page is displayed
+00:48:01.888 [main] INFO  logintests.LogoutBackNavigationTest - Test Completed Successfully
+00:49:16.023 [main] INFO  logintests.LogoutBackNavigationTest - Starting test on browser: chrome | Headless: false
+00:49:16.340 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+00:49:16.389 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+00:49:23.704 [main] INFO  logintests.LogoutBackNavigationTest - Starting Test: Logout and Back Navigation
+00:49:23.712 [main] INFO  pages.HomePage - Navigating to Login Page
+00:49:24.306 [main] INFO  pages.LoginPage - Performing login with valid credentials
+00:49:26.098 [main] INFO  pages.AccountPage - Validating Account page
+00:49:26.154 [main] INFO  pages.AccountPage - Clicking my account dropdown menu
+00:49:26.260 [main] INFO  pages.AccountPage - Clicking on logout link
+00:49:27.092 [main] INFO  pages.LogoutPage - Validating Logout is successful
+00:49:27.129 [main] INFO  pages.AccountPage - Navigating back using browser back button
+00:49:27.159 [main] INFO  pages.AccountPage - Clicking Edit Account Information
+00:49:27.933 [main] INFO  pages.LoginPage - Validating Login page is displayed
+00:49:27.962 [main] INFO  logintests.LogoutBackNavigationTest - Test Completed Successfully

@@ -2,6 +2,7 @@ package base;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class BasePage {
@@ -18,5 +19,14 @@ public class BasePage {
         this.driver = driver;
         this.logger = LogManager.getLogger(this.getClass());
     }
+    
+    
+    protected String getAttribute(By locator, String attribute) {
+        logger.info("Getting attribute '" + attribute + "' from element: " + locator);
+        return driver.findElement(locator).getAttribute(attribute);
+    }
+    
+    
+    
 }
 

@@ -1,40 +1,57 @@
-00:00:01.301 [main] INFO  pages.AccountPage - Navigating back using browser back button
-00:00:01.335 [main] INFO  pages.LoginPage - Validating Login page is displayed
-00:00:01.384 [main] INFO  logintests.LoginBackNavigationTest - ===== Test Completed Successfully =====
-00:00:21.099 [main] INFO  logintests.LoginBackNavigationTest - Starting test on browser: chrome | Headless: false
-00:00:21.428 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-00:00:21.471 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-00:00:25.694 [main] INFO  pages.HomePage - Navigating to Login Page
-00:00:26.462 [main] INFO  pages.LoginPage - Performing login with valid credentials
-00:00:28.459 [main] INFO  pages.AccountPage - Validating Account page
-00:00:28.535 [main] INFO  pages.AccountPage - Navigating back using browser back button
-00:00:28.558 [main] INFO  pages.LoginPage - Validating Login page is displayed
-00:00:28.584 [main] INFO  logintests.LoginBackNavigationTest - ===== Test Completed Successfully =====
-00:47:53.067 [main] INFO  logintests.LogoutBackNavigationTest - Starting test on browser: chrome | Headless: false
-00:47:53.428 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-00:47:53.469 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-00:47:57.723 [main] INFO  logintests.LogoutBackNavigationTest - Starting Test: Logout and Back Navigation
-00:47:57.731 [main] INFO  pages.HomePage - Navigating to Login Page
-00:47:58.366 [main] INFO  pages.LoginPage - Performing login with valid credentials
-00:47:58.846 [main] INFO  pages.AccountPage - Validating Account page
-00:48:00.219 [main] INFO  pages.AccountPage - Clicking my account dropdown menu
-00:48:00.302 [main] INFO  pages.AccountPage - Clicking on logout link
-00:48:01.042 [main] INFO  pages.LogoutPage - Validating Logout is successful
-00:48:01.077 [main] INFO  pages.AccountPage - Navigating back using browser back button
-00:48:01.102 [main] INFO  pages.AccountPage - Clicking Edit Account Information
-00:48:01.859 [main] INFO  pages.LoginPage - Validating Login page is displayed
-00:48:01.888 [main] INFO  logintests.LogoutBackNavigationTest - Test Completed Successfully
-00:49:16.023 [main] INFO  logintests.LogoutBackNavigationTest - Starting test on browser: chrome | Headless: false
-00:49:16.340 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-00:49:16.389 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-00:49:23.704 [main] INFO  logintests.LogoutBackNavigationTest - Starting Test: Logout and Back Navigation
-00:49:23.712 [main] INFO  pages.HomePage - Navigating to Login Page
-00:49:24.306 [main] INFO  pages.LoginPage - Performing login with valid credentials
-00:49:26.098 [main] INFO  pages.AccountPage - Validating Account page
-00:49:26.154 [main] INFO  pages.AccountPage - Clicking my account dropdown menu
-00:49:26.260 [main] INFO  pages.AccountPage - Clicking on logout link
-00:49:27.092 [main] INFO  pages.LogoutPage - Validating Logout is successful
-00:49:27.129 [main] INFO  pages.AccountPage - Navigating back using browser back button
-00:49:27.159 [main] INFO  pages.AccountPage - Clicking Edit Account Information
-00:49:27.933 [main] INFO  pages.LoginPage - Validating Login page is displayed
-00:49:27.962 [main] INFO  logintests.LogoutBackNavigationTest - Test Completed Successfully
+02:45:51.803 [main] INFO  logintests.LoginAttemptsTest - Starting test on browser: chrome | Headless: false
+02:45:53.788 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+02:45:53.832 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+02:45:57.626 [main] INFO  pages.HomePage - Navigating to Login Page
+02:45:58.263 [main] INFO  pages.LoginPage - Attempting login 6 times
+02:45:58.264 [main] INFO  pages.LoginPage - Login attempt number: 1
+02:45:58.265 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:45:59.893 [main] INFO  pages.LoginPage - Login attempt number: 2
+02:45:59.893 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:46:00.318 [main] INFO  pages.LoginPage - Login attempt number: 3
+02:46:00.318 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:46:01.107 [main] INFO  pages.LoginPage - Login attempt number: 4
+02:46:01.107 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:46:01.818 [main] INFO  pages.LoginPage - Login attempt number: 5
+02:46:01.818 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:46:02.977 [main] INFO  pages.LoginPage - Login attempt number: 6
+02:46:02.978 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:46:03.385 [main] INFO  pages.LoginPage - Checking if Account Locked Warning Message is displayed
+03:11:45.906 [main] INFO  logintests.LoginAttemptsTest - Starting test on browser: chrome | Headless: false
+03:11:46.265 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+03:11:46.312 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+03:11:51.375 [main] INFO  logintests.LoginAttemptsTest - Test Started: Verify number of unsuccessful login attempts
+03:11:51.378 [main] INFO  pages.HomePage - Navigating to Login Page
+03:11:52.141 [main] INFO  pages.LoginPage - Attempting login 6 times
+03:11:52.141 [main] INFO  pages.LoginPage - Login attempt number: 1
+03:11:52.142 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+03:11:52.636 [main] INFO  pages.LoginPage - Login attempt number: 2
+03:11:52.637 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+03:11:53.993 [main] INFO  pages.LoginPage - Login attempt number: 3
+03:11:53.994 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+03:11:55.329 [main] INFO  pages.LoginPage - Login attempt number: 4
+03:11:55.329 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+03:11:55.746 [main] INFO  pages.LoginPage - Login attempt number: 5
+03:11:55.746 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+03:11:58.199 [main] INFO  pages.LoginPage - Login attempt number: 6
+03:11:58.200 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+03:11:58.679 [main] INFO  pages.LoginPage - Checking if Account Locked Warning Message is displayed
+03:11:59.259 [main] INFO  logintests.LoginAttemptsTest - Test Completed Successfully
+04:21:14.528 [main] INFO  logintests.LoginPasswordMaskTest - Starting test on browser: chrome | Headless: false
+04:21:14.895 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+04:21:14.937 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+04:21:20.397 [main] INFO  logintests.LoginPasswordMaskTest - Test Started: Verify Password Field Masking
+04:21:20.402 [main] INFO  pages.HomePage - Navigating to Login Page
+04:21:21.236 [main] INFO  pages.LoginPage - Enter password and validate masking
+04:21:21.511 [main] INFO  pages.LoginPage - Validating password field type attribute
+04:21:21.511 [main] INFO  pages.LoginPage - Getting attribute 'type' from element: By.id: input-password
+04:21:21.559 [main] INFO  logintests.LoginPasswordMaskTest - Test Completed Successfully
+23:15:57.863 [main] INFO  logintests.PasswordFieldTypeTest - Starting test on browser: chrome | Headless: false
+23:15:59.205 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+23:15:59.229 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+23:16:03.264 [main] INFO  logintests.PasswordFieldTypeTest - START TEST: Verify Password Field Type is 'password' with Right-Click
+23:16:03.268 [main] INFO  pages.HomePage - Navigating to Login Page
+23:16:03.890 [main] INFO  pages.LoginPage - Executing business flow: Right-click + validate password field type
+23:16:03.890 [main] INFO  pages.LoginPage - Simulating right-click on password field
+23:16:04.091 [main] INFO  pages.LoginPage - Validating password field type attribute
+23:16:04.132 [main] INFO  pages.LoginPage - Password field type attribute = password
+23:16:04.135 [main] INFO  logintests.PasswordFieldTypeTest - END TEST: Verify Password Field Type is 'password' with Right-Click

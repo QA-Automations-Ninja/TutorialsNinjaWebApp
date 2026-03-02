@@ -1,8 +1,11 @@
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\ForgottenPasswordLinkTest.java
+C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\LoginAttemptsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\LoginBackNavigationTest.java
+C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\LoginPasswordMaskTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\LoginWithInvalidCredentialsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\LoginWithValidCredentialsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\LogoutBackNavigationTest.java
+C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\PasswordFieldTypeTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterAllFieldsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterInvalidEmailTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterInvalidPhoneNumberTest.java
