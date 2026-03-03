@@ -18,6 +18,7 @@ public class HomePage extends BasePage
 	private By myAccountDropdown = By.xpath("//span[text()='My Account']");
     private By registerOption = By.linkText("Register");
     private By loginOption = By.xpath("//a[normalize-space()='Login']");
+    private By homePageLogo = By.xpath("//div[@id='logo']/h1/a");
 
    
 
@@ -47,5 +48,13 @@ public class HomePage extends BasePage
         logger.info("Navigating to Login Page");
         clickMyAccount();
         clickLogin();
+    }
+    
+    
+    // Validation
+    
+    public boolean isHomePageDisplayed() {
+        logger.info("Verify user is taken to the homepage");
+        return driver.findElement(homePageLogo).isDisplayed();
     }
 }

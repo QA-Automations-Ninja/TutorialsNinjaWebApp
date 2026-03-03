@@ -1,0 +1,49 @@
+20:43:16.286 [main] INFO  logintests.LoginAfterPasswordChangeTest - Starting test on browser: chrome | Headless: false
+20:43:19.264 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:43:19.366 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:43:23.616 [main] INFO  logintests.LoginAfterPasswordChangeTest - ===== TEST STARTED =====
+20:43:23.630 [main] INFO  pages.HomePage - Navigating to Login Page
+20:43:24.425 [main] INFO  pages.LoginPage - Performing login with valid credentials
+20:43:25.082 [main] INFO  pages.AccountPage - Clicking Change Password link
+20:43:27.309 [main] INFO  pages.ChangePasswordPage - Business Flow: Change Password
+20:43:27.309 [main] INFO  pages.ChangePasswordPage - Entering New Password
+20:43:27.702 [main] INFO  pages.ChangePasswordPage - Clicking Continue button
+20:43:29.532 [main] INFO  pages.ChangePasswordPage - Validating password change success message
+20:43:29.567 [main] INFO  pages.AccountPage - Log out from the account
+20:43:29.567 [main] INFO  pages.AccountPage - Clicking my account dropdown menu
+20:43:29.715 [main] INFO  pages.AccountPage - Clicking on logout link
+20:43:30.525 [main] INFO  pages.LogoutPage - Clicking continue button
+20:43:31.082 [main] INFO  pages.HomePage - Navigating to Login Page
+20:43:31.725 [main] INFO  pages.LoginPage - Performing login with valid credentials
+20:43:33.350 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+20:43:33.527 [main] INFO  pages.LoginPage - Performing login with valid credentials
+20:43:34.222 [main] INFO  pages.AccountPage - Validating Account page
+20:43:35.149 [main] INFO  logintests.LoginAfterPasswordChangeTest - ===== TEST COMPLETED SUCCESSFULLY =====
+20:45:58.680 [main] INFO  logintests.LoginAfterPasswordChangeTest - Starting test on browser: chrome | Headless: false
+20:45:59.164 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:45:59.235 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:46:03.223 [main] INFO  logintests.LoginAfterPasswordChangeTest - ===== TEST STARTED =====
+20:46:03.239 [main] INFO  pages.HomePage - Navigating to Login Page
+20:46:04.091 [main] INFO  pages.LoginPage - Performing login with valid credentials
+20:46:04.991 [main] INFO  pages.AccountPage - Clicking Change Password link
+20:48:07.821 [main] INFO  logintests.LoginAfterPasswordChangeTest - Starting test on browser: chrome | Headless: false
+20:48:08.212 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:48:08.266 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:48:12.197 [main] INFO  logintests.LoginAfterPasswordChangeTest - ===== TEST STARTED =====
+20:48:12.213 [main] INFO  pages.HomePage - Navigating to Login Page
+20:48:13.067 [main] INFO  pages.LoginPage - Performing login with valid credentials
+20:48:13.912 [main] INFO  pages.AccountPage - Clicking Change Password link
+20:48:15.978 [main] INFO  pages.ChangePasswordPage - Business Flow: Change Password
+20:48:15.978 [main] INFO  pages.ChangePasswordPage - Entering New Password
+20:48:16.423 [main] INFO  pages.ChangePasswordPage - Clicking Continue button
+20:48:16.580 [main] INFO  pages.ChangePasswordPage - Validating password change success message
+20:48:18.096 [main] INFO  pages.AccountPage - Log out from the account
+20:48:18.096 [main] INFO  pages.AccountPage - Clicking my account dropdown menu
+20:48:18.254 [main] INFO  pages.AccountPage - Clicking on logout link
+20:48:19.170 [main] INFO  pages.LogoutPage - Clicking continue button
+20:48:19.728 [main] INFO  pages.HomePage - Navigating to Login Page
+20:48:20.378 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+20:48:21.010 [main] INFO  pages.LoginPage - Checking if warning message is displayed
+20:48:22.122 [main] INFO  pages.LoginPage - Performing login with valid credentials
+20:48:23.678 [main] INFO  pages.AccountPage - Validating Account page
+20:48:23.720 [main] INFO  logintests.LoginAfterPasswordChangeTest - ===== TEST COMPLETED SUCCESSFULLY =====

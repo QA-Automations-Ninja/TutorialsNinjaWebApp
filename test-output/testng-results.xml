@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-01T23:19:45 EST" name="Parallel Cross Browser Suite" finished-at="2026-03-01T23:20:03 EST" duration-ms="17537">
+  <suite started-at="2026-03-03T15:17:11 EST" name="Parallel Cross Browser Suite" finished-at="2026-03-03T15:17:26 EST" duration-ms="14516">
     <groups>
     </groups>
-    <test started-at="2026-03-01T23:19:45 EST" name="Chrome Test" finished-at="2026-03-01T23:19:51 EST" duration-ms="5976">
-      <class name="logintests.PasswordFieldTypeTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logintests.PasswordFieldTypeTest@4efac082]" started-at="2026-03-01T23:19:46 EST" name="setUp" finished-at="2026-03-01T23:19:50 EST" duration-ms="4257" status="PASS">
+    <test started-at="2026-03-03T15:17:11 EST" name="Chrome Test" finished-at="2026-03-03T15:17:21 EST" duration-ms="9542">
+      <class name="logout_tests.LogoutBrowseBackTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logout_tests.LogoutBrowseBackTest@4efac082]" started-at="2026-03-03T15:17:12 EST" name="setUp" finished-at="2026-03-03T15:17:16 EST" duration-ms="4565" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyPasswordFieldTypeWithRightClick()[pri:0, instance:logintests.PasswordFieldTypeTest@4efac082]" started-at="2026-03-01T23:19:50 EST" name="verifyPasswordFieldTypeWithRightClick" finished-at="2026-03-01T23:19:51 EST" duration-ms="1165" status="PASS">
+        <test-method signature="verifyLogoutAndBrowseBack()[pri:0, instance:logout_tests.LogoutBrowseBackTest@4efac082]" started-at="2026-03-03T15:17:16 EST" name="verifyLogoutAndBrowseBack" finished-at="2026-03-03T15:17:21 EST" duration-ms="4531" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPasswordFieldTypeWithRightClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintests.PasswordFieldTypeTest@4efac082]" started-at="2026-03-01T23:19:51 EST" name="tearDown" finished-at="2026-03-01T23:19:51 EST" duration-ms="280" status="PASS">
+        </test-method> <!-- verifyLogoutAndBrowseBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logout_tests.LogoutBrowseBackTest@4efac082]" started-at="2026-03-03T15:17:21 EST" name="tearDown" finished-at="2026-03-03T15:17:21 EST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- logintests.PasswordFieldTypeTest -->
+      </class> <!-- logout_tests.LogoutBrowseBackTest -->
     </test> <!-- Chrome Test -->
-    <test started-at="2026-03-01T23:19:45 EST" name="Edge Test" finished-at="2026-03-01T23:19:53 EST" duration-ms="7669">
-      <class name="logintests.PasswordFieldTypeTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logintests.PasswordFieldTypeTest@2af004b]" started-at="2026-03-01T23:19:46 EST" name="setUp" finished-at="2026-03-01T23:19:51 EST" duration-ms="5103" status="PASS">
+    <test started-at="2026-03-03T15:17:11 EST" name="Edge Test" finished-at="2026-03-03T15:17:21 EST" duration-ms="9263">
+      <class name="logout_tests.LogoutBrowseBackTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logout_tests.LogoutBrowseBackTest@2af004b]" started-at="2026-03-03T15:17:12 EST" name="setUp" finished-at="2026-03-03T15:17:16 EST" duration-ms="4182" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyPasswordFieldTypeWithRightClick()[pri:0, instance:logintests.PasswordFieldTypeTest@2af004b]" started-at="2026-03-01T23:19:51 EST" name="verifyPasswordFieldTypeWithRightClick" finished-at="2026-03-01T23:19:52 EST" duration-ms="994" status="PASS">
+        <test-method signature="verifyLogoutAndBrowseBack()[pri:0, instance:logout_tests.LogoutBrowseBackTest@2af004b]" started-at="2026-03-03T15:17:16 EST" name="verifyLogoutAndBrowseBack" finished-at="2026-03-03T15:17:20 EST" duration-ms="4534" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPasswordFieldTypeWithRightClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintests.PasswordFieldTypeTest@2af004b]" started-at="2026-03-01T23:19:52 EST" name="tearDown" finished-at="2026-03-01T23:19:53 EST" duration-ms="1307" status="PASS">
+        </test-method> <!-- verifyLogoutAndBrowseBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logout_tests.LogoutBrowseBackTest@2af004b]" started-at="2026-03-03T15:17:20 EST" name="tearDown" finished-at="2026-03-03T15:17:21 EST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- logintests.PasswordFieldTypeTest -->
+      </class> <!-- logout_tests.LogoutBrowseBackTest -->
     </test> <!-- Edge Test -->
-    <test started-at="2026-03-01T23:19:45 EST" name="Firefox Test" finished-at="2026-03-01T23:20:03 EST" duration-ms="17537">
-      <class name="logintests.PasswordFieldTypeTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logintests.PasswordFieldTypeTest@5d0bf09b]" started-at="2026-03-01T23:19:46 EST" name="setUp" finished-at="2026-03-01T23:19:57 EST" duration-ms="11713" status="PASS">
+    <test started-at="2026-03-03T15:17:11 EST" name="Firefox Test" finished-at="2026-03-03T15:17:26 EST" duration-ms="14516">
+      <class name="logout_tests.LogoutBrowseBackTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logout_tests.LogoutBrowseBackTest@5d0bf09b]" started-at="2026-03-03T15:17:12 EST" name="setUp" finished-at="2026-03-03T15:17:20 EST" duration-ms="8884" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,15 +64,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyPasswordFieldTypeWithRightClick()[pri:0, instance:logintests.PasswordFieldTypeTest@5d0bf09b]" started-at="2026-03-01T23:19:57 EST" name="verifyPasswordFieldTypeWithRightClick" finished-at="2026-03-01T23:20:00 EST" duration-ms="2478" status="PASS">
+        <test-method signature="verifyLogoutAndBrowseBack()[pri:0, instance:logout_tests.LogoutBrowseBackTest@5d0bf09b]" started-at="2026-03-03T15:17:20 EST" name="verifyLogoutAndBrowseBack" finished-at="2026-03-03T15:17:25 EST" duration-ms="4004" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPasswordFieldTypeWithRightClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintests.PasswordFieldTypeTest@5d0bf09b]" started-at="2026-03-01T23:20:00 EST" name="tearDown" finished-at="2026-03-01T23:20:03 EST" duration-ms="3079" status="PASS">
+        </test-method> <!-- verifyLogoutAndBrowseBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logout_tests.LogoutBrowseBackTest@5d0bf09b]" started-at="2026-03-03T15:17:25 EST" name="tearDown" finished-at="2026-03-03T15:17:26 EST" duration-ms="1392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- logintests.PasswordFieldTypeTest -->
+      </class> <!-- logout_tests.LogoutBrowseBackTest -->
     </test> <!-- Firefox Test -->
   </suite> <!-- Parallel Cross Browser Suite -->
 </testng-results>

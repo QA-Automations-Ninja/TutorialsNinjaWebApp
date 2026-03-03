@@ -19,21 +19,20 @@ public class AccountPage extends BasePage {
     private By myAccountdropdown = By.xpath("//a[@title='My Account']");
     private By logoutLink = By.xpath("//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']");
     private By changePasswordLink = By.linkText("Change your password");
+    private By logoutOptonFromRightColumn = By.xpath("//a[@class='list-group-item'][normalize-space()='Logout']");
     
     //Page Actions:
     
     public void clickEditAccountInfo() {
-        logger.info("Clicking Edit Account Information");
+        logger.info("Clicking Edit Your Account Information");
         driver.findElement(editAccountInfo).click();
     }
     
     public void clickmyAccountdropdown() {
-    	logger.info("Clicking my account dropdown menu");
     	  driver.findElement(myAccountdropdown).click();
     }
     
     public void clickLogoutlink() {
-    	logger.info("Clicking on logout link");
     	  driver.findElement(logoutLink).click();
     }
     
@@ -41,6 +40,11 @@ public class AccountPage extends BasePage {
     public void clickChangePassword() {
         logger.info("Clicking Change Password link");
         driver.findElement(changePasswordLink).click();
+    }
+    
+    public void clickLogoutFromRightColumn() {
+    	  logger.info("Clicking logout option from the right column");
+    	driver.findElement(logoutOptonFromRightColumn).click();
     }
 
     
@@ -51,8 +55,6 @@ public class AccountPage extends BasePage {
         clickLogoutlink();
     }
 
-
-   
 
     // Validation
     public boolean isUserOnAccountPage() {

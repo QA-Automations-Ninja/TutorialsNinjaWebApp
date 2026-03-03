@@ -39,7 +39,13 @@
                        <!--<class name ="logintests.LoginAttemptsTest"/>-->
                         <!--<class name ="logintests.LoginPasswordMaskTest"/>-->
                          <!--<class name ="logintests.PasswordFieldTypeTest"/>-->
-                         <class name ="logintests.LoginAfterPasswordChangeTest"/>
+                         <!--<class name ="logintests.LoginAfterPasswordChangeTest"/>-->
+                         
+                                    <!--logout_tests-->
+            <!--<class name ="logout_tests.LogoutFromMyAccountDropdownTest"/>-->
+             <!--<class name ="logout_tests.LogoutFromRightColumnTest"/>-->
+             <class name ="logout_tests.LogoutBrowseBackTest"/>
+            
         </classes>
     </test>
 
@@ -75,7 +81,13 @@
                        <!--<class name ="logintests.LoginAttemptsTest"/>-->
                         <!--<class name ="logintests.LoginPasswordMaskTest"/>-->
                          <!--<class name ="logintests.PasswordFieldTypeTest"/>-->
-                         <class name ="logintests.LoginAfterPasswordChangeTest"/>
+                         <!--<class name ="logintests.LoginAfterPasswordChangeTest"/>-->
+                         
+                                    <!--logout_tests-->
+            <!--<class name ="logout_tests.LogoutFromMyAccountDropdownTest"/>-->
+             <!--<class name ="logout_tests.LogoutFromRightColumnTest"/>-->
+             <class name ="logout_tests.LogoutBrowseBackTest"/>
+            
         </classes>
     </test>
 
@@ -110,7 +122,12 @@
                        <!--<class name ="logintests.LoginAttemptsTest"/>-->
                         <!--<class name ="logintests.LoginPasswordMaskTest"/>-->
                          <!--<class name ="logintests.PasswordFieldTypeTest"/>-->
-                         <class name ="logintests.LoginAfterPasswordChangeTest"/>
+                         <!--<class name ="logintests.LoginAfterPasswordChangeTest"/>-->
+                         
+                                    <!--logout_tests-->
+            <!--<class name ="logout_tests.LogoutFromMyAccountDropdownTest"/>-->
+             <!--<class name ="logout_tests.LogoutFromRightColumnTest"/>-->
+             <class name ="logout_tests.LogoutBrowseBackTest"/>
         </classes>
     </test>
 

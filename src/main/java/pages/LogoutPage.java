@@ -14,6 +14,8 @@ public class LogoutPage extends BasePage{
 	//Locators
 	private By accountLogout = By.xpath("//h1[normalize-space()='Account Logout']");
 	private By continueButton = By.xpath("//a[@class='btn btn-primary']");
+	private By myAccountDropdown = By.xpath("//span[normalize-space()='My Account']");
+	private By loginOption = By.xpath("//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']");
 	
 	
     //Page actions
@@ -28,11 +30,21 @@ public class LogoutPage extends BasePage{
         driver.navigate().back();
     }
     
+    public void clickMyaccountDropdown() {
+    	logger.info("Clicking on my account dropdown menu");
+    	driver.findElement(myAccountDropdown).click();
+    }
+    
     
     //Validations
     public boolean isLogoutSuccessful() {
         logger.info("Validating Logout is successful");
         return driver.findElement(accountLogout).isDisplayed();
+    }
+    
+    public boolean isLoginOptionVisible() {
+        logger.info("Checking if login option is visible");
+        return driver.findElement(loginOption).isDisplayed();
     }
     
     

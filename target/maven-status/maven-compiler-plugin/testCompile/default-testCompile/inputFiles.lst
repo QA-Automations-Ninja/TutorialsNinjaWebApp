@@ -7,6 +7,9 @@ C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\L
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\LoginWithValidCredentialsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\LogoutBackNavigationTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logintests\PasswordFieldTypeTest.java
+C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logout_tests\LogoutBrowseBackTest.java
+C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logout_tests\LogoutFromMyAccountDropdownTest.java
+C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\logout_tests\LogoutFromRightColumnTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterAllFieldsTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterInvalidEmailTest.java
 C:\Users\henry\eclipse-workspace\TutorialsNinjaWebApp\src\test\java\registertests\RegisterInvalidPhoneNumberTest.java
