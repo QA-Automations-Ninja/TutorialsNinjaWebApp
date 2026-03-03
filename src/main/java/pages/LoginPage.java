@@ -19,6 +19,7 @@ public class LoginPage extends BasePage {
     private By warningMessage = By.xpath("//div[contains(@class,'alert-danger')]");
     private By forgottenPasswordLink = By.xpath("//div[@class='form-group']//a[normalize-space()='Forgotten Password']");
     private By loginHeading = By.xpath("//h2[normalize-space()='Returning Customer']");
+    
   
     // Page Actions
     public void enterEmail(String email) {
@@ -45,6 +46,7 @@ public class LoginPage extends BasePage {
         Actions actions = new Actions(driver);
         actions.contextClick(driver.findElement(passwordField)).perform();
     }
+    
 
     // Business Method
     public void loginWithValidCredentials(String email, String password) {

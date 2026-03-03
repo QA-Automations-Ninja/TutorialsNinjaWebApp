@@ -39,5 +39,6 @@
 	<classpathentry kind="lib" path="C:/Users/henry/.p2/pool/plugins/org.testng_7.11.0.r202503091654.jar" sourcepath="C:/Users/henry/.p2/pool/plugins/org.testng.source_7.11.0.r202503091654.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="src" path="/nopcommerce"/>
+	<classpathentry kind="src" path="/E-shop"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

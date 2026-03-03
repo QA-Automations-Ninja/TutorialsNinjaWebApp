@@ -35,7 +35,9 @@
             <!--<class name ="logintests.LogoutBackNavigationTest"/>-->
             <!--<class name ="logintests.LoginAttemptsTest"/>-->
             <!--<class name ="logintests.LoginPasswordMaskTest"/>-->
-            <class name ="logintests.PasswordFieldTypeTest"/>
+            <!--<class name ="logintests.PasswordFieldTypeTest"/>-->
+            <class name ="logintests.LoginAfterPasswordChangeTest"/>
+            
             
             
             

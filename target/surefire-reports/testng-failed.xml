@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="logintests.LoginAttemptsTest">
+      <class name="logintests.LoginAfterPasswordChangeTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyNumberOfUnsuccessfulLoginAttempts"/>
+          <include name="verifyLoginAfterPasswordChange"/>
         </methods>
-      </class> <!-- logintests.LoginAttemptsTest -->
+      </class> <!-- logintests.LoginAfterPasswordChangeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Single Suite] -->
