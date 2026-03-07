@@ -89,9 +89,9 @@ public class BaseTest {
                 throw new RuntimeException("Unsupported browser: " + browser);
         }        driver.set(webDriver);
 
-        getDriver().manage().timeouts()
+        /* getDriver().manage().timeouts()
                 .implicitlyWait(Duration.ofSeconds(
-                        Long.parseLong(ConfigReader.get("implicitWait"))));
+                        Long.parseLong(ConfigReader.get("implicitWait")))); */
 
         if (!headless) {
             getDriver().manage().window().maximize();

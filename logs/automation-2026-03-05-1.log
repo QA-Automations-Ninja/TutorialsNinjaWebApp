@@ -1,0 +1,162 @@
+00:29:11.696 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Starting test on browser: chrome | Headless: false
+00:29:12.213 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+00:29:12.288 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+00:29:16.713 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test starts: Verify navigating to shopping cart page from the search result page
+00:29:16.718 [main] INFO  pages.HomePage - Enter product name
+00:29:16.980 [main] INFO  pages.HomePage - Click on search button
+00:29:17.766 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+00:29:17.940 [main] INFO  pages.SearchResultsPage - Click on shopping cart link 
+00:29:18.377 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+00:33:34.903 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Starting test on browser: chrome | Headless: false
+00:33:35.274 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+00:33:35.339 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+00:33:40.384 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test starts: Verify navigating to shopping cart page from the search result page
+00:33:40.398 [main] INFO  pages.HomePage - Enter product name
+00:33:40.951 [main] INFO  pages.HomePage - Click on search button
+00:33:41.832 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+00:33:42.143 [main] INFO  pages.SearchResultsPage - Click on shopping cart link 
+00:40:48.217 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Starting test on browser: chrome | Headless: false
+00:40:49.924 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+00:40:49.945 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+00:40:54.635 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test starts: Verify navigating to shopping cart page from the search result page
+00:40:54.639 [main] INFO  pages.HomePage - Enter product name
+00:40:54.890 [main] INFO  pages.HomePage - Click on search button
+00:40:55.633 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+00:40:55.778 [main] INFO  pages.SearchResultsPage - Click on shopping cart link 
+00:40:56.203 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+19:09:25.373 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Starting test on browser: chrome | Headless: false
+19:09:27.384 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:09:27.422 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:09:32.053 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test starts: Verify navigating to shopping cart page from the search result page
+19:09:32.065 [main] INFO  pages.HomePage - Enter product name
+19:09:32.440 [main] INFO  pages.HomePage - Click on search button
+19:09:33.226 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+19:09:33.376 [main] INFO  pages.SearchResultsPage - Click on shopping cart link 
+19:17:03.533 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Starting test on browser: chrome | Headless: false
+19:17:04.001 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:17:04.121 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:17:08.183 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test starts: Verify navigating to shopping cart page from the search result page
+19:17:08.192 [main] INFO  pages.HomePage - Enter product name
+19:17:08.613 [main] INFO  pages.HomePage - Click on search button
+19:17:09.487 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+19:17:09.728 [main] INFO  pages.ProductPage - Click on shopping cart link in success message
+19:39:03.528 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Starting test on browser: chrome | Headless: false
+19:39:03.977 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:39:04.032 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:39:08.802 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test starts: Verify navigating to shopping cart page from the search result page
+19:39:08.810 [main] INFO  pages.HomePage - Enter product name
+19:39:09.163 [main] INFO  pages.HomePage - Click on search button
+19:39:09.947 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+19:39:10.181 [main] INFO  pages.SearchResultsPage - Click on shopping cart link 
+19:39:11.150 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+19:39:11.390 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test completed successfully
+19:58:59.031 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Starting test on browser: chrome | Headless: false
+19:58:59.500 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:58:59.558 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:59:03.555 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test starts: Verify navigating to shopping cart page from the search result page
+19:59:03.563 [main] INFO  pages.HomePage - Enter product name
+19:59:03.949 [main] INFO  pages.HomePage - Click on search button
+19:59:04.863 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+19:59:05.083 [main] INFO  pages.SearchResultsPage - Click on shopping cart link 
+19:59:06.067 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+19:59:06.198 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test completed successfully
+21:15:16.973 [main] INFO  shoppingcart.ViewCartNavigationTest - Starting test on browser: chrome | Headless: false
+21:15:19.625 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:15:19.683 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:15:26.056 [main] INFO  shoppingcart.ViewCartNavigationTest - Test starts: View cart navigation option
+21:15:26.063 [main] INFO  pages.HomePage - Enter product name
+21:15:26.490 [main] INFO  pages.HomePage - Click on search button
+21:15:27.373 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+21:15:27.613 [main] INFO  pages.SearchResultsPage - Click on cart button
+21:25:50.249 [main] INFO  shoppingcart.ViewCartNavigationTest - Starting test on browser: chrome | Headless: false
+21:25:50.605 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:25:50.650 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:25:54.906 [main] INFO  shoppingcart.ViewCartNavigationTest - Test starts: View cart navigation option
+21:25:54.916 [main] INFO  pages.HomePage - Enter product name
+21:25:55.238 [main] INFO  pages.HomePage - Click on search button
+21:25:56.081 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+21:25:56.279 [main] INFO  pages.HomePage - Click on cart button
+21:43:47.131 [main] INFO  shoppingcart.ViewCartNavigationTest - Starting test on browser: chrome | Headless: false
+21:43:47.503 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:43:47.549 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:43:51.990 [main] INFO  shoppingcart.ViewCartNavigationTest - Test starts: View cart navigation option
+21:43:51.997 [main] INFO  pages.HomePage - Enter product name
+21:43:52.209 [main] INFO  pages.HomePage - Click on search button
+21:43:52.913 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+21:43:52.914 [main] INFO  pages.SearchResultsPage - Waiting for element to be clickable: By.xpath: //span[normalize-space()='Add to Cart']
+21:43:53.136 [main] INFO  pages.SearchResultsPage - Click on cart button
+21:43:53.136 [main] INFO  pages.SearchResultsPage - Waiting for element to be clickable: By.xpath: //span[@id='cart-total']
+21:47:24.507 [main] INFO  shoppingcart.ViewCartNavigationTest - Starting test on browser: chrome | Headless: false
+21:47:24.875 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:47:24.921 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:47:28.659 [main] INFO  shoppingcart.ViewCartNavigationTest - Test starts: View cart navigation option
+21:47:28.672 [main] INFO  pages.HomePage - Enter product name
+21:47:29.025 [main] INFO  pages.HomePage - Click on search button
+21:47:29.779 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+21:47:30.001 [main] INFO  pages.SearchResultsPage - Click on cart button
+21:47:30.844 [main] INFO  pages.SearchResultsPage - Click on view cart
+21:47:31.492 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+21:47:31.612 [main] INFO  shoppingcart.ViewCartNavigationTest - Test completed successfully
+21:47:56.390 [main] INFO  shoppingcart.ViewCartNavigationTest - Starting test on browser: chrome | Headless: false
+21:47:56.896 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:47:56.963 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:48:01.272 [main] INFO  shoppingcart.ViewCartNavigationTest - Test starts: View cart navigation option
+21:48:01.286 [main] INFO  pages.HomePage - Enter product name
+21:48:01.574 [main] INFO  pages.HomePage - Click on search button
+21:48:02.338 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+21:48:02.554 [main] INFO  pages.SearchResultsPage - Click on cart button
+21:48:03.401 [main] INFO  pages.SearchResultsPage - Click on view cart
+21:48:04.025 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+21:48:04.109 [main] INFO  shoppingcart.ViewCartNavigationTest - Test completed successfully
+21:49:07.805 [main] INFO  shoppingcart.ViewCartNavigationTest - Starting test on browser: chrome | Headless: false
+21:49:08.137 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:49:08.182 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:49:15.149 [main] INFO  shoppingcart.ViewCartNavigationTest - Test starts: View cart navigation option
+21:49:15.159 [main] INFO  pages.HomePage - Enter product name
+21:49:15.438 [main] INFO  pages.HomePage - Click on search button
+21:49:16.291 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+21:49:16.565 [main] INFO  pages.SearchResultsPage - Click on cart button
+21:53:11.486 [main] INFO  shoppingcart.ViewCartNavigationTest - Starting test on browser: chrome | Headless: false
+21:53:11.826 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:53:11.871 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:53:16.199 [main] INFO  shoppingcart.ViewCartNavigationTest - Test starts: View cart navigation option
+21:53:16.211 [main] INFO  pages.HomePage - Enter product name
+21:53:16.534 [main] INFO  pages.HomePage - Click on search button
+21:53:17.325 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+21:53:17.624 [main] INFO  pages.SearchResultsPage - Click on cart button
+21:54:08.225 [main] INFO  shoppingcart.ViewCartNavigationTest - Starting test on browser: chrome | Headless: false
+21:54:08.571 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:54:08.618 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:54:12.544 [main] INFO  shoppingcart.ViewCartNavigationTest - Test starts: View cart navigation option
+21:54:12.557 [main] INFO  pages.HomePage - Enter product name
+21:54:13.016 [main] INFO  pages.HomePage - Click on search button
+21:54:13.843 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+21:54:14.069 [main] INFO  pages.SearchResultsPage - Click on cart button
+21:54:14.934 [main] INFO  pages.SearchResultsPage - Click on view cart
+21:54:15.567 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+21:54:15.692 [main] INFO  shoppingcart.ViewCartNavigationTest - Test completed successfully
+21:55:09.001 [main] INFO  shoppingcart.ShoppingCartFromSuccessMessageTest - Starting test on browser: chrome | Headless: false
+21:55:09.525 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:55:09.604 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:55:14.812 [main] INFO  shoppingcart.ShoppingCartFromSuccessMessageTest - Test starts: Verify navigating to shopping cart page from the success message
+21:55:14.826 [main] INFO  pages.HomePage - Enter product name
+21:55:15.185 [main] INFO  pages.HomePage - Click on search button
+21:55:15.945 [main] INFO  pages.SearchResultsPage - Click on product displayed on the search result
+21:55:17.114 [main] INFO  pages.ProductPage - Click on add to cart button
+21:55:17.223 [main] INFO  pages.ProductPage - Verifying if success message is displayed
+22:02:03.156 [main] INFO  shoppingcart.ShoppingCartFromSuccessMessageTest - Starting test on browser: chrome | Headless: false
+22:02:03.489 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+22:02:03.532 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+22:02:07.024 [main] INFO  shoppingcart.ShoppingCartFromSuccessMessageTest - Test starts: Verify navigating to shopping cart page from the success message
+22:02:07.032 [main] INFO  pages.HomePage - Enter product name
+22:02:07.322 [main] INFO  pages.HomePage - Click on search button
+22:02:08.125 [main] INFO  pages.SearchResultsPage - Click on product displayed on the search result
+22:02:09.374 [main] INFO  pages.ProductPage - Click on add to cart button
+22:02:09.527 [main] INFO  pages.ProductPage - Verifying if success message is displayed
+22:02:59.458 [main] INFO  logintests.LoginWithValidCredentialsTest - Starting test on browser: chrome | Headless: false
+22:02:59.772 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+22:02:59.812 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+22:03:03.883 [main] INFO  pages.HomePage - Navigating to Login Page
+22:03:04.671 [main] INFO  pages.LoginPage - Performing login with valid credentials
+22:03:05.404 [main] INFO  pages.AccountPage - Validating Account page
+22:03:07.012 [main] INFO  logintests.LoginWithValidCredentialsTest - ===== Test Completed Successfully =====

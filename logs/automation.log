@@ -1,60 +1,71 @@
-14:19:35.657 [main] INFO  logout_tests.LogoutFromMyAccountDropdownTest - Starting test on browser: chrome | Headless: false
-14:19:37.699 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-14:19:37.738 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-14:19:42.657 [main] INFO  logout_tests.LogoutFromMyAccountDropdownTest - Starting Test: Verify Logging out via My Account dropdown menu
-14:19:42.678 [main] INFO  pages.HomePage - Navigating to Login Page
-14:19:43.523 [main] INFO  pages.LoginPage - Performing login with valid credentials
-14:19:44.341 [main] INFO  pages.AccountPage - Log out from the account
-14:19:44.341 [main] INFO  pages.AccountPage - Clicking my account dropdown menu
-14:19:45.815 [main] INFO  pages.AccountPage - Clicking on logout link
-14:19:46.588 [main] INFO  pages.LogoutPage - Clicking on my account dropdown menu
-14:19:46.745 [main] INFO  pages.LogoutPage - Checking if login option is visible
-14:19:46.855 [main] INFO  pages.LogoutPage - Clicking continue button
-14:19:47.356 [main] INFO  pages.HomePage - Verify user is taken to the homepage
-14:19:47.398 [main] INFO  logout_tests.LogoutFromMyAccountDropdownTest - Test Completed: Verify Logging out via My Account dropdown menu
-14:23:07.019 [main] INFO  logout_tests.LogoutFromMyAccountDropdownTest - Starting test on browser: chrome | Headless: false
-14:23:07.430 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-14:23:07.504 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-14:23:13.307 [main] INFO  logout_tests.LogoutFromMyAccountDropdownTest - Starting Test: Verify Logging out via My Account dropdown menu
-14:23:13.318 [main] INFO  pages.HomePage - Navigating to Login Page
-14:23:13.947 [main] INFO  pages.LoginPage - Performing login with valid credentials
-14:23:16.535 [main] INFO  pages.AccountPage - Log out from the account
-14:23:17.485 [main] INFO  pages.LogoutPage - Clicking on my account dropdown menu
-14:23:17.600 [main] INFO  pages.LogoutPage - Checking if login option is visible
-14:23:17.654 [main] INFO  pages.LogoutPage - Clicking continue button
-14:23:18.185 [main] INFO  pages.HomePage - Verify user is taken to the homepage
-14:23:18.230 [main] INFO  logout_tests.LogoutFromMyAccountDropdownTest - Test Completed: Verify Logging out via My Account dropdown menu
-14:42:54.731 [main] INFO  logout_tests.LogoutFromRightColumnTest - Starting test on browser: chrome | Headless: false
-14:42:55.225 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-14:42:55.305 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-14:42:59.479 [main] INFO  logout_tests.LogoutFromRightColumnTest - Starting Test: Verify Logout option from the right column
-14:42:59.488 [main] INFO  pages.HomePage - Navigating to Login Page
-14:43:00.241 [main] INFO  pages.LoginPage - Performing login with valid credentials
-14:43:03.390 [main] INFO  pages.LogoutPage - Clicking on my account dropdown menu
-14:43:03.506 [main] INFO  pages.LogoutPage - Checking if login option is visible
-14:43:03.564 [main] INFO  pages.LogoutPage - Clicking continue button
-14:43:04.102 [main] INFO  pages.HomePage - Verify user is taken to the homepage
-14:43:04.145 [main] INFO  logout_tests.LogoutFromRightColumnTest - Test Completed: Verify Logout option from the right column
-14:45:12.186 [main] INFO  logout_tests.LogoutFromRightColumnTest - Starting test on browser: chrome | Headless: false
-14:45:12.591 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-14:45:12.649 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-14:45:16.149 [main] INFO  logout_tests.LogoutFromRightColumnTest - Starting Test: Verify Logout option from the right column
-14:45:16.159 [main] INFO  pages.HomePage - Navigating to Login Page
-14:45:16.769 [main] INFO  pages.LoginPage - Performing login with valid credentials
-14:45:17.325 [main] INFO  pages.AccountPage - Clicking logout option from the right column
-14:45:19.559 [main] INFO  pages.LogoutPage - Clicking on my account dropdown menu
-14:45:19.649 [main] INFO  pages.LogoutPage - Checking if login option is visible
-14:45:19.703 [main] INFO  pages.LogoutPage - Clicking continue button
-14:45:20.241 [main] INFO  pages.HomePage - Verify user is taken to the homepage
-14:45:20.270 [main] INFO  logout_tests.LogoutFromRightColumnTest - Test Completed: Verify Logout option from the right column
-15:15:19.739 [main] INFO  logout_tests.LogoutBrowseBackTest - Starting test on browser: chrome | Headless: false
-15:15:20.069 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-15:15:20.111 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-15:15:23.667 [main] INFO  logout_tests.LogoutBrowseBackTest - Starting Test: Verify logging out and browsing back
-15:15:23.674 [main] INFO  pages.HomePage - Navigating to Login Page
-15:15:24.252 [main] INFO  pages.LoginPage - Performing login with valid credentials
-15:15:26.345 [main] INFO  pages.AccountPage - Log out from the account
-15:15:27.270 [main] INFO  pages.LogoutPage - Navigating back using browser back button
-15:15:27.295 [main] INFO  pages.AccountPage - Clicking Edit Account Information
-15:15:28.038 [main] INFO  pages.LoginPage - Validating Login page is displayed
-15:15:28.090 [main] INFO  logout_tests.LogoutBrowseBackTest - Test Completed Successfully
+01:54:42.847 [main] INFO  shoppingcart.ShoppingCartFromSuccessMessageTest - Starting test on browser: chrome | Headless: false
+01:54:44.564 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+01:54:44.613 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+01:54:49.271 [main] INFO  shoppingcart.ShoppingCartFromSuccessMessageTest - Test starts: Verify navigating to shopping cart page from the success message
+01:54:49.296 [main] INFO  pages.HomePage - Entering product name
+01:54:49.749 [main] INFO  pages.HomePage - Click on search button
+01:54:50.735 [main] INFO  pages.SearchResultsPage - Click on product displayed on the search result
+01:54:52.119 [main] INFO  pages.ProductPage - Click on add to cart button
+01:54:52.419 [main] INFO  pages.ProductPage - Verifying if success message is displayed
+01:54:53.042 [main] INFO  pages.ProductPage - Click on shopping cart link in success message
+01:54:53.594 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+01:54:53.681 [main] INFO  shoppingcart.ShoppingCartFromSuccessMessageTest - Test completed successfully
+01:56:08.713 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Starting test on browser: chrome | Headless: false
+01:56:09.064 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+01:56:09.109 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+01:56:12.638 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test starts: Verify navigating to shopping cart page from the search result page
+01:56:12.651 [main] INFO  pages.HomePage - Entering product name
+01:56:13.138 [main] INFO  pages.HomePage - Click on search button
+01:56:14.004 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+01:56:14.263 [main] INFO  pages.SearchResultsPage - Click on shopping cart link 
+01:59:31.258 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Starting test on browser: chrome | Headless: false
+01:59:31.592 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+01:59:31.638 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+01:59:35.455 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test starts: Verify navigating to shopping cart page from the search result page
+01:59:35.474 [main] INFO  pages.HomePage - Entering product name
+01:59:36.288 [main] INFO  pages.HomePage - Click on search button
+01:59:37.513 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+01:59:37.748 [main] INFO  pages.SearchResultsPage - Click on shopping cart link 
+01:59:39.149 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+01:59:39.320 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test completed successfully
+02:00:06.333 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Starting test on browser: chrome | Headless: false
+02:00:06.876 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+02:00:06.962 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+02:00:13.066 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test starts: Verify navigating to shopping cart page from the search result page
+02:00:13.080 [main] INFO  pages.HomePage - Entering product name
+02:00:13.543 [main] INFO  pages.HomePage - Click on search button
+02:00:14.741 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+02:00:14.985 [main] INFO  pages.SearchResultsPage - Click on shopping cart link 
+02:00:16.802 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+02:00:16.934 [main] INFO  shoppingcart.AddToCartNavigateToShoppingCartTest - Test completed successfully
+02:00:59.866 [main] INFO  shoppingcart.ViewCartNavigationTest - Starting test on browser: chrome | Headless: false
+02:01:00.193 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+02:01:00.236 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+02:01:04.255 [main] INFO  shoppingcart.ViewCartNavigationTest - Test starts: View cart navigation option
+02:01:04.263 [main] INFO  pages.HomePage - Entering product name
+02:01:04.634 [main] INFO  pages.HomePage - Click on search button
+02:01:05.442 [main] INFO  pages.SearchResultsPage - Click on add to cart button displayed on the search result page
+02:01:05.705 [main] INFO  pages.SearchResultsPage - Click on cart button
+02:01:06.521 [main] INFO  pages.SearchResultsPage - Click on view cart
+02:01:07.207 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+02:01:07.315 [main] INFO  shoppingcart.ViewCartNavigationTest - Test completed successfully
+02:01:55.183 [main] INFO  logintests.LoginAttemptsTest - Starting test on browser: chrome | Headless: false
+02:01:55.510 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+02:01:55.554 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+02:02:00.281 [main] INFO  logintests.LoginAttemptsTest - Test Started: Verify number of unsuccessful login attempts
+02:02:00.291 [main] INFO  pages.HomePage - Navigating to Login Page
+02:02:01.387 [main] INFO  pages.LoginPage - Attempting login 6 times
+02:02:01.388 [main] INFO  pages.LoginPage - Login attempt number: 1
+02:02:01.388 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:02:02.262 [main] INFO  pages.LoginPage - Login attempt number: 2
+02:02:02.262 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:02:04.177 [main] INFO  pages.LoginPage - Login attempt number: 3
+02:02:04.178 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:02:05.951 [main] INFO  pages.LoginPage - Login attempt number: 4
+02:02:05.951 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:02:07.610 [main] INFO  pages.LoginPage - Login attempt number: 5
+02:02:07.610 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:02:08.818 [main] INFO  pages.LoginPage - Login attempt number: 6
+02:02:08.818 [main] INFO  pages.LoginPage - Executing login with invalid credentials
+02:02:09.921 [main] INFO  pages.LoginPage - Checking if Account Locked Warning Message is displayed
+02:02:11.079 [main] INFO  logintests.LoginAttemptsTest - Test Completed Successfully

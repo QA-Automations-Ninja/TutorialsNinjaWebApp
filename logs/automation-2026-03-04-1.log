@@ -1,0 +1,12 @@
+23:39:53.097 [main] INFO  shoppingcart.ShoppingCartFromSuccessMessageTest - Starting test on browser: chrome | Headless: false
+23:39:54.798 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+23:39:54.862 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+23:39:59.687 [main] INFO  shoppingcart.ShoppingCartFromSuccessMessageTest - Test starts: Verify navigating to shopping cart page from the success message
+23:39:59.695 [main] INFO  pages.HomePage - Enter product name
+23:40:00.022 [main] INFO  pages.HomePage - Click on search button
+23:40:00.890 [main] INFO  pages.SearchResultsPage - Click on product displayed on the search result
+23:40:02.039 [main] INFO  pages.ProductPage - Click on add to cart button
+23:40:02.162 [main] INFO  pages.ProductPage - Verifying if success message is displayed
+23:40:02.533 [main] INFO  pages.ProductPage - Click on shopping cart link in success message
+23:40:03.039 [main] INFO  pages.ShoppingCartPage - Verifying user is at the shopping cart page
+23:40:03.126 [main] INFO  shoppingcart.ShoppingCartFromSuccessMessageTest - Test completed successfully

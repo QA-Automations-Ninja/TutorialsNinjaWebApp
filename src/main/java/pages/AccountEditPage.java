@@ -18,27 +18,27 @@ public class AccountEditPage extends BasePage {
     private By telephone = By.id("input-telephone");
     
     
-    // Constant for input value attribute
-    private static final String VALUE_ATTR = "value";
-  
-    // Validation Methods
+    // Generic method to retrieve input field value
+    private String getFieldValue(By locator, String fieldName) {
+    	logger.info("Retrieving {} value from Edit Account page", fieldName);
+        return getAttribute(locator, "value");
+    }
+
+    // Public getters using the generic helper
     public String getFirstName() {
-        logger.info("Retrieving First Name value from Edit Account page");
-        return driver.findElement(firstName).getAttribute(VALUE_ATTR);
+        return getFieldValue(firstName, "First Name");
     }
 
     public String getLastName() {
-        logger.info("Retrieving Last Name value from Edit Account page");
-        return driver.findElement(lastName).getAttribute(VALUE_ATTR);
+        return getFieldValue(lastName, "Last Name");
     }
 
     public String getEmail() {
-        logger.info("Retrieving Email value from Edit Account page");
-        return driver.findElement(email).getAttribute(VALUE_ATTR);
+        return getFieldValue(email, "Email");
     }
 
     public String getTelephone() {
-        logger.info("Retrieving Telephone value from Edit Account page");
-        return driver.findElement(telephone).getAttribute(VALUE_ATTR);
+        return getFieldValue(telephone, "Telephone");
     }
+
 }

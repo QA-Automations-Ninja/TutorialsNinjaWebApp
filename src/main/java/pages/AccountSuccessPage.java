@@ -22,11 +22,13 @@ public class AccountSuccessPage extends BasePage {
     // Validation
     public boolean isAccountCreated() {
         logger.info("Validating Account Success page");
+        waitForVisibility(successHeading);
         return driver.findElement(successHeading).isDisplayed();
     }
 
     // Page Action
     public void clickContinue() {
+    	waitForElementToBeClickable(continueButton);
         driver.findElement(continueButton).click();
     }
 }

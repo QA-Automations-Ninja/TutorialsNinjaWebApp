@@ -42,7 +42,7 @@ public class LoginAfterPasswordChangeTest extends BaseTest {
 
         // Logout
         accountPage.accountLogout();
-        logoutPage.clickContinuebutton();
+        logoutPage.clickContinueButton();
 
         // Login using old credentials
         homePage.navigateToLoginPage();

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-03T15:15:19 EST" name="Single Suite" finished-at="2026-03-03T15:15:28 EST" duration-ms="8727">
+  <suite started-at="2026-03-06T02:01:55 EST" name="Single Suite" finished-at="2026-03-06T02:02:11 EST" duration-ms="16257">
     <groups>
     </groups>
-    <test started-at="2026-03-03T15:15:19 EST" name="Test" finished-at="2026-03-03T15:15:28 EST" duration-ms="8727">
-      <class name="logout_tests.LogoutBrowseBackTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logout_tests.LogoutBrowseBackTest@57ac5227]" started-at="2026-03-03T15:15:19 EST" name="setUp" finished-at="2026-03-03T15:15:23 EST" duration-ms="3936" status="PASS">
+    <test started-at="2026-03-06T02:01:55 EST" name="Test" finished-at="2026-03-06T02:02:11 EST" duration-ms="16257">
+      <class name="logintests.LoginAttemptsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:logintests.LoginAttemptsTest@57ac5227]" started-at="2026-03-06T02:01:55 EST" name="setUp" finished-at="2026-03-06T02:02:00 EST" duration-ms="5099" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLogoutAndBrowseBack()[pri:0, instance:logout_tests.LogoutBrowseBackTest@57ac5227]" started-at="2026-03-03T15:15:23 EST" name="verifyLogoutAndBrowseBack" finished-at="2026-03-03T15:15:28 EST" duration-ms="4435" status="PASS">
+        <test-method signature="verifyNumberOfUnsuccessfulLoginAttempts()[pri:0, instance:logintests.LoginAttemptsTest@57ac5227]" started-at="2026-03-06T02:02:00 EST" name="verifyNumberOfUnsuccessfulLoginAttempts" finished-at="2026-03-06T02:02:11 EST" duration-ms="10817" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogoutAndBrowseBack -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:logout_tests.LogoutBrowseBackTest@57ac5227]" started-at="2026-03-03T15:15:28 EST" name="tearDown" finished-at="2026-03-03T15:15:28 EST" duration-ms="190" status="PASS">
+        </test-method> <!-- verifyNumberOfUnsuccessfulLoginAttempts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintests.LoginAttemptsTest@57ac5227]" started-at="2026-03-06T02:02:11 EST" name="tearDown" finished-at="2026-03-06T02:02:11 EST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- logout_tests.LogoutBrowseBackTest -->
+      </class> <!-- logintests.LoginAttemptsTest -->
     </test> <!-- Test -->
   </suite> <!-- Single Suite -->
 </testng-results>

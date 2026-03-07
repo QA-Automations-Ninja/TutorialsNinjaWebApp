@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import base.BasePage;
@@ -23,26 +24,31 @@ public class LoginPage extends BasePage {
   
     // Page Actions
     public void enterEmail(String email) {
+    	waitForVisibility(emailField);
         driver.findElement(emailField).clear();
         driver.findElement(emailField).sendKeys(email);
     }
 
     public void enterPassword(String password) {
+    	waitForVisibility(passwordField);
         driver.findElement(passwordField).clear();
         driver.findElement(passwordField).sendKeys(password);
     }
 
     public void clickLoginButton() {
+    	waitForElementToBeClickable(loginButton);
         driver.findElement(loginButton).click();
     }
     
     public void clickForgottenPasswordLink() {
+    	waitForElementToBeClickable(forgottenPasswordLink);
         driver.findElement(forgottenPasswordLink).click();
     }
     
     //Right-click password field
     public void rightClickPasswordField() {
         logger.info("Simulating right-click on password field");
+        waitForVisibility(passwordField);
         Actions actions = new Actions(driver);
         actions.contextClick(driver.findElement(passwordField)).perform();
     }
@@ -70,9 +76,9 @@ public class LoginPage extends BasePage {
     
     
     public void attemptLoginMultipleTimes(String email, String password, int attempts) {
-        logger.info("Attempting login " + attempts + " times");
+    	logger.info("Attempting login {} times", attempts);
         for (int i = 1; i <= attempts; i++) {
-            logger.info("Login attempt number: " + i);
+        	logger.info("Login attempt number: {}", i);
             loginWithInvalidCredentials(email, password);
         }
     }
@@ -97,26 +103,33 @@ public class LoginPage extends BasePage {
     public boolean isWarningDisplayed() {
         logger.info("Checking if warning message is displayed");
         
+        waitForVisibility(warningMessage);
+        WebElement warning = driver.findElement(warningMessage);
+        
         String expected = "Warning: No match for E-Mail Address and/or Password.";
-        return driver.findElement(warningMessage).isDisplayed() &&
-                driver.findElement(warningMessage).getText().equals(expected);
+        return warning.isDisplayed() && warning.getText().equals(expected);
     }
     
     public boolean isForgottenPasswordLinkDisplayed() {
         logger.info("Checking if Forgotten Password link is displayed");
+        waitForVisibility(forgottenPasswordLink);
         return driver.findElement(forgottenPasswordLink).isDisplayed();
     }
     
     public boolean isLoginPageDisplayed() {
         logger.info("Validating Login page is displayed");
+        waitForVisibility(loginHeading);
         return driver.findElement(loginHeading).isDisplayed();
     }
     
     public boolean isAccountLockedWarningDisplayed() {
-    	logger.info("Checking if Account Locked Warning Message is displayed");
- String expectedText = "Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.";
-        return driver.findElement(warningMessage).isDisplayed() &&
-           driver.findElement(warningMessage).getText().equals(expectedText);
+    	logger.info("Checking if Account Locked Warning Message is displayed");   
+    	waitForVisibility(warningMessage);
+    	 WebElement accountLockedWarning = driver.findElement(warningMessage);
+    	   
+   String expectedText = "Warning: Your account has exceeded allowed number of login attempts. "
+ 		                    + "Please try again in 1 hour.";
+   return accountLockedWarning.isDisplayed() && accountLockedWarning.getText().equals(expectedText);
     }
     
     public boolean isPasswordMasked() {
@@ -127,13 +140,10 @@ public class LoginPage extends BasePage {
     
     
     //check type="password"
-    public boolean isPasswordFieldTypeCorrect() {
-        logger.info("Validating password field type attribute");
-        String typeAttribute = driver.findElement(passwordField).getAttribute("type");
-        logger.info("Password field type attribute = " + typeAttribute);
-        return "password".equalsIgnoreCase(typeAttribute);
-    }
-   
-    
+    	public boolean isPasswordFieldTypeCorrect() {
+    	    String typeAttribute = getAttribute(passwordField, "type");
+    	    logger.info("Password field type attribute = {}", typeAttribute);
+    	    return "password".equalsIgnoreCase(typeAttribute);
+    	} 
     
 }

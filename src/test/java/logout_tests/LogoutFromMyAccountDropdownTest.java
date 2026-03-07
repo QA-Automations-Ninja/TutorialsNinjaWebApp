@@ -36,7 +36,7 @@ public class LogoutFromMyAccountDropdownTest extends BaseTest {
         
 
        //Click Continue button and verify user is taken to the homepage
-        logoutPage.clickContinuebutton();
+        logoutPage.clickContinueButton();
         
         softAssert.assertTrue(
                 homePage.isHomePageDisplayed(), "Failed: Home page not displayed after clicking Continue");

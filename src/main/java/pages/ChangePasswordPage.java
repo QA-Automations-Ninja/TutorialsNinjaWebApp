@@ -20,15 +20,21 @@ public class ChangePasswordPage extends BasePage {
     //Page actions
     public void enterNewPassword(String newPassword) {
         logger.info("Entering New Password");
-        driver.findElement(passwordField).clear();
-        driver.findElement(passwordField).sendKeys(newPassword);
 
-        driver.findElement(confirmPasswordField).clear();
-        driver.findElement(confirmPasswordField).sendKeys(newPassword);
+        waitForVisibility(passwordField);
+        WebElement password = driver.findElement(passwordField);
+        password.clear();
+        password.sendKeys(newPassword);
+
+        waitForVisibility(confirmPasswordField);
+        WebElement confirmPassword = driver.findElement(confirmPasswordField);
+        confirmPassword.clear();
+        confirmPassword.sendKeys(newPassword);
     }
 
     public void clickContinueButton() {
         logger.info("Clicking Continue button");
+        waitForElementToBeClickable(continueButton);
         driver.findElement(continueButton).click();
     }
 
@@ -42,6 +48,7 @@ public class ChangePasswordPage extends BasePage {
     // Validation
     public boolean isPasswordChangeSuccessful() {
         logger.info("Validating password change success message");
+        waitForVisibility(successMessage);
         return !driver.findElements(successMessage).isEmpty();
     }
 }

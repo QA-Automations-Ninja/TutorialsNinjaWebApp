@@ -20,8 +20,9 @@ public class LogoutPage extends BasePage{
 	
     //Page actions
 	
-	public void clickContinuebutton() {
+	public void clickContinueButton() {
 		logger.info("Clicking continue button");
+		waitForElementToBeClickable(continueButton);
 		driver.findElement(continueButton).click();
 	}
 		//Navigate Back
@@ -32,6 +33,7 @@ public class LogoutPage extends BasePage{
     
     public void clickMyaccountDropdown() {
     	logger.info("Clicking on my account dropdown menu");
+    	waitForElementToBeClickable(myAccountDropdown);
     	driver.findElement(myAccountDropdown).click();
     }
     
@@ -39,11 +41,13 @@ public class LogoutPage extends BasePage{
     //Validations
     public boolean isLogoutSuccessful() {
         logger.info("Validating Logout is successful");
+        waitForVisibility(accountLogout);
         return driver.findElement(accountLogout).isDisplayed();
     }
     
     public boolean isLoginOptionVisible() {
         logger.info("Checking if login option is visible");
+        waitForVisibility(loginOption);
         return driver.findElement(loginOption).isDisplayed();
     }
     

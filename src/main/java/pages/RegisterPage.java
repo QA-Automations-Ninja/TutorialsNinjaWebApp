@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
 import base.BasePage;
 
 public class RegisterPage extends BasePage {
@@ -46,62 +48,70 @@ public class RegisterPage extends BasePage {
     private By registerAccountPageHeading = By.xpath("//h1[normalize-space()='Register Account']");
 
 
-    
-
     // Page Actions
     public void enterFirstName(String value) 
     { 
+    	waitForVisibility(firstName);
     	driver.findElement(firstName).sendKeys(value);
     }
    
    
     public void enterLastName(String value) 
     { 
+    	waitForVisibility(lastName);
       driver.findElement(lastName).sendKeys(value);
     }
     
     
     public void enterEmail(String value) 
     { 
+    	waitForVisibility(email);
     	driver.findElement(email).sendKeys(value); 
     }
     
     
     public void enterTelephone(String value) 
     { 
+    	waitForVisibility(telephone);
        driver.findElement(telephone).sendKeys(value);
     }
     
     
     public void enterPassword(String value) 
     { 
+    	waitForVisibility(password);
        driver.findElement(password).sendKeys(value);
     }
     
     
     public void enterConfirmPassword(String value)
     { 
+    	waitForVisibility(confirmPassword);
     	driver.findElement(confirmPassword).sendKeys(value);  
     }
     
     public void subscribeNewsletterYes() 
     { 
+    	waitForElementToBeClickable(newsletterYes);
     	driver.findElement(newsletterYes).click(); 
     }
     
     public void subscribeNewsletterNo() 
     { 
+    	waitForElementToBeClickable(newsletterNo);
     	driver.findElement(newsletterNo).click(); 
     }
     
     public void acceptPrivacyPolicy() 
     { 
+    	waitForElementToBeClickable(privacyPolicy);
     	driver.findElement(privacyPolicy).click();
     }
     	    
     public void clickContinue() 
     
     { 
+    	waitForElementToBeClickable(continueButton);
     	driver.findElement(continueButton).click(); 
     }
     
@@ -231,9 +241,9 @@ public class RegisterPage extends BasePage {
   }
        
 
-    public void registerUsingKeyboard(String fName, String lName,
-                                         String email, String phone,
-                                         String pwd) {
+    public void registerUsingKeyboard(String fName, String lName, String email, String phone, String pwd) {
+    	   
+    	   waitForElementToBeClickable(firstName);
 
            // Focus on first field
            driver.findElement(firstName).click();
@@ -370,84 +380,93 @@ public class RegisterPage extends BasePage {
 
       
     public boolean isFirstNameWarningDisplayed() {
+    	waitForVisibility(firstNameWarning);
         String expected = "First Name must be between 1 and 32 characters!";
-        return driver.findElement(firstNameWarning).isDisplayed() &&
-               driver.findElement(firstNameWarning).getText().equals(expected);
+        WebElement firsnamewarn = driver.findElement(firstNameWarning);
+        return firsnamewarn.isDisplayed() && firsnamewarn.getText().equals(expected);
     }
 
     public boolean isLastNameWarningDisplayed() {
+    	waitForVisibility(lastNameWarning);
         String expected = "Last Name must be between 1 and 32 characters!";
-        return driver.findElement(lastNameWarning).isDisplayed() &&
-               driver.findElement(lastNameWarning).getText().equals(expected);
+        WebElement lastnamewarn = driver.findElement(lastNameWarning);
+        return lastnamewarn.isDisplayed() && lastnamewarn.getText().equals(expected);
     }
 
     public boolean isEmailWarningDisplayed() {
+    	waitForVisibility(emailWarning);
         String expected = "E-Mail Address does not appear to be valid!";
-        return driver.findElement(emailWarning).isDisplayed() &&
-               driver.findElement(emailWarning).getText().equals(expected);
+        WebElement emailwarn = driver.findElement(emailWarning);
+        return emailwarn.isDisplayed() && emailwarn.getText().equals(expected);
     }
 
     public boolean isTelephoneWarningDisplayed() {
+    	waitForVisibility(telephoneWarning);
         String expected = "Telephone must be between 3 and 32 characters!";
-        return driver.findElement(telephoneWarning).isDisplayed() &&
-               driver.findElement(telephoneWarning).getText().equals(expected);
+        WebElement phonewarn = driver.findElement(telephoneWarning);
+        return phonewarn.isDisplayed() && phonewarn.getText().equals(expected);
     }
 
     public boolean isPasswordWarningDisplayed() {
+    	waitForVisibility(passwordWarning);
         String expected = "Password must be between 4 and 20 characters!";
-        return driver.findElement(passwordWarning).isDisplayed() &&
-               driver.findElement(passwordWarning).getText().equals(expected);
+        WebElement passwordwarn = driver.findElement(passwordWarning);
+        return passwordwarn.isDisplayed() && passwordwarn.getText().equals(expected);
     }
 
     public boolean isPrivacyPolicyWarningDisplayed() {
+    	waitForVisibility(privacyPolicyWarning);
         String expected = "Warning: You must agree to the Privacy Policy!";
-        return driver.findElement(privacyPolicyWarning).isDisplayed() &&
-               driver.findElement(privacyPolicyWarning).getText().contains(expected);
+        WebElement privacywarn = driver.findElement(privacyPolicyWarning);
+        return privacywarn.isDisplayed() && privacywarn.getText().equals(expected);
+       
     }
     
 
     public boolean isPasswordMismatchWarningDisplayed() {
+    	waitForVisibility(confirmPasswordWarning);
         String expected = "Password confirmation does not match password!";
-        return driver.findElement(confirmPasswordWarning).isDisplayed() &&
-                driver.findElement(confirmPasswordWarning).getText().equals(expected);
+        WebElement passwordmismatch = driver.findElement(confirmPasswordWarning);
+        return passwordmismatch.isDisplayed() && passwordmismatch.getText().equals(expected);
           }
     
    
     public boolean isExistingEmailWarningDisplayed() {
-
+    	waitForVisibility(existingEmailWarning);
         String expected = "Warning: E-Mail Address is already registered!";
-        return driver.findElement(existingEmailWarning).isDisplayed() && 
-        	driver.findElement(existingEmailWarning).getText().contains(expected);
+        WebElement existingemail = driver.findElement(existingEmailWarning);
+        return existingemail.isDisplayed() && existingemail.getText().contains(expected);
     }
 
     public String getPageHeading() {
     	logger.info("Getting Register Account Page Heading");
+    	waitForVisibility(registerAccountPageHeading);
         return driver.findElement(registerAccountPageHeading).getText();
     }
     
+    
     public String getPasswordFieldType() {
         logger.info("Fetching password field type attribute");
-        return driver.findElement(password).getAttribute("type");
+        return getAttribute(password, "type");
     }
 
     public String getConfirmPasswordFieldType() {
         logger.info("Fetching confirm password field type attribute");
-        return driver.findElement(confirmPassword).getAttribute("type");
-    }
-
-    public boolean isPasswordHidden() {
-        logger.info("Validating password fields are hidden");
-        return getPasswordFieldType().equals("password") &&
-               getConfirmPasswordFieldType().equals("password");
+        return getAttribute(confirmPassword, "type");
     }
     
+    public boolean isPasswordHidden() {
+        logger.info("Validating password fields are hidden");
+        return "password".equalsIgnoreCase(getPasswordFieldType()) &&
+               "password".equalsIgnoreCase(getConfirmPasswordFieldType());
+    }
     
     public boolean isPasswordConfirmWarningDisplayed() {
         logger.info("Validating Password Confirm warning message is displayed");
-        
+        waitForVisibility(confirmPasswordWarning);
         String expected = "Password confirmation does not match password!";
-        return driver.findElement(confirmPasswordWarning).isDisplayed() &&
-        		 driver.findElement(confirmPasswordWarning).getText().equals(expected);
+        WebElement confirmpassword = driver.findElement(confirmPasswordWarning);
+        return confirmpassword.isDisplayed() && confirmpassword.getText().equals(expected);
     }
     
     

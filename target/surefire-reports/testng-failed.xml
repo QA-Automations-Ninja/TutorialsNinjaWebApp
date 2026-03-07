@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="logintests.LoginAfterPasswordChangeTest">
+      <class name="shoppingcart.AddToCartNavigateToShoppingCartTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyLoginAfterPasswordChange"/>
+          <include name="verifyShoppingCartNavigationFromSearchPage"/>
         </methods>
-      </class> <!-- logintests.LoginAfterPasswordChangeTest -->
+      </class> <!-- shoppingcart.AddToCartNavigateToShoppingCartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Single Suite] -->

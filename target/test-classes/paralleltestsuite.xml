@@ -44,7 +44,12 @@
                                     <!--logout_tests-->
             <!--<class name ="logout_tests.LogoutFromMyAccountDropdownTest"/>-->
              <!--<class name ="logout_tests.LogoutFromRightColumnTest"/>-->
-             <class name ="logout_tests.LogoutBrowseBackTest"/>
+             <!--<class name ="logout_tests.LogoutBrowseBackTest"/>-->
+             
+                        <!--shoppingcart tests-->
+            <!--<class name ="shoppingcart.ShoppingCartFromSuccessMessageTest"/>-->
+            <!--<class name ="shoppingcart.AddToCartNavigateToShoppingCartTest"/>-->
+            <class name ="shoppingcart.ViewCartNavigationTest"/>
             
         </classes>
     </test>
@@ -86,8 +91,12 @@
                                     <!--logout_tests-->
             <!--<class name ="logout_tests.LogoutFromMyAccountDropdownTest"/>-->
              <!--<class name ="logout_tests.LogoutFromRightColumnTest"/>-->
-             <class name ="logout_tests.LogoutBrowseBackTest"/>
+             <!--<class name ="logout_tests.LogoutBrowseBackTest"/>-->
             
+                     <!--shoppingcart tests-->
+            <!--<class name ="shoppingcart.ShoppingCartFromSuccessMessageTest"/>-->
+            <!--<class name ="shoppingcart.AddToCartNavigateToShoppingCartTest"/>-->
+            <class name ="shoppingcart.ViewCartNavigationTest"/>
         </classes>
     </test>
 
@@ -127,7 +136,12 @@
                                     <!--logout_tests-->
             <!--<class name ="logout_tests.LogoutFromMyAccountDropdownTest"/>-->
              <!--<class name ="logout_tests.LogoutFromRightColumnTest"/>-->
-             <class name ="logout_tests.LogoutBrowseBackTest"/>
+             <!--<class name ="logout_tests.LogoutBrowseBackTest"/>-->
+             
+                      <!--shoppingcart tests-->
+            <!--<class name ="shoppingcart.ShoppingCartFromSuccessMessageTest"/>-->
+            <!--<class name ="shoppingcart.AddToCartNavigateToShoppingCartTest"/>-->
+            <class name ="shoppingcart.ViewCartNavigationTest"/>
         </classes>
     </test>
 
