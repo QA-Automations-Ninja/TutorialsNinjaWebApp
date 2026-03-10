@@ -1,10 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
 import base.BasePage;
 
 public class SearchResultsPage extends BasePage 
@@ -22,6 +19,7 @@ public class SearchResultsPage extends BasePage
 	private By shoppingCartLink = By.xpath("//a[normalize-space()='shopping cart']");
 	private By cartButton = By.xpath("//span[@id='cart-total']");
 	private By viewCartOption = By.xpath("//strong[normalize-space()='View Cart']");
+    private By iphoneproductLink = By.xpath("//img[@title='iPhone']");
 	
 	
 	//Page actions
@@ -54,6 +52,12 @@ public class SearchResultsPage extends BasePage
 		  waitForElementToBeClickable(viewCartOption);
 		  driver.findElement(viewCartOption).click();
 	  }
+	  
+	  public void clickiphoneProduct() {
+			 logger.info("Click on the iphone product displayed on the search result");
+			 waitForElementToBeClickable(iphoneproductLink);
+	        driver.findElement(iphoneproductLink).click();
+	    }
 
 
 }

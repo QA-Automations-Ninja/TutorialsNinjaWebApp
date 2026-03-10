@@ -72,6 +72,14 @@ public class HomePage extends BasePage
         clickLogin();
     }
     
+    public void searchProduct(String product) {
+
+        enterProductName(product);
+        clickSearchButton();
+
+        logger.info("Completed search flow");
+    }
+    
     
     // Validation
     

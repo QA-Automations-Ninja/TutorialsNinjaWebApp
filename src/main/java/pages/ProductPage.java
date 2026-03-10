@@ -34,6 +34,16 @@ public class ProductPage extends BasePage
 	   }
 	
 	
+	 // Business Method
+    public void addProductToCartAndOpenCart() {
+
+        clickAddToCart();
+        clickShoppingCartLinkInSuccessMessage();
+
+        logger.info("Completed Add to Cart flow");
+    }
+	
+	
 	//Validations
 	  public boolean isSuccessMessageDisplayed() {
 		  logger.info("Verifying if success message is displayed");

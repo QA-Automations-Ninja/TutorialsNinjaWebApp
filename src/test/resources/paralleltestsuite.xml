@@ -49,7 +49,8 @@
                         <!--shoppingcart tests-->
             <!--<class name ="shoppingcart.ShoppingCartFromSuccessMessageTest"/>-->
             <!--<class name ="shoppingcart.AddToCartNavigateToShoppingCartTest"/>-->
-            <class name ="shoppingcart.ViewCartNavigationTest"/>
+            <!--<class name ="shoppingcart.ViewCartNavigationTest"/>-->
+            <class name ="shoppingcart.ProductPriceTest"/>
             
         </classes>
     </test>
@@ -96,7 +97,8 @@
                      <!--shoppingcart tests-->
             <!--<class name ="shoppingcart.ShoppingCartFromSuccessMessageTest"/>-->
             <!--<class name ="shoppingcart.AddToCartNavigateToShoppingCartTest"/>-->
-            <class name ="shoppingcart.ViewCartNavigationTest"/>
+            <!--<class name ="shoppingcart.ViewCartNavigationTest"/>-->
+            <class name ="shoppingcart.ProductPriceTest"/>
         </classes>
     </test>
 
@@ -141,7 +143,8 @@
                       <!--shoppingcart tests-->
             <!--<class name ="shoppingcart.ShoppingCartFromSuccessMessageTest"/>-->
             <!--<class name ="shoppingcart.AddToCartNavigateToShoppingCartTest"/>-->
-            <class name ="shoppingcart.ViewCartNavigationTest"/>
+            <!--<class name ="shoppingcart.ViewCartNavigationTest"/>-->
+            <class name ="shoppingcart.ProductPriceTest"/>
         </classes>
     </test>
 

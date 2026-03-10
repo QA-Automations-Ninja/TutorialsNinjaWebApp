@@ -48,6 +48,7 @@
             <!--<class name ="shoppingcart.ShoppingCartFromSuccessMessageTest"/>-->
             <!--<class name ="shoppingcart.AddToCartNavigateToShoppingCartTest"/>-->
            <!--<class name ="shoppingcart.ViewCartNavigationTest"/>-->
+           <class name ="shoppingcart.ProductPriceTest"/>
             
                  
             
