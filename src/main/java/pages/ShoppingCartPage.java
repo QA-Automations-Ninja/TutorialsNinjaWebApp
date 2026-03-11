@@ -20,6 +20,9 @@ public class ShoppingCartPage extends BasePage
 	private By unitPrice = By.xpath("//*[@id='content']/form/div/table/tbody/tr/td[5]");
 	private By quantity = By.xpath("//input[@value='1']");
 	private By totalPrice = By.xpath("//*[@id='content']/form/div/table/tbody/tr/td[6]");
+	private By productName = By.xpath("//*[@id='content']/form/div/table/tbody/tr/td[2]/a");
+	private By productModel = By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[3]");
+
 	
 	
 	//Page actions
@@ -73,5 +76,24 @@ public class ShoppingCartPage extends BasePage
 	        double actual = getTotalPrice();
 	        return Math.abs(expected - actual) < 0.01;
 	    }
+	 
+	  public String getProductName() {
 
+	        logger.info("Fetching product name from cart");
+
+	        waitForVisibility(productName);
+
+	        return driver.findElement(productName).getText();
+	    }
+
+	    public String getProductModel() {
+
+	        logger.info("Fetching product model from cart");
+
+	        waitForVisibility(productModel);
+
+	        return driver.findElement(productModel).getText();
+	    }
+
+	
 }

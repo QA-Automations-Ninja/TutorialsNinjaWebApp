@@ -56,3 +56,60 @@
 06:41:26.466 [main] INFO  pages.ShoppingCartPage - Fetching product quantity from Shopping Cart page
 06:41:26.564 [main] INFO  pages.ShoppingCartPage - Fetching product total price from Shopping Cart page
 06:41:26.674 [main] INFO  shoppingcart.ProductPriceTest - Test completed: Verify product unit and total price
+19:41:47.352 [main] INFO  shoppingcart.ProductPriceTest - Starting test on browser: chrome | Headless: false
+19:41:48.974 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+19:41:49.044 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+19:41:53.633 [main] INFO  shoppingcart.ProductPriceTest - Test starts: Verify product unit and total price
+19:41:53.662 [main] INFO  pages.HomePage - Entering product name
+19:41:54.159 [main] INFO  pages.HomePage - Click on search button
+19:41:55.288 [main] INFO  pages.HomePage - Completed search flow
+19:41:55.288 [main] INFO  pages.SearchResultsPage - Click on the iphone product displayed on the search result
+19:41:56.833 [main] INFO  pages.ProductPage - Click on add to cart button
+19:41:57.221 [main] INFO  pages.ProductPage - Click on shopping cart link in success message
+19:41:58.475 [main] INFO  pages.ProductPage - Completed Add to Cart flow
+19:41:58.475 [main] INFO  pages.ShoppingCartPage - Verifying total price displayed on the shopping cart page
+19:41:58.479 [main] INFO  pages.ShoppingCartPage - Fetching product unit price from Shopping Cart page
+19:41:58.559 [main] INFO  pages.ShoppingCartPage - Fetching product quantity from Shopping Cart page
+19:41:58.643 [main] INFO  pages.ShoppingCartPage - Fetching product total price from Shopping Cart page
+19:41:58.790 [main] INFO  shoppingcart.ProductPriceTest - Test completed: Verify product unit and total price
+20:44:28.755 [main] INFO  shoppingcart.ProductNameAndModelTest - Starting test on browser: chrome | Headless: false
+20:44:30.463 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:44:30.489 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:44:35.172 [main] INFO  shoppingcart.ProductNameAndModelTest - Test starts: Verify product name and model
+20:44:35.197 [main] INFO  pages.HomePage - Entering product name
+20:44:35.788 [main] INFO  pages.HomePage - Click on search button
+20:44:36.794 [main] INFO  pages.HomePage - Completed search flow
+20:44:36.794 [main] INFO  pages.SearchResultsPage - Click on the iphone product displayed on the search result
+20:44:38.494 [main] INFO  pages.ProductPage - Click on add to cart button
+20:44:38.817 [main] INFO  pages.ProductPage - Click on shopping cart link in success message
+20:44:40.135 [main] INFO  pages.ProductPage - Completed Add to Cart flow
+20:44:40.135 [main] INFO  pages.ShoppingCartPage - Fetching product name from cart
+20:44:40.259 [main] INFO  pages.ShoppingCartPage - Fetching product model from cart
+20:53:28.348 [main] INFO  shoppingcart.ProductNameAndModelTest - Starting test on browser: chrome | Headless: false
+20:53:28.751 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:53:28.804 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:53:35.312 [main] INFO  shoppingcart.ProductNameAndModelTest - Test starts: Verify product name and model
+20:53:35.322 [main] INFO  pages.HomePage - Entering product name
+20:53:35.779 [main] INFO  pages.HomePage - Click on search button
+20:53:37.047 [main] INFO  pages.HomePage - Completed search flow
+20:53:37.047 [main] INFO  pages.SearchResultsPage - Click on the iphone product displayed on the search result
+20:53:39.840 [main] INFO  pages.ProductPage - Click on add to cart button
+20:53:40.179 [main] INFO  pages.ProductPage - Click on shopping cart link in success message
+20:53:41.609 [main] INFO  pages.ProductPage - Completed Add to Cart flow
+20:53:41.610 [main] INFO  pages.ShoppingCartPage - Fetching product name from cart
+20:53:41.687 [main] INFO  pages.ShoppingCartPage - Fetching product model from cart
+20:53:41.765 [main] INFO  shoppingcart.ProductNameAndModelTest - Test completed: Verify product name and model
+20:54:25.549 [main] INFO  shoppingcart.ProductNameAndModelTest - Starting test on browser: chrome | Headless: false
+20:54:26.029 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:54:26.064 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\henry\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:54:43.761 [main] INFO  shoppingcart.ProductNameAndModelTest - Test starts: Verify product name and model
+20:54:43.762 [main] INFO  pages.HomePage - Entering product name
+20:54:44.087 [main] INFO  pages.HomePage - Click on search button
+20:54:46.908 [main] INFO  pages.HomePage - Completed search flow
+20:54:46.909 [main] INFO  pages.SearchResultsPage - Click on the iphone product displayed on the search result
+20:54:51.607 [main] INFO  pages.ProductPage - Click on add to cart button
+20:54:51.788 [main] INFO  pages.ProductPage - Click on shopping cart link in success message
+20:54:53.122 [main] INFO  pages.ProductPage - Completed Add to Cart flow
+20:54:53.122 [main] INFO  pages.ShoppingCartPage - Fetching product name from cart
+20:54:53.220 [main] INFO  pages.ShoppingCartPage - Fetching product model from cart
+20:54:53.295 [main] INFO  shoppingcart.ProductNameAndModelTest - Test completed: Verify product name and model

@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="shoppingcart.ProductPriceTest">
+      <class name="shoppingcart.ProductNameAndModelTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyProductUnitPriceAndTotalPrice"/>
+          <include name="VerifyProductNameAndModel"/>
         </methods>
-      </class> <!-- shoppingcart.ProductPriceTest -->
+      </class> <!-- shoppingcart.ProductNameAndModelTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Single Suite] -->
